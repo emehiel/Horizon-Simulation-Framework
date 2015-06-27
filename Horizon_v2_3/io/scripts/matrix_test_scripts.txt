@@ -1,0 +1,130 @@
+function test_matrix()
+io.write("----Begin Matrix Tests----\n")
+
+io.write('Matrix constructor tests\n')
+m1 = Matrix()
+io.write(tostring(m1),'\n')
+
+m2 = Matrix(1)
+io.write(tostring(m2),'\n')
+
+m3 = Matrix(2,3)
+io.write(tostring(m3),'\n')
+
+m4 = Matrix(2,3, 1)
+io.write(tostring(m4),'\n')
+
+--Test Copy constructor
+io.write('Next two lines should not be the same\n')
+
+m5 = Matrix(m4)
+m4 = Matrix(2,2,2)
+io.write(tostring(m4),'\n')
+io.write(tostring(m5),'\n')
+
+--Test get and set value
+m1 = Matrix(3)
+m1:setValue(1,1,1)
+m1:setValue(1,2,2)
+m1:setValue(1,3,3)
+m1:setValue(2,1,4)
+m1:setValue(2,2,5)
+m1:setValue(2,3,6)
+m1:setValue(3,1,7)
+m1:setValue(3,2,8)
+m1:setValue(3,3,9)
+
+io.write('m1(3,3) = ', m1:getValue(3,3), '\n')
+
+--Test other Matrix constructors (used internally)
+io.write('More Matrix constructor tests\n')
+m2 = Matrix(m1, 3,6)
+io.write(tostring(m2),'\n')
+m3 = Matrix(m1, 1,2,1,2)
+io.write(tostring(m3),'\n')
+
+--Test get and set num rows
+m1:setNumRows(m1:getNumRows())
+m1:setNumCols(m1:getNumCols())
+
+--Test getNumElems
+io.write('Elems in m1 = ', m1:getNumElems(), '\n')
+
+--Test isSquare
+io.write('m1 square = ', tostring(m1:isSquare()), '\n')
+
+--Test get and set column
+m2 = Matrix(3,1,2)
+io.write('Col 2 of m1 = ', tostring(m1:getColumn(2)), '\n')
+m3 = Matrix(m1)
+m3:setColumn(2, m2)
+io.write(tostring(m3),'\n')
+
+--Test get and set row
+io.write('Row 2 of m1 = ', tostring(m1:getRow(2)), '\n')
+m3 = Matrix(m1)
+m3:setRow(2, m2)
+io.write(tostring(m3),'\n')
+
+--Test get submatrix
+io.write('Submatrix tests\n')
+io.write(tostring(m1:getSubMatrix(colon(2,3), colon(1,2))),'\n')
+
+m2 = Matrix(m1)
+m3 = Matrix(2,2,1.01)
+m2:setSubMatrix(colon(2,3), colon(1,2), m3)
+io.write(tostring(m2),'\n')
+
+--Test getSize
+io.write('getSize tests\n')
+r = 0
+c = 0
+r, c = m1:getSize(r,c) --handles reference args as multiple return values
+io.write('r = ', r, '\nc = ', c, '\n')
+
+--Test () operators
+io.write('Operator tests\n')
+io.write('m1(2) = ', m1(2), '\n')
+io.write('m1(2,3) = ', m1(2,3), '\n')
+io.write('m1 + m1 = ', tostring(m1+m1), '\n')
+io.write('m1 + 1 = ', tostring(m1+1), '\n')
+io.write('1 + m1 = ', tostring(1+m1), '\n')
+io.write('m1 - m1 = ', tostring(m1-m1), '\n')
+io.write('m1 - 1 = ', tostring(m1-1), '\n')
+io.write('1 - m1 = ', tostring(1-m1), '\n')
+io.write('m1 * m1 = ', tostring(m1*m1), '\n')
+io.write('m1 * 2 = ', tostring(m1*2), '\n')
+io.write('2 * m1 = ', tostring(2*m1), '\n')
+io.write('m1 / m1 = ', tostring(m1/m1), '\n')
+io.write('m1 / 2 = ', tostring(m1/2), '\n')
+io.write('(m1 == m1) = ', tostring(m1==Matrix(m1)), '\n')
+io.write('(m1 == m1*1.1) = ', tostring(m1==Matrix(m1)*1.1), '\n')
+
+--Test free functions
+io.write('Free function tests\n')
+io.write('trace(m1) = ', tostring(trace(m1)), '\n')
+io.write('transpose(m1) = ', tostring(transpose(m1)), '\n')
+io.write('meye(3) = ', tostring(meye(3)), '\n')
+io.write('[m1; m1] = ', tostring(vertcat(m1,m1)), '\n')
+io.write('[m1, m1] = ', tostring(horzcat(m1,m1)), '\n')
+m2 = Matrix(m1)
+m3 = Matrix(m1)
+vertcat2(m2, meye(3))
+horzcat2(m3, meye(3))
+io.write('[m1; meye(3)] = ', tostring(m2), '\n')
+io.write('[m1, meye(3)] = ', tostring(m3), '\n')
+m4 = Matrix(3,1,1)
+io.write('Norm of Matrix(3,1,1) = ', norm(m4), '\n')
+io.write('mmax(m1) = ', tostring(mmax(m1)), '\n')
+io.write('mmax(m1, .5*m1) = ', tostring(mmax(m1, .5*m1)), '\n')
+io.write('mmax(m1, 5) = ', tostring(mmax(m1, 5)), '\n')
+io.write('mmax(5, m1) = ', tostring(mmax(5, m1)), '\n')
+io.write('mmin(m1) = ', tostring(mmin(m1)), '\n')
+io.write('mmin(m1, .5*m1) = ', tostring(mmin(m1, .5*m1)), '\n')
+io.write('mmin(m1, 5) = ', tostring(mmin(m1, 5)), '\n')
+io.write('mmin(5, m1) = ', tostring(mmin(5, m1)), '\n')
+io.write('mabs(m1-10*meye(3)) = ', tostring(mabs(m1-10*meye(3))), '\n')
+io.write('inv(m1+10*meye(3)) = ', tostring(inv(m1+10*meye(3))), '\n')
+io.write('atom test = ', tostring(atom('Matrix(3,1,{1.1, 2.2, 3.3})')), '\n')
+io.write("----End Matrix Tests----\n")
+end

@@ -1,0 +1,2378 @@
+<Base>
+ <SubsystemData name="numPixels" type="numeric">
+  <AssetData assetName="Asset1">
+   <Data data="0" time="0">
+   </Data>
+   <Data data="5000" time="31.5">
+   </Data>
+   <Data data="0" time="32.5">
+   </Data>
+   <Data data="5000" time="61.5">
+   </Data>
+   <Data data="0" time="62.5">
+   </Data>
+   <Data data="5000" time="91.5">
+   </Data>
+   <Data data="0" time="92.5">
+   </Data>
+   <Data data="5000" time="121.5">
+   </Data>
+   <Data data="0" time="122.5">
+   </Data>
+   <Data data="5000" time="151.5">
+   </Data>
+   <Data data="0" time="152.5">
+   </Data>
+   <Data data="5000" time="181.5">
+   </Data>
+   <Data data="0" time="182.5">
+   </Data>
+   <Data data="5000" time="211.5">
+   </Data>
+   <Data data="0" time="212.5">
+   </Data>
+   <Data data="5000" time="241.5">
+   </Data>
+   <Data data="0" time="242.5">
+   </Data>
+   <Data data="5000" time="271.5">
+   </Data>
+   <Data data="0" time="272.5">
+   </Data>
+   <Data data="5000" time="301.5">
+   </Data>
+   <Data data="0" time="302.5">
+   </Data>
+   <Data data="5000" time="331.5">
+   </Data>
+   <Data data="0" time="332.5">
+   </Data>
+   <Data data="5000" time="361.5">
+   </Data>
+   <Data data="0" time="362.5">
+   </Data>
+   <Data data="5000" time="391.5">
+   </Data>
+   <Data data="0" time="392.5">
+   </Data>
+   <Data data="5000" time="421.5">
+   </Data>
+   <Data data="0" time="422.5">
+   </Data>
+   <Data data="5000" time="451.5">
+   </Data>
+   <Data data="0" time="452.5">
+   </Data>
+   <Data data="5000" time="481.5">
+   </Data>
+   <Data data="0" time="482.5">
+   </Data>
+   <Data data="5000" time="511.5">
+   </Data>
+   <Data data="0" time="512.5">
+   </Data>
+   <Data data="5000" time="541.5">
+   </Data>
+   <Data data="0" time="542.5">
+   </Data>
+   <Data data="5000" time="571.5">
+   </Data>
+   <Data data="0" time="572.5">
+   </Data>
+   <Data data="5000" time="601.5">
+   </Data>
+   <Data data="0" time="602.5">
+   </Data>
+   <Data data="5000" time="631.5">
+   </Data>
+   <Data data="0" time="632.5">
+   </Data>
+   <Data data="5000" time="661.5">
+   </Data>
+   <Data data="0" time="662.5">
+   </Data>
+   <Data data="5000" time="691.5">
+   </Data>
+   <Data data="0" time="692.5">
+   </Data>
+   <Data data="5000" time="721.5">
+   </Data>
+   <Data data="0" time="722.5">
+   </Data>
+   <Data data="5000" time="751.5">
+   </Data>
+   <Data data="0" time="752.5">
+   </Data>
+   <Data data="5000" time="781.5">
+   </Data>
+   <Data data="0" time="782.5">
+   </Data>
+   <Data data="5000" time="811.5">
+   </Data>
+   <Data data="0" time="812.5">
+   </Data>
+   <Data data="5000" time="841.5">
+   </Data>
+   <Data data="0" time="842.5">
+   </Data>
+   <Data data="5000" time="871.5">
+   </Data>
+   <Data data="0" time="872.5">
+   </Data>
+   <Data data="5000" time="901.5">
+   </Data>
+   <Data data="0" time="902.5">
+   </Data>
+   <Data data="5000" time="931.5">
+   </Data>
+   <Data data="0" time="932.5">
+   </Data>
+   <Data data="5000" time="961.5">
+   </Data>
+   <Data data="0" time="962.5">
+   </Data>
+   <Data data="5000" time="991.5">
+   </Data>
+   <Data data="0" time="992.5">
+   </Data>
+   <Data data="5000" time="1021.5">
+   </Data>
+   <Data data="0" time="1022.5">
+   </Data>
+   <Data data="5000" time="1051.5">
+   </Data>
+   <Data data="0" time="1052.5">
+   </Data>
+   <Data data="5000" time="1081.5">
+   </Data>
+   <Data data="0" time="1082.5">
+   </Data>
+   <Data data="5000" time="1111.5">
+   </Data>
+   <Data data="0" time="1112.5">
+   </Data>
+   <Data data="5000" time="1141.5">
+   </Data>
+   <Data data="0" time="1142.5">
+   </Data>
+   <Data data="5000" time="1171.5">
+   </Data>
+   <Data data="0" time="1172.5">
+   </Data>
+   <Data data="5000" time="1201.5">
+   </Data>
+   <Data data="0" time="1202.5">
+   </Data>
+   <Data data="5000" time="1231.5">
+   </Data>
+   <Data data="0" time="1232.5">
+   </Data>
+   <Data data="5000" time="1261.5">
+   </Data>
+   <Data data="0" time="1262.5">
+   </Data>
+   <Data data="5000" time="1291.5">
+   </Data>
+   <Data data="0" time="1292.5">
+   </Data>
+   <Data data="5000" time="1321.5">
+   </Data>
+   <Data data="0" time="1322.5">
+   </Data>
+   <Data data="5000" time="1351.5">
+   </Data>
+   <Data data="0" time="1352.5">
+   </Data>
+   <Data data="5000" time="1381.5">
+   </Data>
+   <Data data="0" time="1382.5">
+   </Data>
+   <Data data="5000" time="1411.5">
+   </Data>
+   <Data data="0" time="1412.5">
+   </Data>
+   <Data data="5000" time="1441.5">
+   </Data>
+   <Data data="0" time="1442.5">
+   </Data>
+   <Data data="5000" time="1471.5">
+   </Data>
+   <Data data="0" time="1472.5">
+   </Data>
+   <Data data="5000" time="1501.5">
+   </Data>
+   <Data data="0" time="1502.5">
+   </Data>
+   <Data data="5000" time="1531.5">
+   </Data>
+   <Data data="0" time="1532.5">
+   </Data>
+   <Data data="5000" time="1561.5">
+   </Data>
+   <Data data="0" time="1562.5">
+   </Data>
+   <Data data="5000" time="1591.5">
+   </Data>
+   <Data data="0" time="1592.5">
+   </Data>
+   <Data data="5000" time="1621.5">
+   </Data>
+   <Data data="0" time="1622.5">
+   </Data>
+   <Data data="5000" time="1651.5">
+   </Data>
+   <Data data="0" time="1652.5">
+   </Data>
+   <Data data="5000" time="1681.5">
+   </Data>
+   <Data data="0" time="1682.5">
+   </Data>
+   <Data data="5000" time="1711.5">
+   </Data>
+   <Data data="0" time="1712.5">
+   </Data>
+   <Data data="5000" time="1741.5">
+   </Data>
+   <Data data="0" time="1742.5">
+   </Data>
+   <Data data="5000" time="1771.5">
+   </Data>
+   <Data data="0" time="1772.5">
+   </Data>
+   <Data data="5000" time="1801.5">
+   </Data>
+   <Data data="0" time="1802.5">
+   </Data>
+   <Data data="5000" time="1831.5">
+   </Data>
+   <Data data="0" time="1832.5">
+   </Data>
+   <Data data="5000" time="1861.5">
+   </Data>
+   <Data data="0" time="1862.5">
+   </Data>
+   <Data data="5000" time="1891.5">
+   </Data>
+   <Data data="0" time="1892.5">
+   </Data>
+   <Data data="5000" time="1921.5">
+   </Data>
+   <Data data="0" time="1922.5">
+   </Data>
+   <Data data="5000" time="1951.5">
+   </Data>
+   <Data data="0" time="1952.5">
+   </Data>
+   <Data data="5000" time="1981.5">
+   </Data>
+   <Data data="0" time="1982.5">
+   </Data>
+   <Data data="5000" time="2011.5">
+   </Data>
+   <Data data="0" time="2012.5">
+   </Data>
+   <Data data="5000" time="2041.5">
+   </Data>
+   <Data data="0" time="2042.5">
+   </Data>
+   <Data data="5000" time="2071.5">
+   </Data>
+   <Data data="0" time="2072.5">
+   </Data>
+   <Data data="5000" time="2101.5">
+   </Data>
+   <Data data="0" time="2102.5">
+   </Data>
+   <Data data="5000" time="2131.5">
+   </Data>
+   <Data data="0" time="2132.5">
+   </Data>
+   <Data data="5000" time="2161.5">
+   </Data>
+   <Data data="0" time="2162.5">
+   </Data>
+   <Data data="5000" time="2191.5">
+   </Data>
+   <Data data="0" time="2192.5">
+   </Data>
+   <Data data="5000" time="2221.5">
+   </Data>
+   <Data data="0" time="2222.5">
+   </Data>
+   <Data data="5000" time="2251.5">
+   </Data>
+   <Data data="0" time="2252.5">
+   </Data>
+   <Data data="5000" time="2281.5">
+   </Data>
+   <Data data="0" time="2282.5">
+   </Data>
+   <Data data="5000" time="2311.5">
+   </Data>
+   <Data data="0" time="2312.5">
+   </Data>
+   <Data data="5000" time="2341.5">
+   </Data>
+   <Data data="0" time="2342.5">
+   </Data>
+   <Data data="5000" time="2371.5">
+   </Data>
+   <Data data="0" time="2372.5">
+   </Data>
+   <Data data="5000" time="2401.5">
+   </Data>
+   <Data data="0" time="2402.5">
+   </Data>
+   <Data data="5000" time="2431.5">
+   </Data>
+   <Data data="0" time="2432.5">
+   </Data>
+   <Data data="5000" time="2461.5">
+   </Data>
+   <Data data="0" time="2462.5">
+   </Data>
+   <Data data="5000" time="2491.5">
+   </Data>
+   <Data data="0" time="2492.5">
+   </Data>
+   <Data data="5000" time="2521.5">
+   </Data>
+   <Data data="0" time="2522.5">
+   </Data>
+   <Data data="5000" time="2551.5">
+   </Data>
+   <Data data="0" time="2552.5">
+   </Data>
+   <Data data="5000" time="2581.5">
+   </Data>
+   <Data data="0" time="2582.5">
+   </Data>
+   <Data data="5000" time="2611.5">
+   </Data>
+   <Data data="0" time="2612.5">
+   </Data>
+   <Data data="5000" time="2641.5">
+   </Data>
+   <Data data="0" time="2642.5">
+   </Data>
+   <Data data="5000" time="2671.5">
+   </Data>
+   <Data data="0" time="2672.5">
+   </Data>
+   <Data data="5000" time="3871.5">
+   </Data>
+   <Data data="0" time="3872.5">
+   </Data>
+   <Data data="5000" time="3901.5">
+   </Data>
+   <Data data="0" time="3902.5">
+   </Data>
+   <Data data="5000" time="3931.5">
+   </Data>
+   <Data data="0" time="3932.5">
+   </Data>
+   <Data data="5000" time="3961.5">
+   </Data>
+   <Data data="0" time="3962.5">
+   </Data>
+   <Data data="5000" time="3991.5">
+   </Data>
+   <Data data="0" time="3992.5">
+   </Data>
+   <Data data="5000" time="4021.5">
+   </Data>
+   <Data data="0" time="4022.5">
+   </Data>
+   <Data data="5000" time="4051.5">
+   </Data>
+   <Data data="0" time="4052.5">
+   </Data>
+   <Data data="5000" time="4081.5">
+   </Data>
+   <Data data="0" time="4082.5">
+   </Data>
+  </AssetData>
+ </SubsystemData>
+ <SubsystemData name="IncidenceAngle" type="numeric">
+  <AssetData assetName="Asset1">
+   <Data data="0" time="0">
+   </Data>
+   <Data data="31.0709" time="31.5">
+   </Data>
+   <Data data="0" time="32.5">
+   </Data>
+   <Data data="30.9264" time="61.5">
+   </Data>
+   <Data data="0" time="62.5">
+   </Data>
+   <Data data="30.1244" time="91.5">
+   </Data>
+   <Data data="0" time="92.5">
+   </Data>
+   <Data data="30.1082" time="121.5">
+   </Data>
+   <Data data="0" time="122.5">
+   </Data>
+   <Data data="30.2699" time="151.5">
+   </Data>
+   <Data data="0" time="152.5">
+   </Data>
+   <Data data="30.6353" time="181.5">
+   </Data>
+   <Data data="0" time="182.5">
+   </Data>
+   <Data data="31.112" time="211.5">
+   </Data>
+   <Data data="0" time="212.5">
+   </Data>
+   <Data data="31.4223" time="241.5">
+   </Data>
+   <Data data="0" time="242.5">
+   </Data>
+   <Data data="29.8931" time="271.5">
+   </Data>
+   <Data data="0" time="272.5">
+   </Data>
+   <Data data="29.9672" time="301.5">
+   </Data>
+   <Data data="0" time="302.5">
+   </Data>
+   <Data data="30.2374" time="331.5">
+   </Data>
+   <Data data="0" time="332.5">
+   </Data>
+   <Data data="30.6771" time="361.5">
+   </Data>
+   <Data data="0" time="362.5">
+   </Data>
+   <Data data="30.8337" time="391.5">
+   </Data>
+   <Data data="0" time="392.5">
+   </Data>
+   <Data data="29.835" time="421.5">
+   </Data>
+   <Data data="0" time="422.5">
+   </Data>
+   <Data data="29.8592" time="451.5">
+   </Data>
+   <Data data="0" time="452.5">
+   </Data>
+   <Data data="30.0739" time="481.5">
+   </Data>
+   <Data data="0" time="482.5">
+   </Data>
+   <Data data="30.5098" time="511.5">
+   </Data>
+   <Data data="0" time="512.5">
+   </Data>
+   <Data data="30.098" time="541.5">
+   </Data>
+   <Data data="0" time="542.5">
+   </Data>
+   <Data data="29.9237" time="571.5">
+   </Data>
+   <Data data="0" time="572.5">
+   </Data>
+   <Data data="29.8987" time="601.5">
+   </Data>
+   <Data data="0" time="602.5">
+   </Data>
+   <Data data="30.0437" time="631.5">
+   </Data>
+   <Data data="0" time="632.5">
+   </Data>
+   <Data data="30.3803" time="661.5">
+   </Data>
+   <Data data="0" time="662.5">
+   </Data>
+   <Data data="30.9301" time="691.5">
+   </Data>
+   <Data data="0" time="692.5">
+   </Data>
+   <Data data="31.7129" time="721.5">
+   </Data>
+   <Data data="0" time="722.5">
+   </Data>
+   <Data data="31.9843" time="751.5">
+   </Data>
+   <Data data="0" time="752.5">
+   </Data>
+   <Data data="32.4107" time="781.5">
+   </Data>
+   <Data data="0" time="782.5">
+   </Data>
+   <Data data="33.0554" time="811.5">
+   </Data>
+   <Data data="0" time="812.5">
+   </Data>
+   <Data data="33.9247" time="841.5">
+   </Data>
+   <Data data="0" time="842.5">
+   </Data>
+   <Data data="35.0104" time="871.5">
+   </Data>
+   <Data data="0" time="872.5">
+   </Data>
+   <Data data="36.2844" time="901.5">
+   </Data>
+   <Data data="0" time="902.5">
+   </Data>
+   <Data data="37.6941" time="931.5">
+   </Data>
+   <Data data="0" time="932.5">
+   </Data>
+   <Data data="38.1034" time="961.5">
+   </Data>
+   <Data data="0" time="962.5">
+   </Data>
+   <Data data="38.4597" time="991.5">
+   </Data>
+   <Data data="0" time="992.5">
+   </Data>
+   <Data data="38.7114" time="1021.5">
+   </Data>
+   <Data data="0" time="1022.5">
+   </Data>
+   <Data data="38.8138" time="1051.5">
+   </Data>
+   <Data data="0" time="1052.5">
+   </Data>
+   <Data data="38.7551" time="1081.5">
+   </Data>
+   <Data data="0" time="1082.5">
+   </Data>
+   <Data data="38.5602" time="1111.5">
+   </Data>
+   <Data data="0" time="1112.5">
+   </Data>
+   <Data data="38.1258" time="1141.5">
+   </Data>
+   <Data data="0" time="1142.5">
+   </Data>
+   <Data data="36.8192" time="1171.5">
+   </Data>
+   <Data data="0" time="1172.5">
+   </Data>
+   <Data data="35.6076" time="1201.5">
+   </Data>
+   <Data data="0" time="1202.5">
+   </Data>
+   <Data data="34.5531" time="1231.5">
+   </Data>
+   <Data data="0" time="1232.5">
+   </Data>
+   <Data data="33.6939" time="1261.5">
+   </Data>
+   <Data data="0" time="1262.5">
+   </Data>
+   <Data data="33.0459" time="1291.5">
+   </Data>
+   <Data data="0" time="1292.5">
+   </Data>
+   <Data data="32.6087" time="1321.5">
+   </Data>
+   <Data data="0" time="1322.5">
+   </Data>
+   <Data data="31.821" time="1351.5">
+   </Data>
+   <Data data="0" time="1352.5">
+   </Data>
+   <Data data="31.0818" time="1381.5">
+   </Data>
+   <Data data="0" time="1382.5">
+   </Data>
+   <Data data="30.5753" time="1411.5">
+   </Data>
+   <Data data="0" time="1412.5">
+   </Data>
+   <Data data="30.2809" time="1441.5">
+   </Data>
+   <Data data="0" time="1442.5">
+   </Data>
+   <Data data="30.1765" time="1471.5">
+   </Data>
+   <Data data="0" time="1472.5">
+   </Data>
+   <Data data="30.2398" time="1501.5">
+   </Data>
+   <Data data="0" time="1502.5">
+   </Data>
+   <Data data="30.0333" time="1531.5">
+   </Data>
+   <Data data="0" time="1532.5">
+   </Data>
+   <Data data="31.7235" time="1561.5">
+   </Data>
+   <Data data="0" time="1562.5">
+   </Data>
+   <Data data="31.0941" time="1591.5">
+   </Data>
+   <Data data="0" time="1592.5">
+   </Data>
+   <Data data="30.7117" time="1621.5">
+   </Data>
+   <Data data="0" time="1622.5">
+   </Data>
+   <Data data="30.5451" time="1651.5">
+   </Data>
+   <Data data="0" time="1652.5">
+   </Data>
+   <Data data="30.3157" time="1681.5">
+   </Data>
+   <Data data="0" time="1682.5">
+   </Data>
+   <Data data="30.0567" time="1711.5">
+   </Data>
+   <Data data="0" time="1712.5">
+   </Data>
+   <Data data="29.9808" time="1741.5">
+   </Data>
+   <Data data="0" time="1742.5">
+   </Data>
+   <Data data="30.1624" time="1771.5">
+   </Data>
+   <Data data="0" time="1772.5">
+   </Data>
+   <Data data="30.1683" time="1801.5">
+   </Data>
+   <Data data="0" time="1802.5">
+   </Data>
+   <Data data="29.9666" time="1831.5">
+   </Data>
+   <Data data="0" time="1832.5">
+   </Data>
+   <Data data="30.0503" time="1861.5">
+   </Data>
+   <Data data="0" time="1862.5">
+   </Data>
+   <Data data="29.9461" time="1891.5">
+   </Data>
+   <Data data="0" time="1892.5">
+   </Data>
+   <Data data="29.9955" time="1921.5">
+   </Data>
+   <Data data="0" time="1922.5">
+   </Data>
+   <Data data="32.6398" time="1951.5">
+   </Data>
+   <Data data="0" time="1952.5">
+   </Data>
+   <Data data="29.9962" time="1981.5">
+   </Data>
+   <Data data="0" time="1982.5">
+   </Data>
+   <Data data="29.8493" time="2011.5">
+   </Data>
+   <Data data="0" time="2012.5">
+   </Data>
+   <Data data="29.8961" time="2041.5">
+   </Data>
+   <Data data="0" time="2042.5">
+   </Data>
+   <Data data="30.1402" time="2071.5">
+   </Data>
+   <Data data="0" time="2072.5">
+   </Data>
+   <Data data="30.6138" time="2101.5">
+   </Data>
+   <Data data="0" time="2102.5">
+   </Data>
+   <Data data="31.2603" time="2131.5">
+   </Data>
+   <Data data="0" time="2132.5">
+   </Data>
+   <Data data="31.5781" time="2161.5">
+   </Data>
+   <Data data="0" time="2162.5">
+   </Data>
+   <Data data="32.1844" time="2191.5">
+   </Data>
+   <Data data="0" time="2192.5">
+   </Data>
+   <Data data="33.1413" time="2221.5">
+   </Data>
+   <Data data="0" time="2222.5">
+   </Data>
+   <Data data="34.5234" time="2251.5">
+   </Data>
+   <Data data="0" time="2252.5">
+   </Data>
+   <Data data="36.4183" time="2281.5">
+   </Data>
+   <Data data="0" time="2282.5">
+   </Data>
+   <Data data="38.9255" time="2311.5">
+   </Data>
+   <Data data="0" time="2312.5">
+   </Data>
+   <Data data="41.3648" time="2341.5">
+   </Data>
+   <Data data="0" time="2342.5">
+   </Data>
+   <Data data="44.2813" time="2371.5">
+   </Data>
+   <Data data="0" time="2372.5">
+   </Data>
+   <Data data="29.6633" time="2401.5">
+   </Data>
+   <Data data="0" time="2402.5">
+   </Data>
+   <Data data="29.6851" time="2431.5">
+   </Data>
+   <Data data="0" time="2432.5">
+   </Data>
+   <Data data="29.8642" time="2461.5">
+   </Data>
+   <Data data="0" time="2462.5">
+   </Data>
+   <Data data="30.2152" time="2491.5">
+   </Data>
+   <Data data="0" time="2492.5">
+   </Data>
+   <Data data="30.7507" time="2521.5">
+   </Data>
+   <Data data="0" time="2522.5">
+   </Data>
+   <Data data="30.9471" time="2551.5">
+   </Data>
+   <Data data="0" time="2552.5">
+   </Data>
+   <Data data="31.073" time="2581.5">
+   </Data>
+   <Data data="0" time="2582.5">
+   </Data>
+   <Data data="31.3596" time="2611.5">
+   </Data>
+   <Data data="0" time="2612.5">
+   </Data>
+   <Data data="31.8125" time="2641.5">
+   </Data>
+   <Data data="0" time="2642.5">
+   </Data>
+   <Data data="32.4301" time="2671.5">
+   </Data>
+   <Data data="0" time="2672.5">
+   </Data>
+   <Data data="30.4134" time="3871.5">
+   </Data>
+   <Data data="0" time="3872.5">
+   </Data>
+   <Data data="31.0723" time="3901.5">
+   </Data>
+   <Data data="0" time="3902.5">
+   </Data>
+   <Data data="31.8082" time="3931.5">
+   </Data>
+   <Data data="0" time="3932.5">
+   </Data>
+   <Data data="32.2352" time="3961.5">
+   </Data>
+   <Data data="0" time="3962.5">
+   </Data>
+   <Data data="32.9679" time="3991.5">
+   </Data>
+   <Data data="0" time="3992.5">
+   </Data>
+   <Data data="34.0669" time="4021.5">
+   </Data>
+   <Data data="0" time="4022.5">
+   </Data>
+   <Data data="35.6" time="4051.5">
+   </Data>
+   <Data data="0" time="4052.5">
+   </Data>
+   <Data data="37.6384" time="4081.5">
+   </Data>
+   <Data data="0" time="4082.5">
+   </Data>
+  </AssetData>
+ </SubsystemData>
+ <SubsystemData name="EOSensorOn" type="numeric">
+  <AssetData assetName="Asset1">
+   <Data data="0" time="0">
+   </Data>
+   <Data data="1" time="30">
+   </Data>
+   <Data data="0" time="33">
+   </Data>
+   <Data data="1" time="60">
+   </Data>
+   <Data data="0" time="63">
+   </Data>
+   <Data data="1" time="90">
+   </Data>
+   <Data data="0" time="93">
+   </Data>
+   <Data data="1" time="120">
+   </Data>
+   <Data data="0" time="123">
+   </Data>
+   <Data data="1" time="150">
+   </Data>
+   <Data data="0" time="153">
+   </Data>
+   <Data data="1" time="180">
+   </Data>
+   <Data data="0" time="183">
+   </Data>
+   <Data data="1" time="210">
+   </Data>
+   <Data data="0" time="213">
+   </Data>
+   <Data data="1" time="240">
+   </Data>
+   <Data data="0" time="243">
+   </Data>
+   <Data data="1" time="270">
+   </Data>
+   <Data data="0" time="273">
+   </Data>
+   <Data data="1" time="300">
+   </Data>
+   <Data data="0" time="303">
+   </Data>
+   <Data data="1" time="330">
+   </Data>
+   <Data data="0" time="333">
+   </Data>
+   <Data data="1" time="360">
+   </Data>
+   <Data data="0" time="363">
+   </Data>
+   <Data data="1" time="390">
+   </Data>
+   <Data data="0" time="393">
+   </Data>
+   <Data data="1" time="420">
+   </Data>
+   <Data data="0" time="423">
+   </Data>
+   <Data data="1" time="450">
+   </Data>
+   <Data data="0" time="453">
+   </Data>
+   <Data data="1" time="480">
+   </Data>
+   <Data data="0" time="483">
+   </Data>
+   <Data data="1" time="510">
+   </Data>
+   <Data data="0" time="513">
+   </Data>
+   <Data data="1" time="540">
+   </Data>
+   <Data data="0" time="543">
+   </Data>
+   <Data data="1" time="570">
+   </Data>
+   <Data data="0" time="573">
+   </Data>
+   <Data data="1" time="600">
+   </Data>
+   <Data data="0" time="603">
+   </Data>
+   <Data data="1" time="630">
+   </Data>
+   <Data data="0" time="633">
+   </Data>
+   <Data data="1" time="660">
+   </Data>
+   <Data data="0" time="663">
+   </Data>
+   <Data data="1" time="690">
+   </Data>
+   <Data data="0" time="693">
+   </Data>
+   <Data data="1" time="720">
+   </Data>
+   <Data data="0" time="723">
+   </Data>
+   <Data data="1" time="750">
+   </Data>
+   <Data data="0" time="753">
+   </Data>
+   <Data data="1" time="780">
+   </Data>
+   <Data data="0" time="783">
+   </Data>
+   <Data data="1" time="810">
+   </Data>
+   <Data data="0" time="813">
+   </Data>
+   <Data data="1" time="840">
+   </Data>
+   <Data data="0" time="843">
+   </Data>
+   <Data data="1" time="870">
+   </Data>
+   <Data data="0" time="873">
+   </Data>
+   <Data data="1" time="900">
+   </Data>
+   <Data data="0" time="903">
+   </Data>
+   <Data data="1" time="930">
+   </Data>
+   <Data data="0" time="933">
+   </Data>
+   <Data data="1" time="960">
+   </Data>
+   <Data data="0" time="963">
+   </Data>
+   <Data data="1" time="990">
+   </Data>
+   <Data data="0" time="993">
+   </Data>
+   <Data data="1" time="1020">
+   </Data>
+   <Data data="0" time="1023">
+   </Data>
+   <Data data="1" time="1050">
+   </Data>
+   <Data data="0" time="1053">
+   </Data>
+   <Data data="1" time="1080">
+   </Data>
+   <Data data="0" time="1083">
+   </Data>
+   <Data data="1" time="1110">
+   </Data>
+   <Data data="0" time="1113">
+   </Data>
+   <Data data="1" time="1140">
+   </Data>
+   <Data data="0" time="1143">
+   </Data>
+   <Data data="1" time="1170">
+   </Data>
+   <Data data="0" time="1173">
+   </Data>
+   <Data data="1" time="1200">
+   </Data>
+   <Data data="0" time="1203">
+   </Data>
+   <Data data="1" time="1230">
+   </Data>
+   <Data data="0" time="1233">
+   </Data>
+   <Data data="1" time="1260">
+   </Data>
+   <Data data="0" time="1263">
+   </Data>
+   <Data data="1" time="1290">
+   </Data>
+   <Data data="0" time="1293">
+   </Data>
+   <Data data="1" time="1320">
+   </Data>
+   <Data data="0" time="1323">
+   </Data>
+   <Data data="1" time="1350">
+   </Data>
+   <Data data="0" time="1353">
+   </Data>
+   <Data data="1" time="1380">
+   </Data>
+   <Data data="0" time="1383">
+   </Data>
+   <Data data="1" time="1410">
+   </Data>
+   <Data data="0" time="1413">
+   </Data>
+   <Data data="1" time="1440">
+   </Data>
+   <Data data="0" time="1443">
+   </Data>
+   <Data data="1" time="1470">
+   </Data>
+   <Data data="0" time="1473">
+   </Data>
+   <Data data="1" time="1500">
+   </Data>
+   <Data data="0" time="1503">
+   </Data>
+   <Data data="1" time="1530">
+   </Data>
+   <Data data="0" time="1533">
+   </Data>
+   <Data data="1" time="1560">
+   </Data>
+   <Data data="0" time="1563">
+   </Data>
+   <Data data="1" time="1590">
+   </Data>
+   <Data data="0" time="1593">
+   </Data>
+   <Data data="1" time="1620">
+   </Data>
+   <Data data="0" time="1623">
+   </Data>
+   <Data data="1" time="1650">
+   </Data>
+   <Data data="0" time="1653">
+   </Data>
+   <Data data="1" time="1680">
+   </Data>
+   <Data data="0" time="1683">
+   </Data>
+   <Data data="1" time="1710">
+   </Data>
+   <Data data="0" time="1713">
+   </Data>
+   <Data data="1" time="1740">
+   </Data>
+   <Data data="0" time="1743">
+   </Data>
+   <Data data="1" time="1770">
+   </Data>
+   <Data data="0" time="1773">
+   </Data>
+   <Data data="1" time="1800">
+   </Data>
+   <Data data="0" time="1803">
+   </Data>
+   <Data data="1" time="1830">
+   </Data>
+   <Data data="0" time="1833">
+   </Data>
+   <Data data="1" time="1860">
+   </Data>
+   <Data data="0" time="1863">
+   </Data>
+   <Data data="1" time="1890">
+   </Data>
+   <Data data="0" time="1893">
+   </Data>
+   <Data data="1" time="1920">
+   </Data>
+   <Data data="0" time="1923">
+   </Data>
+   <Data data="1" time="1950">
+   </Data>
+   <Data data="0" time="1953">
+   </Data>
+   <Data data="1" time="1980">
+   </Data>
+   <Data data="0" time="1983">
+   </Data>
+   <Data data="1" time="2010">
+   </Data>
+   <Data data="0" time="2013">
+   </Data>
+   <Data data="1" time="2040">
+   </Data>
+   <Data data="0" time="2043">
+   </Data>
+   <Data data="1" time="2070">
+   </Data>
+   <Data data="0" time="2073">
+   </Data>
+   <Data data="1" time="2100">
+   </Data>
+   <Data data="0" time="2103">
+   </Data>
+   <Data data="1" time="2130">
+   </Data>
+   <Data data="0" time="2133">
+   </Data>
+   <Data data="1" time="2160">
+   </Data>
+   <Data data="0" time="2163">
+   </Data>
+   <Data data="1" time="2190">
+   </Data>
+   <Data data="0" time="2193">
+   </Data>
+   <Data data="1" time="2220">
+   </Data>
+   <Data data="0" time="2223">
+   </Data>
+   <Data data="1" time="2250">
+   </Data>
+   <Data data="0" time="2253">
+   </Data>
+   <Data data="1" time="2280">
+   </Data>
+   <Data data="0" time="2283">
+   </Data>
+   <Data data="1" time="2310">
+   </Data>
+   <Data data="0" time="2313">
+   </Data>
+   <Data data="1" time="2340">
+   </Data>
+   <Data data="0" time="2343">
+   </Data>
+   <Data data="1" time="2370">
+   </Data>
+   <Data data="0" time="2373">
+   </Data>
+   <Data data="1" time="2400">
+   </Data>
+   <Data data="0" time="2403">
+   </Data>
+   <Data data="1" time="2430">
+   </Data>
+   <Data data="0" time="2433">
+   </Data>
+   <Data data="1" time="2460">
+   </Data>
+   <Data data="0" time="2463">
+   </Data>
+   <Data data="1" time="2490">
+   </Data>
+   <Data data="0" time="2493">
+   </Data>
+   <Data data="1" time="2520">
+   </Data>
+   <Data data="0" time="2523">
+   </Data>
+   <Data data="1" time="2550">
+   </Data>
+   <Data data="0" time="2553">
+   </Data>
+   <Data data="1" time="2580">
+   </Data>
+   <Data data="0" time="2583">
+   </Data>
+   <Data data="1" time="2610">
+   </Data>
+   <Data data="0" time="2613">
+   </Data>
+   <Data data="1" time="2640">
+   </Data>
+   <Data data="0" time="2643">
+   </Data>
+   <Data data="1" time="2670">
+   </Data>
+   <Data data="0" time="2673">
+   </Data>
+   <Data data="1" time="3870">
+   </Data>
+   <Data data="0" time="3873">
+   </Data>
+   <Data data="1" time="3900">
+   </Data>
+   <Data data="0" time="3903">
+   </Data>
+   <Data data="1" time="3930">
+   </Data>
+   <Data data="0" time="3933">
+   </Data>
+   <Data data="1" time="3960">
+   </Data>
+   <Data data="0" time="3963">
+   </Data>
+   <Data data="1" time="3990">
+   </Data>
+   <Data data="0" time="3993">
+   </Data>
+   <Data data="1" time="4020">
+   </Data>
+   <Data data="0" time="4023">
+   </Data>
+   <Data data="1" time="4050">
+   </Data>
+   <Data data="0" time="4053">
+   </Data>
+   <Data data="1" time="4080">
+   </Data>
+   <Data data="0" time="4083">
+   </Data>
+  </AssetData>
+ </SubsystemData>
+ <SubsystemData name="DataBufferFillRatio" type="numeric">
+  <AssetData assetName="Asset1">
+   <Data data="0" time="0">
+   </Data>
+   <Data data="0.002" time="33">
+   </Data>
+   <Data data="0.004" time="63">
+   </Data>
+   <Data data="0.006" time="93">
+   </Data>
+   <Data data="0.008" time="123">
+   </Data>
+   <Data data="0.01" time="153">
+   </Data>
+   <Data data="0.012" time="183">
+   </Data>
+   <Data data="0.014" time="213">
+   </Data>
+   <Data data="0.016" time="243">
+   </Data>
+   <Data data="0.018" time="273">
+   </Data>
+   <Data data="0.02" time="303">
+   </Data>
+   <Data data="0.022" time="333">
+   </Data>
+   <Data data="0.024" time="363">
+   </Data>
+   <Data data="0.026" time="393">
+   </Data>
+   <Data data="0.028" time="423">
+   </Data>
+   <Data data="0.03" time="453">
+   </Data>
+   <Data data="0.032" time="483">
+   </Data>
+   <Data data="0.034" time="513">
+   </Data>
+   <Data data="0.036" time="543">
+   </Data>
+   <Data data="0.038" time="573">
+   </Data>
+   <Data data="0.04" time="603">
+   </Data>
+   <Data data="0.042" time="633">
+   </Data>
+   <Data data="0.044" time="663">
+   </Data>
+   <Data data="0.046" time="693">
+   </Data>
+   <Data data="0.048" time="723">
+   </Data>
+   <Data data="0.05" time="753">
+   </Data>
+   <Data data="0.052" time="783">
+   </Data>
+   <Data data="0.054" time="813">
+   </Data>
+   <Data data="0.056" time="843">
+   </Data>
+   <Data data="0.058" time="873">
+   </Data>
+   <Data data="0.06" time="903">
+   </Data>
+   <Data data="0.062" time="933">
+   </Data>
+   <Data data="0.064" time="963">
+   </Data>
+   <Data data="0.066" time="993">
+   </Data>
+   <Data data="0.068" time="1023">
+   </Data>
+   <Data data="0.07" time="1053">
+   </Data>
+   <Data data="0.072" time="1083">
+   </Data>
+   <Data data="0.074" time="1113">
+   </Data>
+   <Data data="0.076" time="1143">
+   </Data>
+   <Data data="0.078" time="1173">
+   </Data>
+   <Data data="0.08" time="1203">
+   </Data>
+   <Data data="0.082" time="1233">
+   </Data>
+   <Data data="0.084" time="1263">
+   </Data>
+   <Data data="0.086" time="1293">
+   </Data>
+   <Data data="0.088" time="1323">
+   </Data>
+   <Data data="0.09" time="1353">
+   </Data>
+   <Data data="0.092" time="1383">
+   </Data>
+   <Data data="0.094" time="1413">
+   </Data>
+   <Data data="0.096" time="1443">
+   </Data>
+   <Data data="0.098" time="1473">
+   </Data>
+   <Data data="0.1" time="1503">
+   </Data>
+   <Data data="0.102" time="1533">
+   </Data>
+   <Data data="0.104" time="1563">
+   </Data>
+   <Data data="0.106" time="1593">
+   </Data>
+   <Data data="0.108" time="1623">
+   </Data>
+   <Data data="0.11" time="1653">
+   </Data>
+   <Data data="0.112" time="1683">
+   </Data>
+   <Data data="0.114" time="1713">
+   </Data>
+   <Data data="0.116" time="1743">
+   </Data>
+   <Data data="0.118" time="1773">
+   </Data>
+   <Data data="0.12" time="1803">
+   </Data>
+   <Data data="0.122" time="1833">
+   </Data>
+   <Data data="0.124" time="1863">
+   </Data>
+   <Data data="0.126" time="1893">
+   </Data>
+   <Data data="0.128" time="1923">
+   </Data>
+   <Data data="0.13" time="1953">
+   </Data>
+   <Data data="0.132" time="1983">
+   </Data>
+   <Data data="0.134" time="2013">
+   </Data>
+   <Data data="0.136" time="2043">
+   </Data>
+   <Data data="0.138" time="2073">
+   </Data>
+   <Data data="0.14" time="2103">
+   </Data>
+   <Data data="0.142" time="2133">
+   </Data>
+   <Data data="0.144" time="2163">
+   </Data>
+   <Data data="0.146" time="2193">
+   </Data>
+   <Data data="0.148" time="2223">
+   </Data>
+   <Data data="0.15" time="2253">
+   </Data>
+   <Data data="0.152" time="2283">
+   </Data>
+   <Data data="0.154" time="2313">
+   </Data>
+   <Data data="0.156" time="2343">
+   </Data>
+   <Data data="0.158" time="2373">
+   </Data>
+   <Data data="0.16" time="2403">
+   </Data>
+   <Data data="0.162" time="2433">
+   </Data>
+   <Data data="0.164" time="2463">
+   </Data>
+   <Data data="0.166" time="2493">
+   </Data>
+   <Data data="0.168" time="2523">
+   </Data>
+   <Data data="0.17" time="2553">
+   </Data>
+   <Data data="0.172" time="2583">
+   </Data>
+   <Data data="0.174" time="2613">
+   </Data>
+   <Data data="0.176" time="2643">
+   </Data>
+   <Data data="0.178" time="2673">
+   </Data>
+   <Data data="0.089" time="2760">
+   </Data>
+   <Data data="0.0445" time="2850">
+   </Data>
+   <Data data="0.02225" time="2940">
+   </Data>
+   <Data data="0.011125" time="3030">
+   </Data>
+   <Data data="0" time="3120">
+   </Data>
+   <Data data="0.002" time="3873">
+   </Data>
+   <Data data="0.004" time="3903">
+   </Data>
+   <Data data="0.006" time="3933">
+   </Data>
+   <Data data="0.008" time="3963">
+   </Data>
+   <Data data="0.01" time="3993">
+   </Data>
+   <Data data="0.012" time="4023">
+   </Data>
+   <Data data="0.014" time="4053">
+   </Data>
+   <Data data="0.016" time="4083">
+   </Data>
+   <Data data="0" time="4170">
+   </Data>
+  </AssetData>
+ </SubsystemData>
+ <SubsystemData name="DataRate(MB/s)" type="numeric">
+  <AssetData assetName="Asset1">
+   <Data data="0" time="0">
+   </Data>
+   <Data data="7.41667" time="2700">
+   </Data>
+   <Data data="0" time="2760">
+   </Data>
+   <Data data="3.70833" time="2790">
+   </Data>
+   <Data data="0" time="2850">
+   </Data>
+   <Data data="1.85417" time="2880">
+   </Data>
+   <Data data="0" time="2940">
+   </Data>
+   <Data data="0.927083" time="2970">
+   </Data>
+   <Data data="0" time="3030">
+   </Data>
+   <Data data="0.927083" time="3060">
+   </Data>
+   <Data data="0" time="3120">
+   </Data>
+   <Data data="1.33333" time="4110">
+   </Data>
+   <Data data="0" time="4170">
+   </Data>
+  </AssetData>
+ </SubsystemData>
+ <SubsystemData name="DepthofDischarge" type="numeric">
+  <AssetData assetName="Asset1">
+   <Data data="0" time="0">
+   </Data>
+   <Data data="0.000375" time="5">
+   </Data>
+   <Data data="0.00075" time="10">
+   </Data>
+   <Data data="0.001125" time="15">
+   </Data>
+   <Data data="0.0015" time="20">
+   </Data>
+   <Data data="0.001875" time="25">
+   </Data>
+   <Data data="0.00225" time="30">
+   </Data>
+   <Data data="0.002685" time="33">
+   </Data>
+   <Data data="0.00306" time="38">
+   </Data>
+   <Data data="0.003435" time="43">
+   </Data>
+   <Data data="0.00381" time="48">
+   </Data>
+   <Data data="0.004185" time="53">
+   </Data>
+   <Data data="0.00456" time="58">
+   </Data>
+   <Data data="0.005145" time="63">
+   </Data>
+   <Data data="0.00552" time="68">
+   </Data>
+   <Data data="0.005895" time="73">
+   </Data>
+   <Data data="0.00627" time="78">
+   </Data>
+   <Data data="0.006645" time="83">
+   </Data>
+   <Data data="0.00702" time="88">
+   </Data>
+   <Data data="0.007605" time="93">
+   </Data>
+   <Data data="0.00798" time="98">
+   </Data>
+   <Data data="0.008355" time="103">
+   </Data>
+   <Data data="0.00873" time="108">
+   </Data>
+   <Data data="0.009105" time="113">
+   </Data>
+   <Data data="0.00948" time="118">
+   </Data>
+   <Data data="0.010065" time="123">
+   </Data>
+   <Data data="0.01044" time="128">
+   </Data>
+   <Data data="0.010815" time="133">
+   </Data>
+   <Data data="0.01119" time="138">
+   </Data>
+   <Data data="0.011565" time="143">
+   </Data>
+   <Data data="0.01194" time="148">
+   </Data>
+   <Data data="0.012525" time="153">
+   </Data>
+   <Data data="0.0129" time="158">
+   </Data>
+   <Data data="0.013275" time="163">
+   </Data>
+   <Data data="0.01365" time="168">
+   </Data>
+   <Data data="0.013485" time="183">
+   </Data>
+   <Data data="0.01311" time="188">
+   </Data>
+   <Data data="0.012735" time="193">
+   </Data>
+   <Data data="0.01236" time="198">
+   </Data>
+   <Data data="0.011985" time="203">
+   </Data>
+   <Data data="0.01161" time="208">
+   </Data>
+   <Data data="0.011445" time="213">
+   </Data>
+   <Data data="0.01107" time="218">
+   </Data>
+   <Data data="0.010695" time="223">
+   </Data>
+   <Data data="0.01032" time="228">
+   </Data>
+   <Data data="0.009945" time="233">
+   </Data>
+   <Data data="0.00957" time="238">
+   </Data>
+   <Data data="0.009405" time="243">
+   </Data>
+   <Data data="0.00903" time="248">
+   </Data>
+   <Data data="0.008655" time="253">
+   </Data>
+   <Data data="0.00828" time="258">
+   </Data>
+   <Data data="0.007905" time="263">
+   </Data>
+   <Data data="0.00753" time="268">
+   </Data>
+   <Data data="0.007365" time="273">
+   </Data>
+   <Data data="0.00699" time="278">
+   </Data>
+   <Data data="0.006615" time="283">
+   </Data>
+   <Data data="0.00624" time="288">
+   </Data>
+   <Data data="0.005865" time="293">
+   </Data>
+   <Data data="0.00549" time="298">
+   </Data>
+   <Data data="0.005325" time="303">
+   </Data>
+   <Data data="0.00495" time="308">
+   </Data>
+   <Data data="0.004575" time="313">
+   </Data>
+   <Data data="0.0042" time="318">
+   </Data>
+   <Data data="0.003825" time="323">
+   </Data>
+   <Data data="0.00345" time="328">
+   </Data>
+   <Data data="0.003285" time="333">
+   </Data>
+   <Data data="0.00291" time="338">
+   </Data>
+   <Data data="0.002535" time="343">
+   </Data>
+   <Data data="0.00216" time="348">
+   </Data>
+   <Data data="0.001785" time="353">
+   </Data>
+   <Data data="0.00141" time="358">
+   </Data>
+   <Data data="0.001245" time="363">
+   </Data>
+   <Data data="0.00087" time="368">
+   </Data>
+   <Data data="0.000495" time="373">
+   </Data>
+   <Data data="0.00012" time="378">
+   </Data>
+   <Data data="0" time="383">
+   </Data>
+   <Data data="0" time="393">
+   </Data>
+   <Data data="0" time="423">
+   </Data>
+   <Data data="0" time="453">
+   </Data>
+   <Data data="0" time="483">
+   </Data>
+   <Data data="0" time="513">
+   </Data>
+   <Data data="0" time="543">
+   </Data>
+   <Data data="0" time="573">
+   </Data>
+   <Data data="0" time="603">
+   </Data>
+   <Data data="0" time="633">
+   </Data>
+   <Data data="0" time="663">
+   </Data>
+   <Data data="0" time="693">
+   </Data>
+   <Data data="0" time="723">
+   </Data>
+   <Data data="0" time="753">
+   </Data>
+   <Data data="0" time="783">
+   </Data>
+   <Data data="0" time="813">
+   </Data>
+   <Data data="0" time="843">
+   </Data>
+   <Data data="0" time="873">
+   </Data>
+   <Data data="0" time="903">
+   </Data>
+   <Data data="0" time="933">
+   </Data>
+   <Data data="0" time="963">
+   </Data>
+   <Data data="0" time="993">
+   </Data>
+   <Data data="0" time="1023">
+   </Data>
+   <Data data="0" time="1053">
+   </Data>
+   <Data data="0" time="1083">
+   </Data>
+   <Data data="0" time="1113">
+   </Data>
+   <Data data="0" time="1143">
+   </Data>
+   <Data data="0" time="1173">
+   </Data>
+   <Data data="0" time="1203">
+   </Data>
+   <Data data="0" time="1233">
+   </Data>
+   <Data data="0" time="1263">
+   </Data>
+   <Data data="0" time="1293">
+   </Data>
+   <Data data="0" time="1323">
+   </Data>
+   <Data data="0" time="1353">
+   </Data>
+   <Data data="0" time="1383">
+   </Data>
+   <Data data="0" time="1413">
+   </Data>
+   <Data data="0" time="1443">
+   </Data>
+   <Data data="0" time="1473">
+   </Data>
+   <Data data="0" time="1503">
+   </Data>
+   <Data data="0" time="1533">
+   </Data>
+   <Data data="0" time="1563">
+   </Data>
+   <Data data="0" time="1593">
+   </Data>
+   <Data data="0" time="1623">
+   </Data>
+   <Data data="0" time="1653">
+   </Data>
+   <Data data="0" time="1683">
+   </Data>
+   <Data data="0" time="1713">
+   </Data>
+   <Data data="0" time="1743">
+   </Data>
+   <Data data="0" time="1773">
+   </Data>
+   <Data data="0" time="1803">
+   </Data>
+   <Data data="0" time="1833">
+   </Data>
+   <Data data="0" time="1863">
+   </Data>
+   <Data data="0" time="1893">
+   </Data>
+   <Data data="0" time="1923">
+   </Data>
+   <Data data="0" time="1953">
+   </Data>
+   <Data data="0" time="1983">
+   </Data>
+   <Data data="0" time="2013">
+   </Data>
+   <Data data="0" time="2043">
+   </Data>
+   <Data data="0" time="2073">
+   </Data>
+   <Data data="0" time="2103">
+   </Data>
+   <Data data="0" time="2133">
+   </Data>
+   <Data data="0" time="2163">
+   </Data>
+   <Data data="0" time="2193">
+   </Data>
+   <Data data="0" time="2223">
+   </Data>
+   <Data data="0" time="2253">
+   </Data>
+   <Data data="0" time="2283">
+   </Data>
+   <Data data="0" time="2313">
+   </Data>
+   <Data data="0" time="2343">
+   </Data>
+   <Data data="0" time="2373">
+   </Data>
+   <Data data="0" time="2403">
+   </Data>
+   <Data data="0" time="2433">
+   </Data>
+   <Data data="0" time="2463">
+   </Data>
+   <Data data="0" time="2493">
+   </Data>
+   <Data data="0" time="2523">
+   </Data>
+   <Data data="0" time="2553">
+   </Data>
+   <Data data="0" time="2583">
+   </Data>
+   <Data data="0" time="2613">
+   </Data>
+   <Data data="0" time="2643">
+   </Data>
+   <Data data="0.00013" time="2703">
+   </Data>
+   <Data data="0.000596667" time="2708">
+   </Data>
+   <Data data="0.00106333" time="2713">
+   </Data>
+   <Data data="0.00153" time="2718">
+   </Data>
+   <Data data="0.00199667" time="2723">
+   </Data>
+   <Data data="0.00246333" time="2728">
+   </Data>
+   <Data data="0.00293" time="2733">
+   </Data>
+   <Data data="0.00339667" time="2738">
+   </Data>
+   <Data data="0.00386333" time="2743">
+   </Data>
+   <Data data="0.00433" time="2748">
+   </Data>
+   <Data data="0.00479667" time="2753">
+   </Data>
+   <Data data="0.00526333" time="2758">
+   </Data>
+   <Data data="0.00545" time="2760">
+   </Data>
+   <Data data="0.005075" time="2765">
+   </Data>
+   <Data data="0.0047" time="2770">
+   </Data>
+   <Data data="0.004325" time="2775">
+   </Data>
+   <Data data="0.00395" time="2780">
+   </Data>
+   <Data data="0.003575" time="2785">
+   </Data>
+   <Data data="0.0032" time="2790">
+   </Data>
+   <Data data="0.00329583" time="2795">
+   </Data>
+   <Data data="0.00339167" time="2800">
+   </Data>
+   <Data data="0.0034875" time="2805">
+   </Data>
+   <Data data="0.00358333" time="2810">
+   </Data>
+   <Data data="0.00367917" time="2815">
+   </Data>
+   <Data data="0.003775" time="2820">
+   </Data>
+   <Data data="0.00387083" time="2825">
+   </Data>
+   <Data data="0.00396667" time="2830">
+   </Data>
+   <Data data="0.0040625" time="2835">
+   </Data>
+   <Data data="0.00415833" time="2840">
+   </Data>
+   <Data data="0.00425417" time="2845">
+   </Data>
+   <Data data="0.00435" time="2850">
+   </Data>
+   <Data data="0.003975" time="2855">
+   </Data>
+   <Data data="0.0036" time="2860">
+   </Data>
+   <Data data="0.003225" time="2865">
+   </Data>
+   <Data data="0.00285" time="2870">
+   </Data>
+   <Data data="0.002475" time="2875">
+   </Data>
+   <Data data="0.0021" time="2880">
+   </Data>
+   <Data data="0.00201042" time="2885">
+   </Data>
+   <Data data="0.00192083" time="2890">
+   </Data>
+   <Data data="0.00183125" time="2895">
+   </Data>
+   <Data data="0.00174167" time="2900">
+   </Data>
+   <Data data="0.00165208" time="2905">
+   </Data>
+   <Data data="0.0015625" time="2910">
+   </Data>
+   <Data data="0.00147292" time="2915">
+   </Data>
+   <Data data="0.00138333" time="2920">
+   </Data>
+   <Data data="0.00129375" time="2925">
+   </Data>
+   <Data data="0.00120417" time="2930">
+   </Data>
+   <Data data="0.00111458" time="2935">
+   </Data>
+   <Data data="0.001025" time="2940">
+   </Data>
+   <Data data="0.00065" time="2945">
+   </Data>
+   <Data data="0.000275" time="2950">
+   </Data>
+   <Data data="0" time="2955">
+   </Data>
+   <Data data="0" time="3030">
+   </Data>
+   <Data data="0" time="3120">
+   </Data>
+   <Data data="0" time="3210">
+   </Data>
+   <Data data="0" time="3300">
+   </Data>
+   <Data data="0" time="3390">
+   </Data>
+   <Data data="0" time="3480">
+   </Data>
+   <Data data="0" time="3570">
+   </Data>
+   <Data data="0" time="3660">
+   </Data>
+   <Data data="0" time="3750">
+   </Data>
+   <Data data="0" time="3840">
+   </Data>
+   <Data data="0" time="3873">
+   </Data>
+   <Data data="0" time="3903">
+   </Data>
+   <Data data="0" time="3933">
+   </Data>
+   <Data data="0" time="3963">
+   </Data>
+   <Data data="0" time="3993">
+   </Data>
+   <Data data="0" time="4023">
+   </Data>
+   <Data data="0" time="4053">
+   </Data>
+   <Data data="0" time="4083">
+   </Data>
+   <Data data="0" time="4170">
+   </Data>
+   <Data data="0" time="4260">
+   </Data>
+   <Data data="0.0001" time="4390">
+   </Data>
+   <Data data="0.0002" time="4395">
+   </Data>
+   <Data data="0.000675" time="4400">
+   </Data>
+   <Data data="0.00115" time="4405">
+   </Data>
+   <Data data="0.001625" time="4410">
+   </Data>
+   <Data data="0.0021" time="4415">
+   </Data>
+   <Data data="0.002575" time="4420">
+   </Data>
+   <Data data="0.00305" time="4425">
+   </Data>
+   <Data data="0.003525" time="4430">
+   </Data>
+   <Data data="0.004" time="4435">
+   </Data>
+   <Data data="0.004475" time="4440">
+   </Data>
+   <Data data="0.00485" time="4445">
+   </Data>
+   <Data data="0.005225" time="4450">
+   </Data>
+   <Data data="0.0056" time="4455">
+   </Data>
+   <Data data="0.005975" time="4460">
+   </Data>
+   <Data data="0.00635" time="4465">
+   </Data>
+   <Data data="0.006725" time="4470">
+   </Data>
+   <Data data="0.0072" time="4475">
+   </Data>
+   <Data data="0.007675" time="4480">
+   </Data>
+   <Data data="0.00815" time="4485">
+   </Data>
+   <Data data="0.008625" time="4490">
+   </Data>
+   <Data data="0.0091" time="4495">
+   </Data>
+   <Data data="0.009575" time="4500">
+   </Data>
+   <Data data="0.01005" time="4505">
+   </Data>
+   <Data data="0.010525" time="4510">
+   </Data>
+   <Data data="0.011" time="4515">
+   </Data>
+   <Data data="0.011475" time="4520">
+   </Data>
+   <Data data="0.01195" time="4525">
+   </Data>
+   <Data data="0.012425" time="4530">
+   </Data>
+   <Data data="0.0128" time="4535">
+   </Data>
+   <Data data="0.013175" time="4540">
+   </Data>
+   <Data data="0.01355" time="4545">
+   </Data>
+   <Data data="0.013925" time="4550">
+   </Data>
+   <Data data="0.0143" time="4555">
+   </Data>
+   <Data data="0.014675" time="4560">
+   </Data>
+   <Data data="0.01515" time="4565">
+   </Data>
+   <Data data="0.015625" time="4570">
+   </Data>
+   <Data data="0.0161" time="4575">
+   </Data>
+   <Data data="0.016575" time="4580">
+   </Data>
+   <Data data="0.01705" time="4585">
+   </Data>
+   <Data data="0.017525" time="4590">
+   </Data>
+   <Data data="0.018" time="4595">
+   </Data>
+   <Data data="0.018475" time="4600">
+   </Data>
+   <Data data="0.01895" time="4605">
+   </Data>
+   <Data data="0.019425" time="4610">
+   </Data>
+   <Data data="0.0199" time="4615">
+   </Data>
+   <Data data="0.020375" time="4620">
+   </Data>
+   <Data data="0.02075" time="4625">
+   </Data>
+   <Data data="0.021125" time="4630">
+   </Data>
+   <Data data="0.0215" time="4635">
+   </Data>
+   <Data data="0.021875" time="4640">
+   </Data>
+   <Data data="0.02225" time="4645">
+   </Data>
+   <Data data="0.022625" time="4650">
+   </Data>
+   <Data data="0.0231" time="4655">
+   </Data>
+   <Data data="0.023575" time="4660">
+   </Data>
+   <Data data="0.02405" time="4665">
+   </Data>
+   <Data data="0.024525" time="4670">
+   </Data>
+   <Data data="0.025" time="4675">
+   </Data>
+   <Data data="0.025475" time="4680">
+   </Data>
+   <Data data="0.02595" time="4685">
+   </Data>
+   <Data data="0.026425" time="4690">
+   </Data>
+   <Data data="0.0269" time="4695">
+   </Data>
+   <Data data="0.027375" time="4700">
+   </Data>
+   <Data data="0.02785" time="4705">
+   </Data>
+   <Data data="0.028325" time="4710">
+   </Data>
+   <Data data="0.0287" time="4715">
+   </Data>
+   <Data data="0.029075" time="4720">
+   </Data>
+   <Data data="0.02945" time="4725">
+   </Data>
+   <Data data="0.029825" time="4730">
+   </Data>
+   <Data data="0.0302" time="4735">
+   </Data>
+   <Data data="0.030575" time="4740">
+   </Data>
+   <Data data="0.03105" time="4745">
+   </Data>
+   <Data data="0.031525" time="4750">
+   </Data>
+   <Data data="0.032" time="4755">
+   </Data>
+   <Data data="0.032475" time="4760">
+   </Data>
+   <Data data="0.03295" time="4765">
+   </Data>
+   <Data data="0.033425" time="4770">
+   </Data>
+   <Data data="0.0339" time="4775">
+   </Data>
+   <Data data="0.034375" time="4780">
+   </Data>
+   <Data data="0.03485" time="4785">
+   </Data>
+   <Data data="0.035325" time="4790">
+   </Data>
+   <Data data="0.0358" time="4795">
+   </Data>
+   <Data data="0.036275" time="4800">
+   </Data>
+   <Data data="0.03665" time="4805">
+   </Data>
+   <Data data="0.037025" time="4810">
+   </Data>
+   <Data data="0.0374" time="4815">
+   </Data>
+   <Data data="0.037775" time="4820">
+   </Data>
+   <Data data="0.03815" time="4825">
+   </Data>
+   <Data data="0.038525" time="4830">
+   </Data>
+   <Data data="0.039" time="4835">
+   </Data>
+   <Data data="0.039475" time="4840">
+   </Data>
+   <Data data="0.03995" time="4845">
+   </Data>
+   <Data data="0.040425" time="4850">
+   </Data>
+   <Data data="0.0409" time="4855">
+   </Data>
+   <Data data="0.041375" time="4860">
+   </Data>
+   <Data data="0.04185" time="4865">
+   </Data>
+   <Data data="0.042325" time="4870">
+   </Data>
+   <Data data="0.0428" time="4875">
+   </Data>
+   <Data data="0.043275" time="4880">
+   </Data>
+   <Data data="0.04375" time="4885">
+   </Data>
+   <Data data="0.044225" time="4890">
+   </Data>
+   <Data data="0.0446" time="4895">
+   </Data>
+   <Data data="0.044975" time="4900">
+   </Data>
+   <Data data="0.04535" time="4905">
+   </Data>
+   <Data data="0.045725" time="4910">
+   </Data>
+   <Data data="0.0461" time="4915">
+   </Data>
+   <Data data="0.046475" time="4920">
+   </Data>
+   <Data data="0.04695" time="4925">
+   </Data>
+   <Data data="0.047425" time="4930">
+   </Data>
+   <Data data="0.0479" time="4935">
+   </Data>
+   <Data data="0.048375" time="4940">
+   </Data>
+   <Data data="0.04885" time="4945">
+   </Data>
+   <Data data="0.049325" time="4950">
+   </Data>
+   <Data data="0.0498" time="4955">
+   </Data>
+   <Data data="0.050275" time="4960">
+   </Data>
+   <Data data="0.05075" time="4965">
+   </Data>
+   <Data data="0.051225" time="4970">
+   </Data>
+   <Data data="0.0517" time="4975">
+   </Data>
+   <Data data="0.052175" time="4980">
+   </Data>
+   <Data data="0.0525" time="4985">
+   </Data>
+   <Data data="0.052825" time="4990">
+   </Data>
+   <Data data="0.05315" time="4995">
+   </Data>
+   <Data data="0.053475" time="5000">
+   </Data>
+  </AssetData>
+ </SubsystemData>
+ <SubsystemData name="SolarPanelPowerIn" type="numeric">
+  <AssetData assetName="Asset1">
+   <Data data="0" time="0">
+   </Data>
+   <Data data="0" time="33">
+   </Data>
+   <Data data="0" time="63">
+   </Data>
+   <Data data="0" time="93">
+   </Data>
+   <Data data="0" time="123">
+   </Data>
+   <Data data="0" time="153">
+   </Data>
+   <Data data="75" time="168">
+   </Data>
+   <Data data="150" time="178">
+   </Data>
+   <Data data="150" time="183">
+   </Data>
+   <Data data="150" time="213">
+   </Data>
+   <Data data="150" time="243">
+   </Data>
+   <Data data="150" time="273">
+   </Data>
+   <Data data="150" time="303">
+   </Data>
+   <Data data="150" time="333">
+   </Data>
+   <Data data="150" time="363">
+   </Data>
+   <Data data="150" time="393">
+   </Data>
+   <Data data="150" time="423">
+   </Data>
+   <Data data="150" time="453">
+   </Data>
+   <Data data="150" time="483">
+   </Data>
+   <Data data="150" time="513">
+   </Data>
+   <Data data="150" time="543">
+   </Data>
+   <Data data="150" time="573">
+   </Data>
+   <Data data="150" time="603">
+   </Data>
+   <Data data="150" time="633">
+   </Data>
+   <Data data="150" time="663">
+   </Data>
+   <Data data="150" time="693">
+   </Data>
+   <Data data="150" time="723">
+   </Data>
+   <Data data="150" time="753">
+   </Data>
+   <Data data="150" time="783">
+   </Data>
+   <Data data="150" time="813">
+   </Data>
+   <Data data="150" time="843">
+   </Data>
+   <Data data="150" time="873">
+   </Data>
+   <Data data="150" time="903">
+   </Data>
+   <Data data="150" time="933">
+   </Data>
+   <Data data="150" time="963">
+   </Data>
+   <Data data="150" time="993">
+   </Data>
+   <Data data="150" time="1023">
+   </Data>
+   <Data data="150" time="1053">
+   </Data>
+   <Data data="150" time="1083">
+   </Data>
+   <Data data="150" time="1113">
+   </Data>
+   <Data data="150" time="1143">
+   </Data>
+   <Data data="150" time="1173">
+   </Data>
+   <Data data="150" time="1203">
+   </Data>
+   <Data data="150" time="1233">
+   </Data>
+   <Data data="150" time="1263">
+   </Data>
+   <Data data="150" time="1293">
+   </Data>
+   <Data data="150" time="1323">
+   </Data>
+   <Data data="150" time="1353">
+   </Data>
+   <Data data="150" time="1383">
+   </Data>
+   <Data data="150" time="1413">
+   </Data>
+   <Data data="150" time="1443">
+   </Data>
+   <Data data="150" time="1473">
+   </Data>
+   <Data data="150" time="1503">
+   </Data>
+   <Data data="150" time="1533">
+   </Data>
+   <Data data="150" time="1563">
+   </Data>
+   <Data data="150" time="1593">
+   </Data>
+   <Data data="150" time="1623">
+   </Data>
+   <Data data="150" time="1653">
+   </Data>
+   <Data data="150" time="1683">
+   </Data>
+   <Data data="150" time="1713">
+   </Data>
+   <Data data="150" time="1743">
+   </Data>
+   <Data data="150" time="1773">
+   </Data>
+   <Data data="150" time="1803">
+   </Data>
+   <Data data="150" time="1833">
+   </Data>
+   <Data data="150" time="1863">
+   </Data>
+   <Data data="150" time="1893">
+   </Data>
+   <Data data="150" time="1923">
+   </Data>
+   <Data data="150" time="1953">
+   </Data>
+   <Data data="150" time="1983">
+   </Data>
+   <Data data="150" time="2013">
+   </Data>
+   <Data data="150" time="2043">
+   </Data>
+   <Data data="150" time="2073">
+   </Data>
+   <Data data="150" time="2103">
+   </Data>
+   <Data data="150" time="2133">
+   </Data>
+   <Data data="150" time="2163">
+   </Data>
+   <Data data="150" time="2193">
+   </Data>
+   <Data data="150" time="2223">
+   </Data>
+   <Data data="150" time="2253">
+   </Data>
+   <Data data="150" time="2283">
+   </Data>
+   <Data data="150" time="2313">
+   </Data>
+   <Data data="150" time="2343">
+   </Data>
+   <Data data="150" time="2373">
+   </Data>
+   <Data data="150" time="2403">
+   </Data>
+   <Data data="150" time="2433">
+   </Data>
+   <Data data="150" time="2463">
+   </Data>
+   <Data data="150" time="2493">
+   </Data>
+   <Data data="150" time="2523">
+   </Data>
+   <Data data="150" time="2553">
+   </Data>
+   <Data data="150" time="2583">
+   </Data>
+   <Data data="150" time="2613">
+   </Data>
+   <Data data="150" time="2643">
+   </Data>
+   <Data data="150" time="2673">
+   </Data>
+   <Data data="150" time="2760">
+   </Data>
+   <Data data="150" time="2850">
+   </Data>
+   <Data data="150" time="2940">
+   </Data>
+   <Data data="150" time="3030">
+   </Data>
+   <Data data="150" time="3120">
+   </Data>
+   <Data data="150" time="3210">
+   </Data>
+   <Data data="150" time="3300">
+   </Data>
+   <Data data="150" time="3390">
+   </Data>
+   <Data data="150" time="3480">
+   </Data>
+   <Data data="150" time="3570">
+   </Data>
+   <Data data="150" time="3660">
+   </Data>
+   <Data data="150" time="3750">
+   </Data>
+   <Data data="150" time="3840">
+   </Data>
+   <Data data="150" time="3873">
+   </Data>
+   <Data data="150" time="3903">
+   </Data>
+   <Data data="150" time="3933">
+   </Data>
+   <Data data="150" time="3963">
+   </Data>
+   <Data data="150" time="3993">
+   </Data>
+   <Data data="150" time="4023">
+   </Data>
+   <Data data="150" time="4053">
+   </Data>
+   <Data data="150" time="4083">
+   </Data>
+   <Data data="150" time="4170">
+   </Data>
+   <Data data="150" time="4260">
+   </Data>
+   <Data data="150" time="4350">
+   </Data>
+   <Data data="75" time="4385">
+   </Data>
+   <Data data="0" time="4395">
+   </Data>
+   <Data data="0" time="4440">
+   </Data>
+   <Data data="0" time="4530">
+   </Data>
+   <Data data="0" time="4620">
+   </Data>
+   <Data data="0" time="4710">
+   </Data>
+   <Data data="0" time="4800">
+   </Data>
+   <Data data="0" time="4890">
+   </Data>
+   <Data data="0" time="4980">
+   </Data>
+  </AssetData>
+ </SubsystemData>
+</Base>

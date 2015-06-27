@@ -1,0 +1,1 @@
+<MODEL><SCHEDULE_EVALUATOR type="TargetValueScheduleEvaluator"></SCHEDULE_EVALUATOR><ASSET name="sat1" assetId="0"><POSITION PositionType="StaticLLA" ICs="Matrix(3,1,{1,0,0})"><EOMS EOMSType="Scripted" initFcn="" evalFcn=""></EOMS></POSITION></ASSET></MODEL>

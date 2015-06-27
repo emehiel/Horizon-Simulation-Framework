@@ -1,0 +1,14 @@
+function ScheduleEvaluator(event)
+	val = event:getTask():getTarget():getValue()
+	sum = 5 - val
+	if event:getTask():getType() == 'CommTask' then
+		buffRatioSVK = dStateVarKey('DataBufferFillRatio')
+		ts = event:getState():getTaskStart()
+		te = event:getState():getTaskEnd()
+		begindataratio = event:getState():getValueAtTime(buffRatioSVK, ts).second
+		enddataratio = event:getState():getValueAtTime(buffRatioSVK, te).second
+		deltaratio = begindataratio - enddataratio
+		sum = sum + deltaratio*50
+	end
+	return sum
+end

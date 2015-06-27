@@ -1,0 +1,24 @@
+function orbital_EOMS_scripted_init()
+	MU = 398600.4418
+	A_ = Matrix(6, 6, 0.0)
+	A_:setValue(1, 4, 1.0)
+	A_:setValue(2, 5, 1.0)
+	A_:setValue(3, 6, 1.0)
+end
+
+function orbital_EOMS_scripted_eval(t, y)
+	MU = 398600.4418
+	A_ = Matrix(6, 6, 0.0)
+	A_:setValue(1, 4, 1.0)
+	A_:setValue(2, 5, 1.0)
+	A_:setValue(3, 6, 1.0)
+
+	r3 = math.pow(norm(y(colon(1,3))), 3.0)
+	mur3 = -MU/r3
+
+	A_:setValue(4, 1, mur3)
+	A_:setValue(5, 2, mur3)
+	A_:setValue(6, 3, mur3)
+
+	return A_*y
+end

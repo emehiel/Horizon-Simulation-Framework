@@ -1,0 +1,42 @@
+﻿<TARGETDECK>
+  <TARGET
+    TargetName="new target"
+    TargetType="LocationTarget"
+    TaskType="ImagingTask"
+    MaxTimes="0"
+    Value="0">
+    <POSITION
+      PositionType="StaticLLA"
+      ICs="Matrix(3,1,{42.6315803527832, -118.742294311523, 0})" />
+  </TARGET>
+  <TARGET
+    TargetName="new target"
+    TargetType="LocationTarget"
+    TaskType="ImagingTask"
+    MaxTimes="0"
+    Value="0">
+    <POSITION
+      PositionType="StaticLLA"
+      ICs="Matrix(3,1,{-6.40866851806641, -70.8014831542969, 0})" />
+  </TARGET>
+  <TARGET
+    TargetName="new target"
+    TargetType="LocationTarget"
+    TaskType="ImagingTask"
+    MaxTimes="0"
+    Value="0">
+    <POSITION
+      PositionType="StaticLLA"
+      ICs="Matrix(3,1,{20.3405570983887, 30.8508014678955, 0})" />
+  </TARGET>
+  <TARGET
+    TargetName="new target"
+    TargetType="LocationTarget"
+    TaskType="ImagingTask"
+    MaxTimes="0"
+    Value="0">
+    <POSITION
+      PositionType="StaticLLA"
+      ICs="Matrix(3,1,{22.0123844146729, 53.4895172119141, 0})" />
+  </TARGET>
+</TARGETDECK>

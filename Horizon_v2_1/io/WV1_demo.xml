@@ -1,0 +1,45 @@
+<SCENARIO
+  scenarioName = "WorldView 1 Demo">
+  
+  <SIMULATION_PARAMETERS
+    simStart="0.0"
+		simEnd="86400"
+		simStep="30.0"
+		startJD="2454368.649079210"
+		maxSchedules="2"
+    numCrop="1">
+  </SIMULATION_PARAMETERS>
+  
+  <ASSET
+    assetName="SC1"
+    assetIsTaskable="TRUE"
+    initPos="Matrix(3,1,{6288.00108, -2603.28399, -958.40476})"
+    initVel="Matrix(3,1,{0.58855, -1.32969, 7.47507})">
+    <!--<SUBSYSTEM>
+    </SUBSYSTEM>-->
+    <!--
+        r_0 and v_0 calculated with Matlab tle2rv function writen by Eric Mehiel 9/23/07
+        tle taken from http://www.celestrak.com/NORAD/elements/ on 9/23/07.
+
+        % WORLDVIEW-1 (WV-1)
+        % 1 32060U 07041A   07267.14907921  .00000503  00000-0  23745-4 0   330
+        % 2 32060  97.4973 336.4481 0001126 154.4612 292.4728 15.23967765   818
+
+        r =
+
+        1.0e+003 *
+
+        6.28800108173949
+        -2.60328399434634
+        -0.95840476095745
+
+        v =
+
+        0.58855112688977
+        -1.32969161463464
+        7.47507005538831
+    -->
+  </ASSET>
+
+</SCENARIO>
+

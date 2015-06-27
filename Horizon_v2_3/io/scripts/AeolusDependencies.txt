@@ -1,0 +1,48 @@
+function Asset1_SSDRSUB_getNewDataProfile()
+	state = getState(1)
+	eoSensorData = dStateVarKey('numPixels')
+	return state:getProfile(eoSensorData)/500
+end
+
+function Asset1_COMMSUB_getDataRateProfile()
+	state = getState(1)
+	dataratio = dStateVarKey('DataBufferFillRatio')
+	taskstart = state:getTaskStart()
+	taskend = state:getTaskEnd()
+	dt = taskend - taskstart
+	datarate = 5000*(state:getValueAtTime(dataratio, taskstart).second - state:getValueAtTime(dataratio, taskend).second)/dt
+	prof = dProfile()
+	prof:addData(taskstart, datarate)
+	prof:addData(taskend, datarate)
+	return prof
+end
+
+function Asset1_POWERSUB_getPowerProfile()
+	state = getState(1)
+	es = state:getEventStart()
+	ts = state:getTaskStart()
+	te = state:getTaskEnd()
+
+	adcs_prof = dProfile()
+	adcs_prof:addData(es, 40)
+	adcs_prof:addData(ts, 60)
+	adcs_prof:addData(te, 40)
+
+
+	eo_prof = dProfile()
+	eo_prof:addData(es, 10)
+
+	eokey = bStateVarKey('EOSensorOn')
+	if state:getValueAtTime(eokey, ts).second then
+		eo_prof:addData(ts, 60)
+		eo_prof:addData(te, 10)	
+	end
+
+
+	ssdr_prof = dProfile(es, 15)
+
+	commkey = dStateVarKey('DataRate(MB/s)')
+	comm_prof = state:getProfile(commkey)*20
+
+	return adcs_prof + eo_prof + ssdr_prof + comm_prof
+end

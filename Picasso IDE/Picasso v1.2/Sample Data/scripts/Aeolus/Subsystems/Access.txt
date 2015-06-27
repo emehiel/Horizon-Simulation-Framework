@@ -1,0 +1,17 @@
+function Access_init(sub, subParams)
+end
+
+function Access_canPerform(oldState, newState, task, position, environment, deps, subParams) 
+	--assetPosECI = position:getPosECI(newState:getTaskStart())
+	--targetPosECI = task:getTarget():getPos():getPosECI(newState:getTaskStart())
+	--hasAccess = hasLOS(assetPosECI, targetPosECI)
+	--return hasAccess
+	return true
+end
+
+function Access_canExtend(state, position, environment, evalToTime, deps, subParams)
+	if (state:getEventEnd() < evalToTime) then
+		state:setEventEnd(evalToTime)
+	end
+	return true
+end

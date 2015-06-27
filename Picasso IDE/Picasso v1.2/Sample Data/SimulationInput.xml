@@ -1,0 +1,13 @@
+<SCENARIO scenarioName="testScenario">
+	<SIMULATION_PARAMETERS
+		SimStartJD="2454680.0"
+		SimStart="0.0"
+		SimEnd="5000.0">
+	</SIMULATION_PARAMETERS>
+
+	<SCHEDULER_PARAMETERS
+		MaxSchedules="2"
+		CropTo="1"
+		SimStep="30.0">
+	</SCHEDULER_PARAMETERS>
+</SCENARIO>

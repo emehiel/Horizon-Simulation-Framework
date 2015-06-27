@@ -1,0 +1,75 @@
+<SCENARIO
+  scenarioName = "Double-Sat Aeolus Constellation (DSAC)">
+  
+  <SIMULATION_PARAMETERS
+    simStart="0.0"
+		simEnd="10800.0"
+		simStep="30.0"
+		startJD="2454368.649079210"
+		maxSchedules="2"
+    numCrop="1">
+  </SIMULATION_PARAMETERS>
+
+  <INITIAL_STATE
+    LookAngleOffNadir_deg="10.0"
+    gsd_cm="50.0"
+    SunElAtTarg_deg="0.0"
+    SlewOffNadir_deg="0.0"
+    ImageSize_bits="0.0"
+    SolarPanelPowerIn_watts="0.0"
+    BitsOnDataBuffer_bits="0.0"
+    depthOfDischarge="0.0"
+    DataRate_Mbps="0.0"
+    EOSensorOn="0">
+  </INITIAL_STATE>  
+  
+  <ASSET
+    assetName="SC1"
+    assetIsTaskable="TRUE"
+    initPos="Matrix(3,1,{6288.00108, -2603.28399, -958.40476})"
+    initVel="Matrix(3,1,{0.58855, -1.32969, 7.47507})">
+	<SUBSYSTEM>		
+		<adcs   subsystemName="ADCS"
+			  maxVelocity="4.5"
+			  minSunElevationAngle="10.0">
+		</adcs>
+		<power  batCap="1000000" 
+				chargeRate="10" 
+				saPeak="100" 
+				tricklePoint="0.9" 
+				trickleRate="2"
+				rollRate="0"
+				pitchRate="0"
+				settleTime="0">
+		</power>
+		<comunications> </comunications>
+		
+		<EOSensor	subsystemName="EO_Sensor"
+				pitchPerPixel="1.008067269177633e-006"
+				horizontalPixels="1024"
+				verticalPixels="1024">
+		</EOSensor>
+
+		<Ssdr		subsystemName="SSDR"
+				boards="8"
+				boardSize="2000000000"
+				downLinkRate="1000000.0">
+		</Ssdr>
+
+		
+					
+		<thermal></thermal>
+	</SUBSYSTEM>
+
+  </ASSET>
+
+  <ASSET
+  assetName="SC2"
+  assetIsTaskable="TRUE"
+  initPos="Matrix(3,1,{-7378.137, 0.0, 0.0})"
+  initVel="Matrix(3,1,{0.0, -6.02088, 4.215866})">
+    <!-- <SUBSYSTEM
+    </SUBSYSTEM>-->
+  </ASSET>
+
+</SCENARIO>

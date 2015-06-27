@@ -1,0 +1,106 @@
+function Power_init(sub, subParams)
+	sub:addKey(dStateVarKey('DepthofDischarge'))
+	sub:addKey(dStateVarKey('SolarPanelPowerIn'))
+	subParams:addDoubleParameter('batterySize', 1000000)
+	subParams:addDoubleParameter('fullSolarPower', 150)
+	subParams:addDoubleParameter('penumbraSolarPower', 75)
+end
+
+function Power_canPerform(oldState, newState, task, position, environment, deps, subParams)
+	es = newState:getEventStart()
+	te = newState:getTaskEnd()
+	ee = newState:getEventEnd()
+	powerSubPowerOut = 10
+
+	if ee > SIMEND_SECONDS() then
+		return false
+	end
+
+	olddod = oldState:getLastValue(dStateVarKey('DepthofDischarge')).second
+
+	powerOut = deps:callDoubleDependency('POWERSUB_getPowerProfile')
+	powerOut = powerOut + powerSubPowerOut
+
+	powerIn = calcSolarPanelPowerProfile(es, te, newState, position, environment, subParams)
+
+	batterysize = subParams:getDoubleParameter('batterySize')
+
+	dodrateofchange = ((powerOut-powerIn)/batterysize)
+
+	exceeded = false
+	freq = 5.0
+	
+	dodProf, exceeded = dodrateofchange:lowerLimitIntegrateToProf(es, te, freq, 0.0, exceeded, 0, olddod)
+
+	newState:addValue(dStateVarKey('DepthofDischarge'), dodProf);
+
+	return true
+end
+
+function Power_canExtend(newState, position, environment, evalToTime, deps, subParams)
+	ee = newState:getEventEnd()
+	if ee > SIMEND_SECONDS() then
+		return false
+	end
+
+	sun = environment:getSun()
+
+	te = newState:getLastValue(dStateVarKey('DepthofDischarge')).first
+
+	if newState:getEventEnd() < evalToTime then
+		newState:setEventEnd(evalToTime)
+	end
+
+	olddod = newState:getValueAtTime(dStateVarKey('DepthofDischarge'), te).second
+
+	powerOut = dProfile()
+	powerOut:addData(te, 65)
+
+	powerIn = calcSolarPanelPowerProfile(te, ee, newState, position, environment, subParams)
+
+	batterysize = subParams:getDoubleParameter('batterySize')
+	dodrateofchange = ((powerOut-powerIn)/batterysize)
+
+	exceeded = false
+	freq = 5.0
+	dodProf, exceeded = dodrateofchange:lowerLimitIntegrateToProf(te, ee, freq, 0.0, exceeded, 0, olddod)
+
+	newState:addValue(dStateVarKey('DepthofDischarge'), dodProf)
+
+	return true
+end
+
+function calcSolarPanelPowerProfile(start, endTime, state, position, environment, subParams)
+	solarpanelpowerprofile = dProfile()
+	freq = 5
+
+	last_shadow = environment:getSun():castShadowOnPos(position, start)
+
+	solarpanelpowerprofile:addData(start, getSolarPanelPower(last_shadow, subParams))
+
+	time = start+freq
+
+	repeat
+		shadow = environment:getSun():castShadowOnPos(position, time)
+		if not (shadow == last_shadow) then
+			solarpanelpowerprofile:addData(time, getSolarPanelPower(shadow, subParams))
+			last_shadow = shadow
+		end
+
+		time = time + freq
+	until time > endTime
+
+	state:addValue(dStateVarKey('SolarPanelPowerIn'), solarpanelpowerprofile)
+
+	return solarpanelpowerprofile
+end
+
+function getSolarPanelPower(shadow, subParams)
+	if shadow == Sun.UMBRA then
+		return 0
+	elseif shadow == Sun.PENUMBRA then
+		return subParams:getDoubleParameter('penumbraSolarPower')
+	else
+		return subParams:getDoubleParameter('fullSolarPower')
+	end
+end

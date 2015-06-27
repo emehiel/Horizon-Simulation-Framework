@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{755AC5CB-EF82-494E-B5B3-D4C39E133469}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PicassoGUI.Util</RootNamespace>
+    <AssemblyName>PicassoGUI.Util</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <Compile Include="Asset.cs" />
+    <Compile Include="Corner.cs" />
+    <Compile Include="Position.cs" />
+    <Compile Include="PositionConverter.cs" />
+    <Compile Include="ProcessCaller.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ResizeGrip.cs" />
+    <Compile Include="SimParameters.cs" />
+    <Compile Include="Target.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ground.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\target.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\target_selected.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AssetPosition\AssetPosition.csproj">
+      <Project>{2B47C5BB-C66B-4409-B6EC-C2EDB52C2057}</Project>
+      <Name>AssetPosition</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AutoButton\AutoButton.csproj">
+      <Project>{8996992E-174E-4556-BF47-082E51CCBA9E}</Project>
+      <Name>AutoButton</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hsf.Utility\Hsf.Utility.csproj">
+      <Project>{1D70596C-9AB2-4AD9-8CE8-1B2F1DEB5659}</Project>
+      <Name>Hsf.Utility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Picasso.Utility\Picasso.Utility.csproj">
+      <Project>{7615E1F3-5E5F-4AD7-A834-9A935CAEB35A}</Project>
+      <Name>Picasso.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

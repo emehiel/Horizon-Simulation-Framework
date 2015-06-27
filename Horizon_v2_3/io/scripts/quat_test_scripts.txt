@@ -1,0 +1,82 @@
+function test_Quat()
+io.write("----Begin Quat Tests----\n")
+--Test Default Constructor
+q1 = Quat()
+--Test Print
+q1:print()
+--Test constructor with 3 doubles
+q2 = Quat(1.1,2.2,3.3)
+q2:print()
+--Test constructor with 4 doubles
+q3 = Quat(1.1,2.2,3.3, 4.4)
+q3:print()
+--Test constructor with matrix and double
+m1 = Matrix(3,1,1.0)
+q4 = Quat(m1, 2.0)
+q4:print()
+--Test constructor with 2 matrices
+m3 = Matrix(3,1,0)
+m4 = Matrix(3,1,0)
+m3:setValue(1,1,1)
+m4:setValue(2,1,1)
+q5 = Quat(m3, m4)
+q5:print()
+--Test getter methods
+io.write('q0=', q3:comp_q0(), '\n')
+io.write('q1=', q3:comp_q1(), '\n')
+io.write('q2=', q3:comp_q2(), '\n')
+io.write('q3=', q3:comp_q3(), '\n')
+--Test setter methods
+q3:set_q0(1.2)
+q3:set_q1(2.3)
+q3:set_q2(3.4)
+q3:set_q3(4.5)
+io.write('q0=', q3:comp_q0(), '\n')
+io.write('q1=', q3:comp_q1(), '\n')
+io.write('q2=', q3:comp_q2(), '\n')
+io.write('q3=', q3:comp_q3(), '\n')
+
+--Test conjugate
+q6 = q3:conjugate()
+q6:print()
+
+--Test norm
+io.write('norm of q3=', q3:norm(), '\n')
+
+--Test normalize
+q7 = q3:normalize()
+q7:print()
+
+--Test operators
+q8 = q2 + q3
+q9 = q2 + 2.0
+q10 = 2.0 + q2
+q11 = q2 - q3
+q12 = q2 - 2.0
+q13 = 2.0 - q2
+q14 = q2 * q3
+q15 = q2 * 2.0
+q16 = 2.0 * q2
+
+q8:print()
+q9:print()
+q10:print()
+q11:print()
+q12:print()
+q13:print()
+q14:print()
+q15:print()
+q16:print()
+
+--Test ==
+q2_t = Quat(1.1,2.2,3.3)
+q2_f = Quat(1.1,2.2,3.4)
+
+io.write(tostring(q2==q2_t),'\n')
+io.write(tostring(q2==q2_f),'\n')
+
+--Test tostring
+io.write(tostring(q2),'\n')
+
+io.write("----End Quat Tests----\n")
+end

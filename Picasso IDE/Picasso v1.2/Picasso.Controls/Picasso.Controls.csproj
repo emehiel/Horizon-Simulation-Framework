@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EAA5DBA1-9A84-460E-9474-6C8F0D617B8B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Picasso.Controls</RootNamespace>
+    <AssemblyName>Picasso.Controls</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DependencyConnection.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DependencyConnection.Designer.cs">
+      <DependentUpon>DependencyConnection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DrawingCanvas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DrawingCanvas.Designer.cs">
+      <DependentUpon>DrawingCanvas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ScriptingEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ScriptingEditor.Designer.cs">
+      <DependentUpon>ScriptingEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SlideBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SlideBar.Designer.cs">
+      <DependentUpon>SlideBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubsystemIcon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubsystemIcon.Designer.cs">
+      <DependentUpon>SubsystemIcon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuggestionBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SuggestionBox.Designer.cs">
+      <DependentUpon>SuggestionBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SymbolListbox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SymbolListbox.Designer.cs">
+      <DependentUpon>SymbolListbox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TargetIcon.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TargetIcon.Designer.cs">
+      <DependentUpon>TargetIcon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrafficStatus.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TrafficStatus.Designer.cs">
+      <DependentUpon>TrafficStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TransparentButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WorldMap.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WorldMap.Designer.cs">
+      <DependentUpon>WorldMap.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DependencyConnection.resx">
+      <DependentUpon>DependencyConnection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DrawingCanvas.resx">
+      <DependentUpon>DrawingCanvas.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScriptingEditor.resx">
+      <DependentUpon>ScriptingEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SlideBar.resx">
+      <DependentUpon>SlideBar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubsystemIcon.resx">
+      <DependentUpon>SubsystemIcon.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SuggestionBox.resx">
+      <DependentUpon>SuggestionBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SymbolListbox.resx">
+      <DependentUpon>SymbolListbox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TargetIcon.resx">
+      <DependentUpon>TargetIcon.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrafficStatus.resx">
+      <DependentUpon>TrafficStatus.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorldMap.resx">
+      <DependentUpon>WorldMap.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\target.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Hsf.Elements\Hsf.Elements.csproj">
+      <Project>{0BC3F9ED-727B-4C69-BF32-C75CD235996A}</Project>
+      <Name>Hsf.Elements</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hsf.Scripting\Hsf.Scripting.csproj">
+      <Project>{2C5FC5E1-26F5-44D0-B48D-12EEB3B0873F}</Project>
+      <Name>Hsf.Scripting</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hsf.Utility\Hsf.Utility.csproj">
+      <Project>{1D70596C-9AB2-4AD9-8CE8-1B2F1DEB5659}</Project>
+      <Name>Hsf.Utility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Memento\MementoModel.csproj">
+      <Project>{387798C7-7299-471C-9DC2-CEC738A03D40}</Project>
+      <Name>MementoModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Picasso.Dialogs\Picasso.Dialogs.csproj">
+      <Project>{238EF2AD-6AF8-45F1-A67A-4F39FF3CC0AD}</Project>
+      <Name>Picasso.Dialogs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Picasso.Utility\Picasso.Utility.csproj">
+      <Project>{7615E1F3-5E5F-4AD7-A834-9A935CAEB35A}</Project>
+      <Name>Picasso.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\land_shallow_topo_2048.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\target_selected.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellowButtonOn.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\greenButtonOff.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\greenButtonOn.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redButtonOff.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redButtonOn.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellowButtonOff.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TableSymbol.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClassSymbol.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FunctionSymbol.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GlobalSymbol.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KeywordSymbol.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LocalSymbol.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\intelData.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

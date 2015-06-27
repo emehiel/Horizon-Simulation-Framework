@@ -1,0 +1,7 @@
+function test_simParams()
+io.write("----Begin simParams Tests----\n")
+io.write('SIMSTART_JD = ', SIMSTART_JD(), '\n')
+io.write('SIMSTART_SECONDS = ', SIMSTART_SECONDS(), '\n')
+io.write('SIMEND_SECONDS = ', SIMEND_SECONDS(), '\n')
+io.write("----End simParams Tests----\n")
+end

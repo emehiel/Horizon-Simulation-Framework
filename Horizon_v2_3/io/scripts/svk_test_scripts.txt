@@ -1,0 +1,83 @@
+function test_dStateVarKey()
+io.write("----Begin dStateVarKey Tests----\n")
+--Test constructor
+svk1 = dStateVarKey('svk1')
+--Test getNameString
+--Output should be "svk1=svk"
+io.write('svk1=', svk1:getNameString(), '\n')
+--Test copy constructor
+svk2 = dStateVarKey(svk1)
+--Output should be "svk1=svk svk2=svk1"
+io.write('svk1=', svk1:getNameString(), ' svk2=', svk2:getNameString(), '\n')
+io.write("----End dStateVarKey Tests----\n")
+end
+
+function test_fStateVarKey()
+io.write("----Begin fStateVarKey Tests----\n")
+--Test constructor
+svk1 = fStateVarKey('svk1')
+--Test getNameString
+--Output should be "svk1=svk"
+io.write('svk1=', svk1:getNameString(), '\n')
+--Test copy constructor
+svk2 = fStateVarKey(svk1)
+--Output should be "svk1=svk svk2=svk1"
+io.write('svk1=', svk1:getNameString(), ' svk2=', svk2:getNameString(), '\n')
+io.write("----End fStateVarKey Tests----\n")
+end
+
+function test_iStateVarKey()
+io.write("----Begin iStateVarKey Tests----\n")
+--Test constructor
+svk1 = iStateVarKey('svk1')
+--Test getNameString
+--Output should be "svk1=svk"
+io.write('svk1=', svk1:getNameString(), '\n')
+--Test copy constructor
+svk2 = iStateVarKey(svk1)
+--Output should be "svk1=svk svk2=svk1"
+io.write('svk1=', svk1:getNameString(), ' svk2=', svk2:getNameString(), '\n')
+io.write("----End iStateVarKey Tests----\n")
+end
+
+function test_bStateVarKey()
+io.write("----Begin bStateVarKey Tests----\n")
+--Test constructor
+svk1 = bStateVarKey('svk1')
+--Test getNameString
+--Output should be "svk1=svk"
+io.write('svk1=', svk1:getNameString(), '\n')
+--Test copy constructor
+svk2 = bStateVarKey(svk1)
+--Output should be "svk1=svk svk2=svk1"
+io.write('svk1=', svk1:getNameString(), ' svk2=', svk2:getNameString(), '\n')
+io.write("----End bStateVarKey Tests----\n")
+end
+
+function test_mStateVarKey()
+io.write("----Begin iStateVarKey Tests----\n")
+--Test constructor
+svk1 = mStateVarKey('svk1')
+--Test getNameString
+--Output should be "svk1=svk"
+io.write('svk1=', svk1:getNameString(), '\n')
+--Test copy constructor
+svk2 = mStateVarKey(svk1)
+--Output should be "svk1=svk svk2=svk1"
+io.write('svk1=', svk1:getNameString(), ' svk2=', svk2:getNameString(), '\n')
+io.write("----End mStateVarKey Tests----\n")
+end
+
+function test_qStateVarKey()
+io.write("----Begin iStateVarKey Tests----\n")
+--Test constructor
+svk1 = qStateVarKey('svk1')
+--Test getNameString
+--Output should be "svk1=svk"
+io.write('svk1=', svk1:getNameString(), '\n')
+--Test copy constructor
+svk2 = qStateVarKey(svk1)
+--Output should be "svk1=svk svk2=svk1"
+io.write('svk1=', svk1:getNameString(), ' svk2=', svk2:getNameString(), '\n')
+io.write("----End qStateVarKey Tests----\n")
+end

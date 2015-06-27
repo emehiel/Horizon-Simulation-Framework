@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrbitTools", "OrbitTools.csproj", "{AD17E72A-0F30-41BA-AF04-63D60EABE06B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrbitToolsDemo", "..\OrbitToolsDemo\OrbitToolsDemo.csproj", "{2016B0B6-C5E6-49F2-A9B5-FADF7822B885}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{AD17E72A-0F30-41BA-AF04-63D60EABE06B}.Debug.ActiveCfg = Debug|.NET
+		{AD17E72A-0F30-41BA-AF04-63D60EABE06B}.Debug.Build.0 = Debug|.NET
+		{AD17E72A-0F30-41BA-AF04-63D60EABE06B}.Release.ActiveCfg = Release|.NET
+		{AD17E72A-0F30-41BA-AF04-63D60EABE06B}.Release.Build.0 = Release|.NET
+		{2016B0B6-C5E6-49F2-A9B5-FADF7822B885}.Debug.ActiveCfg = Debug|.NET
+		{2016B0B6-C5E6-49F2-A9B5-FADF7822B885}.Debug.Build.0 = Debug|.NET
+		{2016B0B6-C5E6-49F2-A9B5-FADF7822B885}.Release.ActiveCfg = Release|.NET
+		{2016B0B6-C5E6-49F2-A9B5-FADF7822B885}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

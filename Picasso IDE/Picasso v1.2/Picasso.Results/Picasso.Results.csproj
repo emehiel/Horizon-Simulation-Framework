@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D3A219E7-138C-4205-B864-8C712663BB9A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Picasso.Results</RootNamespace>
+    <AssemblyName>Picasso.Results</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CsOpenGl">
+      <HintPath>..\..\CsOpenGl\bin\Debug\CsOpenGl.dll</HintPath>
+    </Reference>
+    <Reference Include="Hsf.Scripting, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Hsf.Scripting\bin\Debug\Hsf.Scripting.dll</HintPath>
+    </Reference>
+    <Reference Include="Hsf.Utility, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Hsf.Utility\bin\Debug\Hsf.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="MementoModel, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Memento\bin\Debug\MementoModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DirectX, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.DirectX.Direct3D, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.DirectX.Direct3DX, Version=1.0.2911.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Picasso.Dialogs, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Picasso.Dialogs\bin\Debug\Picasso.Dialogs.dll</HintPath>
+    </Reference>
+    <Reference Include="Picasso.Utility, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Picasso.Utility\bin\Debug\Picasso.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aCamera.cs" />
+    <Compile Include="aColor.cs" />
+    <Compile Include="aObject.cs" />
+    <Compile Include="aSkybox.cs" />
+    <Compile Include="stateHistory.cs" />
+    <Compile Include="statePoint.cs" />
+    <Compile Include="aTexCoord.cs" />
+    <Compile Include="aVertex.cs" />
+    <Compile Include="GlContext.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GlContext.Designer.cs">
+      <DependentUpon>GlContext.cs</DependentUpon>
+    </Compile>
+    <Compile Include="aMesh.cs" />
+    <Compile Include="GroundTrack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GroundTrack.Designer.cs">
+      <DependentUpon>GroundTrack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kQuat.cs" />
+    <Compile Include="ModelView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModelView.Designer.cs">
+      <DependentUpon>ModelView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ResultsElement.cs" />
+    <Compile Include="Satellite.cs" />
+    <Compile Include="StateHistories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StateHistories.Designer.cs">
+      <DependentUpon>StateHistories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StatePlot.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StatePlot.Designer.cs">
+      <DependentUpon>StatePlot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GlContext.resx">
+      <DependentUpon>GlContext.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GroundTrack.resx">
+      <DependentUpon>GroundTrack.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModelView.resx">
+      <DependentUpon>ModelView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StateHistories.resx">
+      <DependentUpon>StateHistories.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatePlot.resx">
+      <DependentUpon>StatePlot.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close Button Over.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close Button.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Hsf.Elements\Hsf.Elements.csproj">
+      <Project>{0BC3F9ED-727B-4C69-BF32-C75CD235996A}</Project>
+      <Name>Hsf.Elements</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Picasso.Controls\Picasso.Controls.csproj">
+      <Project>{EAA5DBA1-9A84-460E-9474-6C8F0D617B8B}</Project>
+      <Name>Picasso.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Picasso.Forms\Picasso.Forms.csproj">
+      <Project>{913AB6E8-5181-4816-997A-BCA26680A29B}</Project>
+      <Name>Picasso.Forms</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\interpButtonSplineOver.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\interpButtonLine.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\interpButtonLineOver.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\interpButtonSpline.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\land_shallow_topo_1024.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speed4x.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speed0x.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speed1x.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speed2x.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\starbox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\starbox.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

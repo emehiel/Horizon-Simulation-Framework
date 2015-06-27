@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SCENARIO scenarioName="">
+  <SIMULATION_PARAMETERS SimStartJD="2455006.13545139" simStart="0.0" SimEnd="0" />
+  <SCHEDULER_PARAMETERS MaxSchedules="2" CropTo="1" SimStep="30" />
+</SCENARIO>

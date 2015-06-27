@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+  <Class name ="State"
+         type ="void">
+    <Method name ="getValueAtTime"
+            type ="Double">
+      <input name ="SubsystemKey"
+             type ="String"/>
+      <input name ="time"
+             type ="Double"/>
+    </Method>
+    <Property name="Length"
+              type="Double"/>
+  </Class>
+  
+  <Keyword name="and"
+         type="Keyword"/>
+  <Keyword name="break"
+         type="Keyword"/>
+  <Keyword name="do"
+         type="Keyword"/>
+  <Keyword name="else"
+         type="Keyword"/>
+  <Keyword name="elseif"
+         type="Keyword"/>
+  <Keyword name="end"
+         type="Keyword"/>
+  <Keyword name="for"
+         type="Keyword"/>
+  <Keyword name="function"
+         type="Keyword"/>
+  <Keyword name="if"
+         type="Keyword"/>
+  <Keyword name="local"
+         type="Keyword"/>
+  <Keyword name="nil"
+         type="Keyword"/>
+  <Keyword name="not"
+         type="Keyword"/>
+  <Keyword name="or"
+         type="Keyword"/>
+  <Keyword name="repeat"
+         type="Keyword"/>
+  <Keyword name="return"
+         type="Keyword"/>
+  <Keyword name="then"
+         type="Keyword"/>
+  <Keyword name="until"
+         type="Keyword"/>
+  <Keyword name="while"
+         type="Keyword"/>
+</Root>

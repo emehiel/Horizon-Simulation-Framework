@@ -1,0 +1,62 @@
+function EOSensor_init(sub, subParams)
+	sub:addKey(dStateVarKey('numPixels'))
+	sub:addKey(dStateVarKey('IncidenceAngle'))
+	sub:addKey(bStateVarKey('EOSensorOn'))
+	subParams:addDoubleParameter('lowQualityNumPixels', 5000)
+	subParams:addDoubleParameter('midQualityNumPixels', 10000)
+	subParams:addDoubleParameter('highQualityNumPixels', 15000)
+	subParams:addDoubleParameter('lowQualityCaptureTime', 3)
+	subParams:addDoubleParameter('midQualityCaptureTime', 5)
+	subParams:addDoubleParameter('highQualityCaptureTime', 7)
+end
+
+function EOSensor_canPerform(oldState, newState, task, position, environment, deps, subParams)
+	if task:getType() == 'ImagingTask' then
+		value = task:getTarget():getValue()
+		pixels = subParams:getDoubleParameter('lowQualityNumPixels')
+		timetocapture = subParams:getDoubleParameter('lowQualityCaptureTime')
+
+		if value < 8 and value >= 5 then
+			pixels = subParams:getDoubleParameter('midQualityNumPixels')
+			timetocapture = subParams:getDoubleParameter('midQualityCaptureTime')
+		end
+		if value >= 8 then
+			pixels = subParams:getDoubleParameter('highQualityNumPixels')
+			timetocapture = subParams:getDoubleParameter('highQualityCaptureTime')
+		end
+
+		es = newState:getEventStart()
+		ts = newState:getTaskStart()
+		
+		te = ts + timetocapture
+		newState:setTaskEnd(te)		
+		
+
+		timage = ts + timetocapture/2
+		m_SC_pos_at_tf_ECI = position:getPosECI(timage)
+		m_target_pos_at_tf_ECI = task:getTarget():getPos():getPosECI(timage)
+		m_pv = m_target_pos_at_tf_ECI - m_SC_pos_at_tf_ECI
+		pos_norm = (-1)*m_SC_pos_at_tf_ECI/norm((-1)*m_SC_pos_at_tf_ECI)
+		pv_norm = m_pv/norm(m_pv)
+
+		incidenceang = 90-180/math.pi*math.acos(dot(pos_norm, pv_norm))
+
+		newState:addValue(dStateVarKey('IncidenceAngle'), dPair(timage, incidenceang))
+		newState:addValue(dStateVarKey('IncidenceAngle'), dPair(timage+1, 0.0))
+
+		newState:addValue(dStateVarKey('numPixels'), dPair(timage, pixels))
+		newState:addValue(dStateVarKey('numPixels'), dPair(timage+1, 0.0))
+
+		newState:addValue(bStateVarKey('EOSensorOn'), bPair(ts, true))
+		newState:addValue(bStateVarKey('EOSensorOn'), bPair(te, false))
+	end
+
+	return true
+end
+
+function EOSensor_canExtend(state, position, environment, evalToTime, deps, subParams)
+	if (state:getEventEnd() < evalToTime) then
+		state:setEventEnd(evalToTime)
+	end
+	return true
+end

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MODEL>
+  <ENVIRONMENT>
+    <SUN isSunVecConstant="True" />
+  </ENVIRONMENT>
+  <SCHEDULE_EVALUATOR type="scripted" evaluateLUAFcn="ScheduleEvaluator" />
+</MODEL>

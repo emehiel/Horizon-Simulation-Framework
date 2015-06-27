@@ -1,0 +1,57 @@
+function Ssdr_init(sub, subParams)
+	sub:addKey(dStateVarKey('DataBufferFillRatio'))
+	subParams:addDoubleParameter('buffersize', 5000)
+end
+
+function Ssdr_canPerform(oldState, newState, task, position, environment, deps, subParams)
+
+	if task:getType() == 'ImagingTask' then
+		ts = newState:getTaskStart()
+		te = newState:getTaskEnd()
+		buffersize = subParams:getDoubleParameter('buffersize')
+		oldbufferratio = oldState:getLastValue(dStateVarKey('DataBufferFillRatio')).second
+		newdataratein = (deps:callDoubleDependency('SSDRSUB_getNewDataProfile')/ buffersize)
+
+		exceeded = false
+		newdataratio, exceeded = newdataratein:upperLimitIntegrateToProf(ts, te, 5, 1, exceeded, 0, oldbufferratio)
+		if not exceeded then
+			newState:addValue(dStateVarKey('DataBufferFillRatio'), newdataratio)
+			return true
+		end
+		return false	
+	end
+
+	if task:getType() == 'CommTask' then
+		ts = newState:getTaskStart()
+		newState:setTaskEnd(ts + 60.0)
+		te = newState:getTaskEnd()
+
+		buffersize = subParams:getDoubleParameter('buffersize')
+		data = buffersize*oldState:getLastValue(dStateVarKey('DataBufferFillRatio')).second
+
+		if data/2 > 50 then
+			dataqueout  = data/2
+		else
+			dataqueout = data
+		end
+
+		if data-dataqueout < 0 then
+			dataqueout = data
+		end
+
+		if dataqueout > 0 then
+			newState:addValue(dStateVarKey('DataBufferFillRatio'), dPair(te, (data-dataqueout)/buffersize))
+		end
+
+		return true
+	end
+
+	return true
+end
+
+function Ssdr_canExtend(state, position, environment, evalToTime, deps, subParams)
+	if (state:getEventEnd() < evalToTime) then
+		state:setEventEnd(evalToTime)
+	end
+	return true
+end

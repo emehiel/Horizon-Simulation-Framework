@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1E6CDB46-B2F4-4903-BAC6-7374B7E3F3F3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PicassoGUI.Forms</RootNamespace>
+    <AssemblyName>PicassoGUI.Forms</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <Compile Include="AssetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssetForm.Designer.cs">
+      <DependentUpon>AssetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DependencyCollectorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DependencyCollectorForm.Designer.cs">
+      <DependentUpon>DependencyCollectorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DependencyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DependencyForm.Designer.cs">
+      <DependentUpon>DependencyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AssetForm.resx">
+      <DependentUpon>AssetForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DependencyCollectorForm.resx">
+      <DependentUpon>DependencyCollectorForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DependencyForm.resx">
+      <DependentUpon>DependencyForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AutoRichTextBox\AutoRichTextBox\AutoRichTextBox.csproj">
+      <Project>{152609FC-A743-4CBC-AA1B-13BE2656E0B0}</Project>
+      <Name>AutoRichTextBox</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Memento\MementoModel.csproj">
+      <Project>{387798C7-7299-471C-9DC2-CEC738A03D40}</Project>
+      <Name>MementoModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PicassoGUI.Controls\PicassoGUI.Controls.csproj">
+      <Project>{A4D771D2-C1DD-4263-BB22-FFAD191D8DE5}</Project>
+      <Name>PicassoGUI.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PicassoGUI.Util\PicassoGUI.Util.csproj">
+      <Project>{755AC5CB-EF82-494E-B5B3-D4C39E133469}</Project>
+      <Name>PicassoGUI.Util</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HorizonBanner.jpg" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,129 @@
+function test_dPair()
+io.write("----Begin dPair Tests----\n")
+--Test constructor
+pair1 = dPair(1.11, 2.22)
+--Output should be "f1=1.11 s1=2.22"
+io.write('f1=', pair1.first,' s1=', pair1.second, '\n')
+--Test copy constructor
+pair2 = dPair(pair1)
+--Output should be "f2=1.11 s2=2.22"
+io.write('f2=', pair2.first,' s2=', pair2.second, '\n')
+--Test setting first and second properties
+pair1.first = 1.12
+pair1.second = 2.23
+--Output should be "f2=1.11 f1=1.12 s1=2.23"
+--We print out f2 as well to ensure that a copy was made, not a reference
+io.write('f2=', pair2.first, ' f1=', pair1.first,' s1=', pair1.second, '\n')
+--Test swap
+pair1:swap(pair2)
+--Output should be "f1=1.11 f2=1.12"
+io.write('f1=', pair1.first, ' f2=', pair2.first, '\n')
+io.write("----End dPair Tests----\n")
+end
+
+function test_fPair()
+io.write("----Begin fPair Tests----\n")
+--Test constructor
+pair1 = fPair(1.11, 2.22)
+--Output should be "f1=1.11 s1=2.22"
+io.write('f1=', pair1.first,' s1=', pair1.second, '\n')
+--Test copy constructor
+pair2 = fPair(pair1)
+--Output should be "f2=1.11 s2=2.22"
+io.write('f2=', pair2.first,' s2=', pair2.second, '\n')
+--Test setting first and second properties
+pair1.first = 1.12
+pair1.second = 2.23
+--Output should be "f2=1.11 f1=1.12 s1=2.23"
+--We print out f2 as well to ensure that a copy was made, not a reference
+io.write('f2=', pair2.first, ' f1=', pair1.first,' s1=', pair1.second, '\n')
+--Test swap
+pair1:swap(pair2)
+--Output should be "f1=1.11 f2=1.12"
+io.write('f1=', pair1.first, ' f2=', pair2.first, '\n')
+io.write("----End fPair Tests----\n")
+end
+
+function test_iPair()
+io.write("----Begin iPair Tests----\n")
+--Test constructor
+pair1 = iPair(1, 2)
+--Output should be "f1=1 s1=2"
+io.write('f1=', pair1.first,' s1=', pair1.second, '\n')
+--Test copy constructor
+pair2 = iPair(pair1)
+--Output should be "f2=1 s2=2"
+io.write('f2=', pair2.first,' s2=', pair2.second, '\n')
+--Test setting first and second properties
+pair1.first = 3
+pair1.second = 4
+--Output should be "f2=1 f1=3 s1=4"
+--We print out f2 as well to ensure that a copy was made, not a reference
+io.write('f2=', pair2.first, ' f1=', pair1.first,' s1=', pair1.second, '\n')
+--Test swap
+pair1:swap(pair2)
+--Output should be "f1=1 f2=3"
+io.write('f1=', pair1.first, ' f2=', pair2.first, '\n')
+io.write("----End iPair Tests----\n")
+end
+
+function test_bPair()
+io.write("----Begin bPair Tests----\n")
+--Test constructor
+pair1 = bPair(1, true)
+--Output should be "f1=1 s1=true"
+io.write('f1=', pair1.first,' s1=', tostring(pair1.second), '\n')
+--Test copy constructor
+pair2 = bPair(pair1)
+--Output should be "f2=1 s2=true"
+io.write('f2=', pair2.first,' s2=', tostring(pair2.second), '\n')
+--Test setting first and second properties
+pair1.first = 3
+pair1.second = false
+--Output should be "f2=1 f1=3 s1=false"
+--We print out f2 as well to ensure that a copy was made, not a reference
+io.write('f2=', pair2.first, ' f1=', pair1.first,' s1=', tostring(pair1.second), '\n')
+--Test swap
+pair1:swap(pair2)
+--Output should be "f1=1 f2=3"
+io.write('f1=', pair1.first, ' f2=', pair2.first, '\n')
+io.write("----End bPair Tests----\n")
+end
+
+function test_mPair()
+io.write("----Begin mPair Tests----\n")
+--Test constructor
+pair1 = mPair(1, Matrix(3,1,1))
+io.write('f1=', pair1.first,' s1=', tostring(pair1.second), '\n')
+--Test copy constructor
+pair2 = mPair(pair1)
+io.write('f2=', pair2.first,' s2=', tostring(pair2.second), '\n')
+--Test setting first and second properties
+pair1.first = 3
+pair1.second = Matrix(3,1,2)
+--We print out f2 as well to ensure that a copy was made, not a reference
+io.write('f2=', pair2.first, ' f1=', pair1.first,' s1=', tostring(pair1.second), '\n')
+--Test swap
+pair1:swap(pair2)
+io.write('f1=', pair1.first, ' f2=', tostring(pair2.first), '\n')
+io.write("----End mPair Tests----\n")
+end
+
+function test_qPair()
+io.write("----Begin qPair Tests----\n")
+--Test constructor
+pair1 = qPair(1, Quat(3,1,1))
+io.write('f1=', pair1.first,' s1=', tostring(pair1.second), '\n')
+--Test copy constructor
+pair2 = qPair(pair1)
+io.write('f2=', pair2.first,' s2=', tostring(pair2.second), '\n')
+--Test setting first and second properties
+pair1.first = 3
+pair1.second = Quat(1,1,1,1)
+--We print out f2 as well to ensure that a copy was made, not a reference
+io.write('f2=', pair2.first, ' f1=', pair1.first,' s1=', tostring(pair1.second), '\n')
+--Test swap
+pair1:swap(pair2)
+io.write('f1=', pair1.first, ' f2=', tostring(pair2.first), '\n')
+io.write("----End qPair Tests----\n")
+end

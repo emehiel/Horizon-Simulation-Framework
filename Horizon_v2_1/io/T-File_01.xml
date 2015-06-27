@@ -1,0 +1,1402 @@
+<TARGETDECK>
+	<TARGET	
+		name = "SC1001"
+		Latitude = "55.8"
+		Longitude = "37.6"
+		Altitude = "185"
+		value = "1"
+		MinQual_cm = "60"
+		Freq_days = "2"
+		CC = "RU"
+		WX_Reg = "C1"
+		Comment = "Moscow cluster"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "SC1002"
+		Latitude = "55.8"
+		Longitude = "37.4"
+		Altitude = "185"
+		value = "1"
+		MinQual_cm = "60"
+		Freq_days = "2"
+		CC = "RU"
+		WX_Reg = "C1"
+		Comment = "Moscow cluster"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "SC1003"
+		Latitude = "55.9"
+		Longitude = "37.4"
+		Altitude = "185"
+		value = "1"
+		MinQual_cm = "55"
+		Freq_days = "2"
+		CC = "RU"
+		WX_Reg = "C1"
+		Comment = "Moscow cluster"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "SC1004"
+		Latitude = "55.95"
+		Longitude = "37.5"
+		Altitude = "185"
+		value = "1"
+		MinQual_cm = "55"
+		Freq_days = "2"
+		CC = "RU"
+		WX_Reg = "C1"
+		Comment = "Moscow cluster"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "SC1005"
+		Latitude = "55.95"
+		Longitude = "37.6"
+		Altitude = "185"
+		value = "1"
+		MinQual_cm = "52"
+		Freq_days = "2"
+		CC = "RU"
+		WX_Reg = "C1"
+		Comment = "Moscow cluster"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "SC1006"
+		Latitude = "55.9"
+		Longitude = "37.8"
+		Altitude = "185"
+		value = "1"
+		MinQual_cm = "51"
+		Freq_days = "2"
+		CC = "RU"
+		WX_Reg = "C1"
+		Comment = "Moscow cluster"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "SC1007"
+		Latitude = "55.8"
+		Longitude = "37.8"
+		Altitude = "185"
+		value = "1"
+		MinQual_cm = "55"
+		Freq_days = "2"
+		CC = "RU"
+		WX_Reg = "C1"
+		Comment = "Moscow cluster"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "SC1008"
+		Latitude = "55.7"
+		Longitude = "37.8"
+		Altitude = "185"
+		value = "1"
+		MinQual_cm = "55"
+		Freq_days = "2"
+		CC = "RU"
+		WX_Reg = "C1"
+		Comment = "Moscow cluster"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "SC1009"
+		Latitude = "55.6"
+		Longitude = "37.65"
+		Altitude = "185"
+		value = "1"
+		MinQual_cm = "51"
+		Freq_days = "2"
+		CC = "RU"
+		WX_Reg = "C1"
+		Comment = "Moscow cluster"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "SC1010"
+		Latitude = "55.65"
+		Longitude = "37.55"
+		Altitude = "185"
+		value = "1"
+		MinQual_cm = "51"
+		Freq_days = "2"
+		CC = "RU"
+		WX_Reg = "C1"
+		Comment = "Moscow cluster"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00011"
+		Latitude = "70.1"
+		Longitude = "33.1"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "3"
+		CC = "RU"
+		WX_Reg = "EEU"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00012"
+		Latitude = "69.9"
+		Longitude = "32.9"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "3"
+		CC = "RU"
+		WX_Reg = "EEU"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00013"
+		Latitude = "71.5"
+		Longitude = "52"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "3"
+		CC = "RU"
+		WX_Reg = "EEU"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00014"
+		Latitude = "40.1"
+		Longitude = "44.5"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "3"
+		CC = "RU"
+		WX_Reg = "EEU"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00015"
+		Latitude = "27.8"
+		Longitude = "54"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "3"
+		CC = "RU"
+		WX_Reg = "EEU"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00016"
+		Latitude = "50.8"
+		Longitude = "31.2"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "3"
+		CC = "RU"
+		WX_Reg = "EEU"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00017"
+		Latitude = "44.9"
+		Longitude = "48.9"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "3"
+		CC = "RU"
+		WX_Reg = "EEU"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00018"
+		Latitude = "44.05"
+		Longitude = "43"
+		Altitude = "0"
+		value = "2"
+		MinQual_cm = "60"
+		Freq_days = "1"
+		CC = "IR"
+		WX_Reg = "ME"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00019"
+		Latitude = "33.5"
+		Longitude = "44.5"
+		Altitude = "0"
+		value = "2"
+		MinQual_cm = "60"
+		Freq_days = "1"
+		CC = "IQ"
+		WX_Reg = "ME"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00020"
+		Latitude = "36.3"
+		Longitude = "43.1"
+		Altitude = "0"
+		value = "2"
+		MinQual_cm = "60"
+		Freq_days = "1"
+		CC = "IQ"
+		WX_Reg = "ME"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00021"
+		Latitude = "31.9"
+		Longitude = "34.9"
+		Altitude = "0"
+		value = "2"
+		MinQual_cm = "60"
+		Freq_days = "1"
+		CC = "IZ"
+		WX_Reg = "ME"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00022"
+		Latitude = "33.2"
+		Longitude = "36.5"
+		Altitude = "0"
+		value = "2"
+		MinQual_cm = "60"
+		Freq_days = "3"
+		CC = "LB"
+		WX_Reg = "ME"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00023"
+		Latitude = "35.5"
+		Longitude = "51.2"
+		Altitude = "0"
+		value = "2"
+		MinQual_cm = "60"
+		Freq_days = "1"
+		CC = "IR"
+		WX_Reg = "ME"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00024"
+		Latitude = "38.05"
+		Longitude = "46"
+		Altitude = "0"
+		value = "2"
+		MinQual_cm = "60"
+		Freq_days = "1"
+		CC = "IR"
+		WX_Reg = "ME"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00025"
+		Latitude = "31.5"
+		Longitude = "65.8"
+		Altitude = "0"
+		value = "2"
+		MinQual_cm = "60"
+		Freq_days = "3"
+		CC = "AF"
+		WX_Reg = "EME"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00026"
+		Latitude = "34.5"
+		Longitude = "69"
+		Altitude = "0"
+		value = "2"
+		MinQual_cm = "60"
+		Freq_days = "3"
+		CC = "AF"
+		WX_Reg = "EME"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00027"
+		Latitude = "33.9"
+		Longitude = "70.5"
+		Altitude = "0"
+		value = "2"
+		MinQual_cm = "60"
+		Freq_days = "3"
+		CC = "PK"
+		WX_Reg = "EME"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00028"
+		Latitude = "24.9"
+		Longitude = "66.8"
+		Altitude = "0"
+		value = "2"
+		MinQual_cm = "60"
+		Freq_days = "3"
+		CC = "PK"
+		WX_Reg = "EME"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00029"
+		Latitude = "28.5"
+		Longitude = "77.1"
+		Altitude = "0"
+		value = "2"
+		MinQual_cm = "60"
+		Freq_days = "5"
+		CC = "IN"
+		WX_Reg = "SEA"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00030"
+		Latitude = "21.8"
+		Longitude = "105.9"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "5"
+		CC = "VN"
+		WX_Reg = "SEA"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00031"
+		Latitude = "14.5"
+		Longitude = "121"
+		Altitude = "0"
+		value = "2"
+		MinQual_cm = "60"
+		Freq_days = "3"
+		CC = "PH"
+		WX_Reg = "SEA"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00032"
+		Latitude = "31.1"
+		Longitude = "121.5"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "3"
+		CC = "CH"
+		WX_Reg = "SEA"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00033"
+		Latitude = "40"
+		Longitude = "116.5"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "3"
+		CC = "CH"
+		WX_Reg = "SEA"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00034"
+		Latitude = "39"
+		Longitude = "125.5"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "3"
+		CC = "NK"
+		WX_Reg = "FE"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00035"
+		Latitude = "37.2"
+		Longitude = "128"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "3"
+		CC = "SK"
+		WX_Reg = "FE"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00036"
+		Latitude = "35.2"
+		Longitude = "139.6"
+		Altitude = "0"
+		value = "4"
+		MinQual_cm = "60"
+		Freq_days = "10"
+		CC = "JP"
+		WX_Reg = "FE"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00037"
+		Latitude = "-33.8"
+		Longitude = "18.1"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "10"
+		CC = "SA"
+		WX_Reg = "AF"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00038"
+		Latitude = "2.1"
+		Longitude = "45.2"
+		Altitude = "0"
+		value = "2"
+		MinQual_cm = "60"
+		Freq_days = "1"
+		CC = "SO"
+		WX_Reg = "AF"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00039"
+		Latitude = "30"
+		Longitude = "30.9"
+		Altitude = "0"
+		value = "2"
+		MinQual_cm = "60"
+		Freq_days = "12"
+		CC = "EY"
+		WX_Reg = "AF"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00040"
+		Latitude = "9"
+		Longitude = "38.5"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "12"
+		CC = "ET"
+		WX_Reg = "AF"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00041"
+		Latitude = "6.2"
+		Longitude = "3.1"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "20"
+		CC = "NG"
+		WX_Reg = "AF"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00042"
+		Latitude = "40.4"
+		Longitude = "-3.2"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "5"
+		CC = "ES"
+		WX_Reg = "EU"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00043"
+		Latitude = "38.1"
+		Longitude = "-8.9"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "5"
+		CC = "PG"
+		WX_Reg = "EU"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00044"
+		Latitude = "48.8"
+		Longitude = "2.3"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "60"
+		CC = "FR"
+		WX_Reg = "EU"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00045"
+		Latitude = "51.5"
+		Longitude = "-0.1"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "5"
+		CC = "EN"
+		WX_Reg = "EU"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00046"
+		Latitude = "52.1"
+		Longitude = "5.1"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "15"
+		CC = "NT"
+		WX_Reg = "EU"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00047"
+		Latitude = "69.4"
+		Longitude = "18"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "3"
+		CC = "SW"
+		WX_Reg = "EU"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00048"
+		Latitude = "52.5"
+		Longitude = "13.4"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "10"
+		CC = "GE"
+		WX_Reg = "EU"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00049"
+		Latitude = "41.85"
+		Longitude = "12.4"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "30"
+		CC = "IT"
+		WX_Reg = "EU"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00050"
+		Latitude = "-41.2"
+		Longitude = "174.9"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "3"
+		CC = "NZ"
+		WX_Reg = "DU"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00051"
+		Latitude = "-36.7"
+		Longitude = "145.2"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "15"
+		CC = "AU"
+		WX_Reg = "DU"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00052"
+		Latitude = "-53.5"
+		Longitude = "-68"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "3"
+		CC = "AR"
+		WX_Reg = "CSA"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00053"
+		Latitude = "-34.8"
+		Longitude = "-58.2"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "3"
+		CC = "AR"
+		WX_Reg = "CSA"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00054"
+		Latitude = "-0.1"
+		Longitude = "-78.1"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "3"
+		CC = "EC"
+		WX_Reg = "CSA"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00055"
+		Latitude = "3.2"
+		Longitude = "-76.5"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "1"
+		CC = "CO"
+		WX_Reg = "CSA"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00056"
+		Latitude = "8.5"
+		Longitude = "-79.2"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "3"
+		CC = "PN"
+		WX_Reg = "CSA"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00057"
+		Latitude = "10.5"
+		Longitude = "-67"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "3"
+		CC = "VZ"
+		WX_Reg = "CSA"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00058"
+		Latitude = "-16.1"
+		Longitude = "-47.7"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "3"
+		CC = "BZ"
+		WX_Reg = "CSA"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00059"
+		Latitude = "22.8"
+		Longitude = "-83"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "3"
+		CC = "CU"
+		WX_Reg = "CSA"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00060"
+		Latitude = "12.2"
+		Longitude = "-86.2"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "3"
+		CC = "NC"
+		WX_Reg = "CSA"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00061"
+		Latitude = "17.4"
+		Longitude = "-88.3"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "3"
+		CC = "BZ"
+		WX_Reg = "CSA"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00062"
+		Latitude = "14.5"
+		Longitude = "-90.6"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "3"
+		CC = "GU"
+		WX_Reg = "CSA"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00063"
+		Latitude = "19.5"
+		Longitude = "-99.2"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "15"
+		CC = "MX"
+		WX_Reg = "NA"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00064"
+		Latitude = "25.7"
+		Longitude = "-97.5"
+		Altitude = "0"
+		value = "4"
+		MinQual_cm = "60"
+		Freq_days = "10"
+		CC = "US"
+		WX_Reg = "NA"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00065"
+		Latitude = "31.6"
+		Longitude = "-106.5"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "10"
+		CC = "US"
+		WX_Reg = "NA"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00066"
+		Latitude = "29.9"
+		Longitude = "-90.1"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "10"
+		CC = "US"
+		WX_Reg = "NA"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00067"
+		Latitude = "24.5"
+		Longitude = "-81.9"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "10"
+		CC = "US"
+		WX_Reg = "NA"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00068"
+		Latitude = "44.8"
+		Longitude = "-68.75"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "10"
+		CC = "US"
+		WX_Reg = "NA"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00069"
+		Latitude = "47.1"
+		Longitude = "-67.8"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "10"
+		CC = "US"
+		WX_Reg = "NA"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00070"
+		Latitude = "71"
+		Longitude = "-157"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "10"
+		CC = "US"
+		WX_Reg = "NA"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00071"
+		Latitude = "52.8"
+		Longitude = "-169.2"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "10"
+		CC = "US"
+		WX_Reg = "NA"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00072"
+		Latitude = "21.3"
+		Longitude = "-157.8"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "10"
+		CC = "US"
+		WX_Reg = "NA"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00073"
+		Latitude = "15.8"
+		Longitude = "-73.2"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "3"
+		CC = "CA"
+		WX_Reg = "NA"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "S00074"
+		Latitude = "74.8"
+		Longitude = "-95"
+		Altitude = "0"
+		value = "3"
+		MinQual_cm = "60"
+		Freq_days = "3"
+		CC = "CA"
+		WX_Reg = "NA"
+		Comment = "none"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "SC2075"
+		Latitude = "33.6"
+		Longitude = "44.5"
+		Altitude = "0"
+		value = "0"
+		MinQual_cm = "52"
+		Freq_days = "1"
+		CC = "IQ"
+		WX_Reg = "C2"
+		Comment = "Baghdad Cluster"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "SC2076"
+		Latitude = "33.6"
+		Longitude = "44.6"
+		Altitude = "0"
+		value = "0"
+		MinQual_cm = "55"
+		Freq_days = "1"
+		CC = "IQ"
+		WX_Reg = "C2"
+		Comment = "Baghdad Cluster"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "SC2077"
+		Latitude = "33.6"
+		Longitude = "44.8"
+		Altitude = "0"
+		value = "0"
+		MinQual_cm = "52"
+		Freq_days = "1"
+		CC = "IQ"
+		WX_Reg = "C2"
+		Comment = "Baghdad Cluster"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "SC2078"
+		Latitude = "33.4"
+		Longitude = "44.8"
+		Altitude = "0"
+		value = "0"
+		MinQual_cm = "50"
+		Freq_days = "1"
+		CC = "IQ"
+		WX_Reg = "C2"
+		Comment = "Baghdad Cluster"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "SC2079"
+		Latitude = "33.3"
+		Longitude = "44.6"
+		Altitude = "0"
+		value = "0"
+		MinQual_cm = "55"
+		Freq_days = "1"
+		CC = "IQ"
+		WX_Reg = "C2"
+		Comment = "Baghdad Cluster"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "SC2080"
+		Latitude = "33.3"
+		Longitude = "44.3"
+		Altitude = "0"
+		value = "0"
+		MinQual_cm = "55"
+		Freq_days = "1"
+		CC = "IQ"
+		WX_Reg = "C2"
+		Comment = "Baghdad Cluster"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "SC2081"
+		Latitude = "33.4"
+		Longitude = "44.4"
+		Altitude = "0"
+		value = "0"
+		MinQual_cm = "52"
+		Freq_days = "1"
+		CC = "IQ"
+		WX_Reg = "C2"
+		Comment = "Baghdad Cluster"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "SC2082"
+		Latitude = "33.5"
+		Longitude = "44.3"
+		Altitude = "0"
+		value = "0"
+		MinQual_cm = "50"
+		Freq_days = "1"
+		CC = "IQ"
+		WX_Reg = "C2"
+		Comment = "Baghdad Cluster"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "SC3083"
+		Latitude = "47.8"
+		Longitude = "-122.2"
+		Altitude = "0"
+		value = "4"
+		MinQual_cm = "53"
+		Freq_days = "30"
+		CC = "US"
+		WX_Reg = "C3"
+		Comment = "M$ Cluster"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "SC3084"
+		Latitude = "47.8"
+		Longitude = "-122"
+		Altitude = "0"
+		value = "4"
+		MinQual_cm = "53"
+		Freq_days = "30"
+		CC = "US"
+		WX_Reg = "C3"
+		Comment = "M$ Cluster"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "SC3085"
+		Latitude = "48.1"
+		Longitude = "-122"
+		Altitude = "0"
+		value = "4"
+		MinQual_cm = "53"
+		Freq_days = "30"
+		CC = "US"
+		WX_Reg = "C3"
+		Comment = "M$ Cluster"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "SC3086"
+		Latitude = "48.1"
+		Longitude = "-122.2"
+		Altitude = "0"
+		value = "4"
+		MinQual_cm = "55"
+		Freq_days = "30"
+		CC = "US"
+		WX_Reg = "C3"
+		Comment = "M$ Cluster"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "SC3087"
+		Latitude = "48.1"
+		Longitude = "-122.4"
+		Altitude = "0"
+		value = "4"
+		MinQual_cm = "52"
+		Freq_days = "30"
+		CC = "US"
+		WX_Reg = "C3"
+		Comment = "M$ Cluster"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "SC3088"
+		Latitude = "47.8"
+		Longitude = "-122.4"
+		Altitude = "0"
+		value = "4"
+		MinQual_cm = "52"
+		Freq_days = "30"
+		CC = "US"
+		WX_Reg = "C3"
+		Comment = "M$ Cluster"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "SC3089"
+		Latitude = "47.6"
+		Longitude = "-122.4"
+		Altitude = "0"
+		value = "4"
+		MinQual_cm = "55"
+		Freq_days = "30"
+		CC = "US"
+		WX_Reg = "C3"
+		Comment = "M$ Cluster"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "SC3090"
+		Latitude = "47.6"
+		Longitude = "-122.2"
+		Altitude = "0"
+		value = "4"
+		MinQual_cm = "60"
+		Freq_days = "30"
+		CC = "US"
+		WX_Reg = "C3"
+		Comment = "M$ Cluster"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "SC3091"
+		Latitude = "47.6"
+		Longitude = "-122"
+		Altitude = "0"
+		value = "4"
+		MinQual_cm = "60"
+		Freq_days = "30"
+		CC = "US"
+		WX_Reg = "C3"
+		Comment = "M$ Cluster"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "SC4092"
+		Latitude = "3"
+		Longitude = "-76"
+		Altitude = "0"
+		value = "1"
+		MinQual_cm = "55"
+		Freq_days = "1"
+		CC = "CO"
+		WX_Reg = "C4"
+		Comment = "Drug Cluster"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "SC4093"
+		Latitude = "2.9"
+		Longitude = "-76"
+		Altitude = "0"
+		value = "1"
+		MinQual_cm = "55"
+		Freq_days = "1"
+		CC = "CO"
+		WX_Reg = "C4"
+		Comment = "Drug Cluster"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "SC4094"
+		Latitude = "2.8"
+		Longitude = "-76"
+		Altitude = "0"
+		value = "1"
+		MinQual_cm = "55"
+		Freq_days = "1"
+		CC = "CO"
+		WX_Reg = "C4"
+		Comment = "Drug Cluster"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "SC4095"
+		Latitude = "2.7"
+		Longitude = "-76"
+		Altitude = "0"
+		value = "1"
+		MinQual_cm = "52"
+		Freq_days = "1"
+		CC = "CO"
+		WX_Reg = "C4"
+		Comment = "Drug Cluster"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "SC4096"
+		Latitude = "2.7"
+		Longitude = "-75.8"
+		Altitude = "0"
+		value = "1"
+		MinQual_cm = "50"
+		Freq_days = "1"
+		CC = "CO"
+		WX_Reg = "C4"
+		Comment = "Drug Cluster"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "SC4097"
+		Latitude = "2.7"
+		Longitude = "-75.6"
+		Altitude = "0"
+		value = "1"
+		MinQual_cm = "50"
+		Freq_days = "1"
+		CC = "CO"
+		WX_Reg = "C4"
+		Comment = "Drug Cluster"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "SC4098"
+		Latitude = "2.8"
+		Longitude = "-75.6"
+		Altitude = "0"
+		value = "1"
+		MinQual_cm = "55"
+		Freq_days = "1"
+		CC = "CO"
+		WX_Reg = "C4"
+		Comment = "Drug Cluster"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "SC4099"
+		Latitude = "2.9"
+		Longitude = "-75.6"
+		Altitude = "0"
+		value = "1"
+		MinQual_cm = "55"
+		Freq_days = "1"
+		CC = "CO"
+		WX_Reg = "C4"
+		Comment = "Drug Cluster"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+	<TARGET	
+		name = "SC4100"
+		Latitude = "3"
+		Longitude = "-75.6"
+		Altitude = "0"
+		value = "1"
+		MinQual_cm = "55"
+		Freq_days = "1"
+		CC = "CO"
+		WX_Reg = "C4"
+		Comment = "Drug Cluster"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA">
+	</TARGET>
+</TARGETDECK>

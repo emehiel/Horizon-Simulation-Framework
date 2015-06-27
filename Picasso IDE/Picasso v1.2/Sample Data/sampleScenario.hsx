@@ -1,0 +1,5 @@
+<hsx path="C:\Coding\Thesis\Picasso v1.0\Sample Data\" author="Brian Kirkpatrick" lastSaved="09:17:13 08-26-2009" version="0.1">
+	<scenario filename="SimulationInput.xml"></scenario>
+	<targetdeck filename="testTargets.xml"></targetdeck>
+	<model filename="AllScripted.xml"></model>
+</hsx>

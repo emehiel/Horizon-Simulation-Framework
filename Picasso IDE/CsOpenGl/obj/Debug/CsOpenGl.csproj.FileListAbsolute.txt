@@ -1,0 +1,6 @@
+C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\CsOpenGl\bin\Debug\CsOpenGl.dll
+C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\CsOpenGl\bin\Debug\CsOpenGl.pdb
+C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\CsOpenGl\obj\Debug\CsOpenGl.BaseGlContext.resources
+C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\CsOpenGl\obj\Debug\CsOpenGl.csproj.GenerateResource.Cache
+C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\CsOpenGl\obj\Debug\CsOpenGl.dll
+C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\CsOpenGl\obj\Debug\CsOpenGl.pdb

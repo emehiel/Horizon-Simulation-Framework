@@ -1,0 +1,485 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F1B90DAF-792D-4C64-9EC5-5824D4431640}</ProjectGuid>
+    <RootNamespace>Horizon</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Builds/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Builds/$(Configuration)/BuildObjects\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Builds/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Builds/$(Configuration)/BuildObjects\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>include\lua5_1_2\src;include/luabind;Source;Test/cppunit/include;C:\boost\boost_1_34_0;C:\boost_1_34_1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_WINSOCKAPI_;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/ignore:4204 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>lib; test/cppunit/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AddModuleNamesToAssembly>%(AddModuleNamesToAssembly)</AddModuleNamesToAssembly>
+      <DelayLoadDLLs>%(DelayLoadDLLs)</DelayLoadDLLs>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+    <ClCompile>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <AdditionalIncludeDirectories>include\lua5_1_2\src;include\luabind;Source;C:\boost\boost_1_34_1;C:\boost\boost_1_34_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_WINSOCKAPI_;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\horizon\sub\Access.h" />
+    <ClInclude Include="Source\horizon\sub\Adcs.h" />
+    <ClInclude Include="include\luabind\luabind\adopt_policy.hpp" />
+    <ClInclude Include="Source\horizon\Asset.h" />
+    <ClInclude Include="Source\horizon\io\xml\AssetNode.h" />
+    <ClInclude Include="Source\horizon\assetSchedule.h" />
+    <ClInclude Include="include\luabind\luabind\back_reference.hpp" />
+    <ClInclude Include="include\luabind\luabind\back_reference_fwd.hpp" />
+    <ClInclude Include="include\luabind\luabind\detail\calc_arity.hpp" />
+    <ClInclude Include="include\luabind\luabind\detail\call.hpp" />
+    <ClInclude Include="include\luabind\luabind\detail\call_function.hpp" />
+    <ClInclude Include="include\luabind\luabind\detail\call_member.hpp" />
+    <ClInclude Include="include\luabind\luabind\detail\call_operator_iterate.hpp" />
+    <ClInclude Include="include\luabind\luabind\class.hpp" />
+    <ClInclude Include="include\luabind\luabind\detail\class_cache.hpp" />
+    <ClInclude Include="include\luabind\luabind\class_info.hpp" />
+    <ClInclude Include="include\luabind\luabind\detail\class_registry.hpp" />
+    <ClInclude Include="include\luabind\luabind\detail\class_rep.hpp" />
+    <ClInclude Include="Source\horizon\geom\CloudCover.h" />
+    <ClInclude Include="Source\horizon\sub\Comm.h" />
+    <ClInclude Include="include\luabind\luabind\config.hpp" />
+    <ClInclude Include="Source\horizon\Constraint.h" />
+    <ClInclude Include="Source\horizon\util\adapt\ConstraintAdapter.h" />
+    <ClInclude Include="include\luabind\luabind\detail\construct_rep.hpp" />
+    <ClInclude Include="include\luabind\luabind\detail\constructor.hpp" />
+    <ClInclude Include="include\luabind\luabind\container_policy.hpp" />
+    <ClInclude Include="include\luabind\luabind\detail\convert_to_lua.hpp" />
+    <ClInclude Include="include\luabind\luabind\copy_policy.hpp" />
+    <ClInclude Include="Source\horizon\net\encode\dataEncoder.h" />
+    <CustomBuildStep Include="Profiler\DbgProfiler.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </CustomBuildStep>
+    <ClInclude Include="include\luabind\luabind\detail\debug.hpp" />
+    <ClInclude Include="include\luabind\luabind\detail\decorate_type.hpp" />
+    <ClInclude Include="Source\horizon\sub\dep\Dependencies.h" />
+    <ClInclude Include="include\luabind\luabind\dependency_policy.hpp" />
+    <ClInclude Include="Source\horizon\util\adapt\DependencyAdapter.h" />
+    <ClInclude Include="include\luabind\luabind\discard_result_policy.hpp" />
+    <ClInclude Include="Documentation\DocComments.h" />
+    <ClInclude Include="include\luabind\luabind\detail\enum_maker.hpp" />
+    <ClInclude Include="Source\horizon\geom\Environment.h" />
+    <ClInclude Include="Source\horizon\util\eoms\EOMS.h" />
+    <ClInclude Include="Source\horizon\util\adapt\EOMSAdapter.h" />
+    <ClInclude Include="Source\horizon\util\eoms\EOMSInput.h" />
+    <ClInclude Include="Source\horizon\sub\EOSensor.h" />
+    <ClInclude Include="include\luabind\luabind\error.hpp" />
+    <ClInclude Include="Source\horizon\Event.h" />
+    <ClInclude Include="include\luabind\luabind\detail\find_best_match.hpp" />
+    <ClInclude Include="include\luabind\luabind\from_stack.hpp" />
+    <ClInclude Include="include\luabind\luabind\function.hpp" />
+    <ClInclude Include="include\luabind\luabind\detail\garbage_collector.hpp" />
+    <ClInclude Include="Source\horizon\constraints\GenericConstraint.h" />
+    <ClInclude Include="Source\horizon\genSchedules.h" />
+    <ClInclude Include="Source\horizon\geom\geomAccess.h" />
+    <ClInclude Include="Source\horizon\geom\geomUtil.h" />
+    <ClInclude Include="include\luabind\luabind\detail\get_overload_signature.hpp" />
+    <ClInclude Include="include\luabind\luabind\get_pointer.hpp" />
+    <ClInclude Include="include\luabind\luabind\detail\get_signature.hpp" />
+    <ClInclude Include="include\luabind\luabind\handle.hpp" />
+    <ClInclude Include="Source\horizon\net\handler\HandlerType.h" />
+    <ClInclude Include="include\luabind\luabind\detail\has_get_pointer.hpp" />
+    <ClInclude Include="include\luabind\luabind\detail\implicit_cast.hpp" />
+    <ClInclude Include="Source\horizon\util\integrate\Integrator.h" />
+    <ClInclude Include="Source\horizon\util\integrate\integratorArgs.h" />
+    <ClInclude Include="Source\horizon\util\integrate\integratorResult.h" />
+    <ClInclude Include="include\luabind\luabind\detail\is_indirect_const.hpp" />
+    <ClInclude Include="include\luabind\luabind\iterator_policy.hpp" />
+    <ClInclude Include="include\lua5_1_2\src\lapi.h" />
+    <ClInclude Include="include\lua5_1_2\src\lauxlib.h" />
+    <ClInclude Include="include\lua5_1_2\src\lcode.h" />
+    <ClInclude Include="include\lua5_1_2\src\ldebug.h" />
+    <ClInclude Include="include\lua5_1_2\src\ldo.h" />
+    <ClInclude Include="include\lua5_1_2\src\lfunc.h" />
+    <ClInclude Include="include\lua5_1_2\src\lgc.h" />
+    <ClInclude Include="include\luabind\luabind\detail\link_compatibility.hpp" />
+    <ClInclude Include="include\lua5_1_2\src\llex.h" />
+    <ClInclude Include="include\lua5_1_2\src\llimits.h" />
+    <ClInclude Include="include\lua5_1_2\src\lmem.h" />
+    <ClInclude Include="Source\loadInputs.h" />
+    <ClInclude Include="include\lua5_1_2\src\lobject.h" />
+    <ClInclude Include="Source\horizon\log\Logger.h" />
+    <ClInclude Include="include\lua5_1_2\src\lopcodes.h" />
+    <ClInclude Include="include\lua5_1_2\src\lparser.h" />
+    <ClInclude Include="include\lua5_1_2\src\lstate.h" />
+    <ClInclude Include="include\lua5_1_2\src\lstring.h" />
+    <ClInclude Include="include\lua5_1_2\src\ltable.h" />
+    <ClInclude Include="include\lua5_1_2\src\ltm.h" />
+    <ClInclude Include="include\lua5_1_2\src\lua.h" />
+    <ClInclude Include="include\lua5_1_2\src\lua.hpp" />
+    <ClInclude Include="include\luabind\luabind\lua_include.hpp" />
+    <ClInclude Include="include\luabind\luabind\luabind.hpp" />
+    <ClInclude Include="include\lua5_1_2\src\luaconf.h" />
+    <ClInclude Include="Source\horizon\script\luaDefs.h" />
+    <ClInclude Include="include\lua5_1_2\src\lualib.h" />
+    <ClInclude Include="include\lua5_1_2\src\lundump.h" />
+    <ClInclude Include="include\lua5_1_2\src\lvm.h" />
+    <ClInclude Include="include\lua5_1_2\src\lzio.h" />
+    <ClInclude Include="Source\horizon\util\Matrix.h" />
+    <ClInclude Include="Source\horizon\util\matrixIndex.h" />
+    <ClInclude Include="Source\horizon\constraints\maxBatteryDOD.h" />
+    <ClInclude Include="Source\horizon\constraints\maxDataBuffer.h" />
+    <ClInclude Include="include\luabind\luabind\detail\method_rep.hpp" />
+    <ClInclude Include="include\luabind\luabind\detail\most_derived.hpp" />
+    <ClInclude Include="Source\horizon\MultiThreadedScheduler.h" />
+    <ClInclude Include="Source\horizon\net\NetworkDataClient.h" />
+    <ClInclude Include="Source\horizon\net\sub\NetworkedSubsystem.h" />
+    <ClInclude Include="include\luabind\luabind\nil.hpp" />
+    <ClInclude Include="Source\horizon\sub\dep\NodeDependencies.h" />
+    <ClInclude Include="include\luabind\luabind\object.hpp" />
+    <ClInclude Include="include\luabind\luabind\detail\object_call.hpp" />
+    <ClInclude Include="include\luabind\luabind\detail\object_funs.hpp" />
+    <ClInclude Include="include\luabind\luabind\detail\object_rep.hpp" />
+    <ClInclude Include="include\luabind\luabind\detail\open.hpp" />
+    <ClInclude Include="include\luabind\luabind\open.hpp" />
+    <ClInclude Include="include\luabind\luabind\operator.hpp" />
+    <ClInclude Include="include\luabind\luabind\detail\operator_id.hpp" />
+    <ClInclude Include="Source\horizon\util\eoms\orbital_EOMS.h" />
+    <ClInclude Include="Source\horizon\util\eoms\orbital_EOMS_J2.h" />
+    <ClInclude Include="Source\horizon\util\eoms\orbital_EOMS_TEST.h" />
+    <ClInclude Include="include\luabind\luabind\detail\other.hpp" />
+    <ClInclude Include="include\luabind\luabind\out_value_policy.hpp" />
+    <ClInclude Include="include\luabind\luabind\detail\overload_rep.hpp" />
+    <ClInclude Include="include\luabind\luabind\detail\overload_rep_base.hpp" />
+    <ClInclude Include="include\luabind\luabind\detail\pcall.hpp" />
+    <ClInclude Include="include\luabind\luabind\detail\pointee_sizeof.hpp" />
+    <ClInclude Include="include\luabind\luabind\detail\pointee_typeid.hpp" />
+    <ClInclude Include="include\luabind\luabind\detail\policy.hpp" />
+    <ClInclude Include="Source\horizon\util\eoms\polyEOMSInput.h" />
+    <ClInclude Include="Source\horizon\geom\Position.h" />
+    <ClInclude Include="Source\horizon\sub\Power.h" />
+    <ClInclude Include="include\luabind\luabind\prefix.hpp" />
+    <ClInclude Include="include\luabind\luabind\detail\primitives.hpp" />
+    <ClInclude Include="Source\printFunc.h" />
+    <ClInclude Include="Source\horizon\util\Profile.h" />
+    <ClInclude Include="include\luabind\luabind\detail\property.hpp" />
+    <ClInclude Include="Source\horizon\eval\QuantitativeScheduleEvaluator.h" />
+    <ClInclude Include="Source\horizon\util\Quat.h" />
+    <ClInclude Include="include\luabind\luabind\raw_policy.hpp" />
+    <ClInclude Include="include\luabind\luabind\detail\ref.hpp" />
+    <ClInclude Include="Source\horizon\script\register.h" />
+    <ClInclude Include="include\luabind\luabind\return_reference_to_policy.hpp" />
+    <ClInclude Include="Source\schedParams.h" />
+    <ClInclude Include="Source\horizon\io\scheduleDataWriter.h" />
+    <ClInclude Include="Source\horizon\eval\ScheduleEvaluator.h" />
+    <ClInclude Include="Source\horizon\util\adapt\ScheduleEvaluatorAdapter.h" />
+    <ClInclude Include="Source\horizon\Scheduler.h" />
+    <ClInclude Include="include\luabind\luabind\scope.hpp" />
+    <ClInclude Include="Source\horizon\util\eoms\ScriptedEOMS.h" />
+    <ClInclude Include="Source\horizon\script\ScriptedObject.h" />
+    <ClInclude Include="Source\horizon\eval\ScriptedScheduleEvaluator.h" />
+    <ClInclude Include="Source\horizon\sub\script\ScriptedSubsystem.h" />
+    <ClInclude Include="Source\horizon\script\ScriptingUtil.h" />
+    <ClInclude Include="Source\boost\shared_ptr.hpp" />
+    <ClInclude Include="include\luabind\luabind\detail\signature_match.hpp" />
+    <ClInclude Include="Source\simParams.h" />
+    <ClInclude Include="Source\horizon\net\sockets\Socket.h" />
+    <ClInclude Include="Source\horizon\net\sockets\SocketClient.h" />
+    <ClInclude Include="Source\horizon\util\spline\Spline.h" />
+    <ClInclude Include="Source\horizon\sub\Ssdr.h" />
+    <ClInclude Include="include\luabind\luabind\detail\stack_utils.hpp" />
+    <ClInclude Include="Source\horizon\State.h" />
+    <ClInclude Include="Source\horizon\util\eoms\stateSpace_EOMS.h" />
+    <ClInclude Include="Source\horizon\stdint.h" />
+    <ClInclude Include="Source\horizon\net\sub\SubServerMessage.h" />
+    <ClInclude Include="Source\horizon\Subsystem.h" />
+    <ClInclude Include="Source\horizon\util\adapt\SubsystemAdapter.h" />
+    <ClInclude Include="Source\horizon\io\xml\SubsystemDataNode.h" />
+    <ClInclude Include="Source\horizon\sub\SubsystemKeys.h" />
+    <ClInclude Include="Source\horizon\SubsystemNode.h" />
+    <ClInclude Include="Source\horizon\sub\script\SubsystemParameters.h" />
+    <ClInclude Include="Source\horizon\geom\Sun.h" />
+    <ClInclude Include="Source\horizon\System.h" />
+    <ClInclude Include="Source\horizon\systemSchedule.h" />
+    <ClInclude Include="Source\horizon\Target.h" />
+    <ClInclude Include="Source\horizon\eval\TargetValueScheduleEvaluator.h" />
+    <ClInclude Include="Source\horizon\Task.h" />
+    <ClInclude Include="Source\horizon\util\tnt\tnt_array1d.h" />
+    <ClInclude Include="Source\horizon\util\tnt\tnt_array1d_utils.h" />
+    <ClInclude Include="Source\horizon\util\tnt\tnt_array2d.h" />
+    <ClInclude Include="Source\horizon\util\tnt\tnt_array2d_utils.h" />
+    <ClInclude Include="Source\horizon\util\tnt\tnt_eig.h" />
+    <ClInclude Include="Source\horizon\util\tnt\tnt_i_refvec.h" />
+    <ClInclude Include="Source\horizon\util\tnt\tnt_math_utils.h" />
+    <ClInclude Include="Source\horizon\util\tnt\tnt_svd.h" />
+    <ClInclude Include="include\luabind\luabind\detail\typetraits.hpp" />
+    <ClInclude Include="Source\horizon\util\umath.h" />
+    <ClInclude Include="Source\horizon\util\util.h" />
+    <ClInclude Include="include\luabind\luabind\value_wrapper.hpp" />
+    <ClInclude Include="include\luabind\luabind\weak_ref.hpp" />
+    <ClInclude Include="include\luabind\luabind\wrapper_base.hpp" />
+    <ClInclude Include="Source\horizon\io\xml\xmlDataWriter.h" />
+    <ClInclude Include="Source\horizon\io\xml\xmlNode.h" />
+    <ClInclude Include="Source\horizon\io\xmlParser.h" />
+    <ClInclude Include="include\luabind\luabind\detail\yes_no.hpp" />
+    <ClInclude Include="include\luabind\luabind\yield_policy.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\HorizonMain.cpp" />
+    <ClCompile Include="Source\simParams.cpp" />
+    <ClCompile Include="Source\horizon\sub\Access.cpp" />
+    <ClCompile Include="Source\horizon\sub\Adcs.cpp" />
+    <ClCompile Include="Source\horizon\Asset.cpp" />
+    <ClCompile Include="Source\horizon\assetSchedule.cpp" />
+    <ClCompile Include="include\luabind\src\class.cpp" />
+    <ClCompile Include="include\luabind\src\class_info.cpp" />
+    <ClCompile Include="include\luabind\src\class_registry.cpp" />
+    <ClCompile Include="include\luabind\src\class_rep.cpp" />
+    <ClCompile Include="Source\horizon\geom\CloudCover.cpp" />
+    <ClCompile Include="Source\horizon\sub\Comm.cpp" />
+    <ClCompile Include="Source\horizon\Constraint.cpp" />
+    <ClCompile Include="Source\horizon\util\adapt\ConstraintAdapter.cpp" />
+    <ClCompile Include="include\luabind\src\create_class.cpp" />
+    <ClCompile Include="Source\horizon\net\encode\dataEncoder.cpp" />
+    <ClCompile Include="Profiler\DbgProfiler.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="Source\horizon\sub\dep\Dependencies.cpp" />
+    <ClCompile Include="Source\horizon\util\adapt\DependencyAdapter.cpp" />
+    <ClCompile Include="Source\horizon\geom\Environment.cpp" />
+    <ClCompile Include="Source\horizon\util\eoms\EOMS.cpp" />
+    <ClCompile Include="Source\horizon\util\adapt\EOMSAdapter.cpp" />
+    <ClCompile Include="Source\horizon\util\eoms\EOMSInput.cpp" />
+    <ClCompile Include="Source\horizon\sub\EOSensor.cpp" />
+    <ClCompile Include="include\luabind\src\error.cpp" />
+    <ClCompile Include="Source\horizon\Event.cpp" />
+    <ClCompile Include="include\luabind\src\exception_handler.cpp" />
+    <ClCompile Include="include\luabind\src\find_best_match.cpp" />
+    <ClCompile Include="include\luabind\src\function.cpp" />
+    <ClCompile Include="Source\horizon\genSchedules.cpp" />
+    <ClCompile Include="Source\horizon\geom\geomAccess.cpp" />
+    <ClCompile Include="Source\horizon\geom\geomUtil.cpp" />
+    <ClCompile Include="include\luabind\src\implicit_cast.cpp" />
+    <ClCompile Include="Source\horizon\util\integrate\Integrator.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="Source\horizon\util\integrate\integratorArgs.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="Source\horizon\util\integrate\integratorResult.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="include\lua5_1_2\src\lapi.c" />
+    <ClCompile Include="include\lua5_1_2\src\lauxlib.c" />
+    <ClCompile Include="include\lua5_1_2\src\lbaselib.c" />
+    <ClCompile Include="include\lua5_1_2\src\lcode.c" />
+    <ClCompile Include="include\lua5_1_2\src\ldblib.c" />
+    <ClCompile Include="include\lua5_1_2\src\ldebug.c" />
+    <ClCompile Include="include\lua5_1_2\src\ldo.c" />
+    <ClCompile Include="include\lua5_1_2\src\ldump.c" />
+    <ClCompile Include="include\lua5_1_2\src\lfunc.c" />
+    <ClCompile Include="include\lua5_1_2\src\lgc.c" />
+    <ClCompile Include="include\lua5_1_2\src\linit.c" />
+    <ClCompile Include="include\luabind\src\link_compatibility.cpp" />
+    <ClCompile Include="include\lua5_1_2\src\liolib.c" />
+    <ClCompile Include="include\lua5_1_2\src\llex.c" />
+    <ClCompile Include="include\lua5_1_2\src\lmathlib.c" />
+    <ClCompile Include="include\lua5_1_2\src\lmem.c" />
+    <ClCompile Include="Source\loadInputs.cpp" />
+    <ClCompile Include="include\lua5_1_2\src\loadlib.c" />
+    <ClCompile Include="include\lua5_1_2\src\lobject.c" />
+    <ClCompile Include="Source\horizon\log\Logger.cpp" />
+    <ClCompile Include="include\lua5_1_2\src\lopcodes.c" />
+    <ClCompile Include="include\lua5_1_2\src\loslib.c" />
+    <ClCompile Include="include\lua5_1_2\src\lparser.c" />
+    <ClCompile Include="include\lua5_1_2\src\lstate.c" />
+    <ClCompile Include="include\lua5_1_2\src\lstring.c" />
+    <ClCompile Include="include\lua5_1_2\src\lstrlib.c" />
+    <ClCompile Include="include\lua5_1_2\src\ltable.c" />
+    <ClCompile Include="include\lua5_1_2\src\ltablib.c" />
+    <ClCompile Include="include\lua5_1_2\src\ltm.c" />
+    <ClCompile Include="Source\horizon\script\luaDefs.cpp" />
+    <ClCompile Include="include\lua5_1_2\src\lundump.c" />
+    <ClCompile Include="include\lua5_1_2\src\lvm.c" />
+    <ClCompile Include="include\lua5_1_2\src\lzio.c" />
+    <ClCompile Include="Source\horizon\util\Matrix.cpp" />
+    <ClCompile Include="Source\horizon\util\matrixIndex.cpp" />
+    <ClCompile Include="Source\horizon\constraints\maxBatteryDOD.cpp" />
+    <ClCompile Include="Source\horizon\constraints\maxDataBuffer.cpp" />
+    <ClCompile Include="Source\horizon\MultiThreadedScheduler.cpp" />
+    <ClCompile Include="Source\horizon\net\NetworkDataClient.cpp" />
+    <ClCompile Include="Source\horizon\net\sub\NetworkedSubsystem.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="Source\horizon\sub\dep\NodeDependencies.cpp" />
+    <ClCompile Include="include\luabind\src\object_rep.cpp" />
+    <ClCompile Include="include\luabind\src\open.cpp" />
+    <ClCompile Include="Source\horizon\util\eoms\orbital_EOMS.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="Source\horizon\util\eoms\orbital_EOMS_J2.cpp" />
+    <ClCompile Include="Source\horizon\util\eoms\orbital_EOMS_TEST.cpp" />
+    <ClCompile Include="include\luabind\src\overload_rep.cpp" />
+    <ClCompile Include="include\luabind\src\pcall.cpp" />
+    <ClCompile Include="Source\horizon\util\eoms\polyEOMSInput.cpp" />
+    <ClCompile Include="Source\horizon\geom\Position.cpp" />
+    <ClCompile Include="Source\horizon\sub\Power.cpp" />
+    <ClCompile Include="include\lua5_1_2\src\print.c" />
+    <ClCompile Include="Source\horizon\eval\QuantitativeScheduleEvaluator.cpp" />
+    <ClCompile Include="Source\horizon\util\Quat.cpp" />
+    <ClCompile Include="include\luabind\src\ref.cpp" />
+    <ClCompile Include="Source\horizon\script\register.cpp" />
+    <ClCompile Include="Source\schedParams.cpp" />
+    <ClCompile Include="Source\horizon\io\scheduleDataWriter.cpp" />
+    <ClCompile Include="Source\horizon\eval\ScheduleEvaluator.cpp" />
+    <ClCompile Include="Source\horizon\util\adapt\ScheduleEvaluatorAdapter.cpp" />
+    <ClCompile Include="Source\horizon\Scheduler.cpp" />
+    <ClCompile Include="include\luabind\src\scope.cpp" />
+    <ClCompile Include="Source\horizon\util\eoms\ScriptedEOMS.cpp" />
+    <ClCompile Include="Source\horizon\script\ScriptedObject.cpp" />
+    <ClCompile Include="Source\horizon\eval\ScriptedScheduleEvaluator.cpp" />
+    <ClCompile Include="Source\horizon\sub\script\ScriptedSubsystem.cpp" />
+    <ClCompile Include="Source\horizon\script\ScriptingUtil.cpp" />
+    <ClCompile Include="Source\horizon\net\sockets\Socket.cpp" />
+    <ClCompile Include="Source\horizon\net\sockets\SocketClient.cpp" />
+    <ClCompile Include="Source\horizon\sub\Ssdr.cpp" />
+    <ClCompile Include="include\luabind\src\stack_content_by_name.cpp" />
+    <ClCompile Include="Source\horizon\State.cpp" />
+    <ClCompile Include="Source\horizon\util\eoms\stateSpace_EOMS.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="Source\horizon\net\sub\SubServerMessage.cpp" />
+    <ClCompile Include="Source\horizon\Subsystem.cpp" />
+    <ClCompile Include="Source\horizon\util\adapt\SubsystemAdapter.cpp" />
+    <ClCompile Include="Source\horizon\SubsystemNode.cpp" />
+    <ClCompile Include="Source\horizon\sub\script\SubsystemParameters.cpp" />
+    <ClCompile Include="Source\horizon\geom\Sun.cpp" />
+    <ClCompile Include="Source\horizon\System.cpp" />
+    <ClCompile Include="Source\horizon\systemSchedule.cpp" />
+    <ClCompile Include="Source\horizon\Target.cpp" />
+    <ClCompile Include="Source\horizon\eval\TargetValueScheduleEvaluator.cpp" />
+    <ClCompile Include="Source\horizon\Task.cpp" />
+    <ClCompile Include="Source\horizon\util\umath.cpp" />
+    <ClCompile Include="Source\horizon\util\util.cpp" />
+    <ClCompile Include="include\luabind\src\weak_ref.cpp" />
+    <ClCompile Include="include\luabind\src\wrapper_base.cpp" />
+    <ClCompile Include="Source\horizon\io\xml\xmlDataWriter.cpp" />
+    <ClCompile Include="Source\horizon\io\xml\xmlNode.cpp" />
+    <ClCompile Include="Source\horizon\io\xmlParser.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="old\debug\BuildLog.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

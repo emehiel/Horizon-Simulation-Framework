@@ -1,0 +1,48 @@
+function orbital_EOMS_J2_DRAG_init()
+	MU = 398600.4418
+	J2 = 1.08263e-3
+	RE = 6378.137
+	Cd = 2.2
+	A = 40
+	m = 100
+	h0 = 900
+	H = 181.05
+	rho0 = 5.245e-15
+
+	A_ = Matrix(6, 6, 0.0)
+	A_:setValue(1, 4, 1.0)
+	A_:setValue(2, 5, 1.0)
+	A_:setValue(3, 6, 1.0)
+end
+
+function orbital_EOMS_J2_DRAG_eval(t, y)
+	r3 = math.pow(norm(y(colon(1,3))), 3.0)
+	r = norm(y(colon(1,3)))
+	mur3 = -MU/r3
+
+	r_x = y:getValue(1,1)
+	r_y = y:getValue(2,1)
+	r_z = y:getValue(3,1)
+
+	x__ = 1 - J2*(3.0/2.0)*math.pow(RE/r, 2.0)*(5*math.pow(r_z/r, 2.0) - 1)
+	y__ = x__
+	z__ = 1 + J2*(3.0/2.0)*math.pow(RE/r, 3.0)*(3 - 5*math.pow(r_z/r, 2.0))
+
+	A_:setValue(4, 1, x__*mur3)
+	A_:setValue(5, 2, y__*mur3)
+	A_:setValue(6, 3, z__*mur3)
+
+	-- Drag
+	h = r - RE
+	rho = rho0*math.exp(-(h-h0)/H)
+	vrel = y(colon(4,6))
+	vreln = norm(vrel)
+	aDrag = (-0.5)*(Cd*A/m)*rho*math.pow(vreln, 2.0)*vrel/vreln*1000
+
+	
+	dy = A_*y
+	dy:setValue(4, 1, dy:getValue(4, 1) + aDrag:getValue(1, 1))
+	dy:setValue(5, 1, dy:getValue(5, 1) + aDrag:getValue(2, 1))
+	dy:setValue(6, 1, dy:getValue(6, 1) + aDrag:getValue(3, 1))
+	return dy
+end

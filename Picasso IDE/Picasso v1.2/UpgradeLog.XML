@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Picasso">
+</Property><Property Name="Solution File" Value="C:\Coding\Thesis\Picasso v1.1\Picasso.sln">
+</Property><Property Name="Date" Value="Tuesday, September 29, 2009">
+</Property><Property Name="Time" Value="13:23:11 PM">
+</Property></Properties><Event ErrorLevel="0" Project="OrbitTools" Source="OrbitTools\OrbitTools.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="OrbitTools" Source="OrbitTools\OrbitTools.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="OrbitTools" Source="OrbitTools\OrbitTools.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

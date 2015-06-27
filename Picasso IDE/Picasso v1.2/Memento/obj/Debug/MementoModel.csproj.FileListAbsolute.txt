@@ -1,0 +1,6 @@
+C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\Picasso v1.2\Memento\bin\Debug\MementoModel.dll
+C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\Picasso v1.2\Memento\bin\Debug\MementoModel.pdb
+C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\Picasso v1.2\Memento\obj\Debug\MementoModel.Properties.Resources.resources
+C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\Picasso v1.2\Memento\obj\Debug\MementoModel.csproj.GenerateResource.Cache
+C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\Picasso v1.2\Memento\obj\Debug\MementoModel.dll
+C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\Picasso v1.2\Memento\obj\Debug\MementoModel.pdb

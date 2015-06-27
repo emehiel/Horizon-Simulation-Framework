@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="NeHeCS">
+</Property><Property Name="Solution File" Value="C:\Documents and Settings\Brian\My Documents\Downloads\nehegl_csharp\nehegl_csharp\NeHeCS\NeHeCS.sln">
+</Property><Property Name="Date" Value="Monday, October 19, 2009">
+</Property><Property Name="Time" Value="17:38:58 PM">
+</Property></Properties><Event ErrorLevel="0" Project="NeHeCS" Source="NeHeCS.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="NeHeCS" Source="NeHeCS.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="NeHeCS" Source="NeHeCS.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

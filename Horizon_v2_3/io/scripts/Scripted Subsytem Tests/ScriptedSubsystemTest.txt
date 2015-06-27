@@ -1,0 +1,15 @@
+function test_ScriptedSubsystem_init(sub, subParams)
+dSvk1 = dStateVarKey('dSvk1')
+sub:addKey(dSvk1)
+subParams:addDoubleParameter('dParam1',1.0)
+end
+
+function test_ScriptedSubsystem_canPerform(oldState, newState, task, postion, environment, deps, subParams)
+io.write('canPerform', '\n')
+return true
+end
+
+function test_ScriptedSubsystem_canExtend(state, position, environment, evalToTime, deps, subParams)
+io.write('canExtend', '\n')
+return true
+end

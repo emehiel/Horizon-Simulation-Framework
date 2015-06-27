@@ -1,0 +1,16 @@
+function init(sub, subParams)
+	subParams:addIntParameter('int1', 5)
+	subParams:addIntParameter('int1', 6)
+	--io:write('init')
+end
+
+function canPerform(oldState, newState, task, position, environment, deps, subParams) 
+	io.write('canPerform\n')
+	io.write(subParams:getIntParameter('int1'))
+	return true
+end
+
+function canExtend(state, position, environment, evalToTime, deps, subParams)
+
+	return true
+end

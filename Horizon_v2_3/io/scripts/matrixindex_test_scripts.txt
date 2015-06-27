@@ -1,0 +1,16 @@
+function test_matrixIndex()
+io.write("----Begin matrixIndex Tests----\n")
+mI1 = matrixIndex(1)
+--Output should be "sidx=1, eidx=1"
+io.write('sidx=', mI1:STARTIDX(), ', eidx=', mI1:ENDIDX(), '\n')
+mI2 = matrixIndex(1,2)
+--Output should be "sidx=1, eidx=2"
+io.write('sidx=', mI2:STARTIDX(), ', eidx=', mI2:ENDIDX(), '\n')
+mI3 = colon(1)
+--Output should be "sidx=1, eidx=1"
+io.write('sidx=', mI3:STARTIDX(), ', eidx=', mI3:ENDIDX(), '\n')
+mI4 = colon(1,2)
+--Output should be "sidx=1, eidx=2"
+io.write('sidx=', mI4:STARTIDX(), ', eidx=', mI4:ENDIDX(), '\n')
+io.write("----End matrixIndex Tests----\n")
+end

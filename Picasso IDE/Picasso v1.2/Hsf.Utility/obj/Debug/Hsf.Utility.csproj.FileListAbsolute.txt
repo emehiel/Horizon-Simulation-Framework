@@ -1,0 +1,7 @@
+C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\Picasso v1.2\Hsf.Utility\bin\Debug\Hsf.Utility.dll
+C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\Picasso v1.2\Hsf.Utility\bin\Debug\Hsf.Utility.pdb
+C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\Picasso v1.2\Hsf.Utility\bin\Debug\OrbitTools.dll
+C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\Picasso v1.2\Hsf.Utility\bin\Debug\OrbitTools.pdb
+C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\Picasso v1.2\Hsf.Utility\obj\Debug\Hsf.Utility.csprojResolveAssemblyReference.cache
+C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\Picasso v1.2\Hsf.Utility\obj\Debug\Hsf.Utility.dll
+C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\Picasso v1.2\Hsf.Utility\obj\Debug\Hsf.Utility.pdb

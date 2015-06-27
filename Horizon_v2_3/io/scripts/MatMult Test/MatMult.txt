@@ -1,0 +1,35 @@
+function matMult1(m1, m2)
+	return m1*m2
+end
+
+function matMult2(m1, m2)
+	m = m1:getNumRows()
+	n = m2:getNumCols()
+	res = Matrix(m, n, 0.0)
+
+	for r=1, m do
+		currRowM1 = m1:getRow(r)
+		for c=1, n do
+			res:setValue(r, c, dot(currRowM1, m2:getColumn(c)))
+		end
+	end
+	return res
+end
+
+function matMult3(m1, m2)
+	m = m1:getNumRows()
+	p = m1:getNumCols()
+	n = m2:getNumCols()
+	res = Matrix(m, n, 0.0)
+
+	for r=1, m do
+		for c=1, n do
+			val = 0
+			for i=1, p do
+				val = val + m1:getValue(r, i)*m2:getValue(i, c)
+			end
+			res:setValue(r, c, val)
+		end
+	end
+	return res
+end

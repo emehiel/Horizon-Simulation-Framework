@@ -1,0 +1,15 @@
+C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\Picasso v1.2\Hsf.Scripting\bin\Debug\Hsf.Scripting.dll
+C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\Picasso v1.2\Hsf.Scripting\bin\Debug\Hsf.Scripting.pdb
+C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\Picasso v1.2\Hsf.Scripting\bin\Debug\Hsf.Components.dll
+C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\Picasso v1.2\Hsf.Scripting\bin\Debug\Hsf.Elements.dll
+C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\Picasso v1.2\Hsf.Scripting\bin\Debug\Hsf.Utility.dll
+C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\Picasso v1.2\Hsf.Scripting\bin\Debug\MementoModel.dll
+C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\Picasso v1.2\Hsf.Scripting\bin\Debug\OrbitTools.dll
+C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\Picasso v1.2\Hsf.Scripting\bin\Debug\Hsf.Components.pdb
+C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\Picasso v1.2\Hsf.Scripting\bin\Debug\Hsf.Elements.pdb
+C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\Picasso v1.2\Hsf.Scripting\bin\Debug\Hsf.Utility.pdb
+C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\Picasso v1.2\Hsf.Scripting\bin\Debug\MementoModel.pdb
+C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\Picasso v1.2\Hsf.Scripting\bin\Debug\OrbitTools.pdb
+C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\Picasso v1.2\Hsf.Scripting\obj\Debug\Hsf.Scripting.csprojResolveAssemblyReference.cache
+C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\Picasso v1.2\Hsf.Scripting\obj\Debug\Hsf.Scripting.dll
+C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\Picasso v1.2\Hsf.Scripting\obj\Debug\Hsf.Scripting.pdb

@@ -1,0 +1,43 @@
+function ProfileOperations1(state)
+	-- Get profiles
+	dP1 = state:getFullProfile(dStateVarKey('dP1'))
+	dP2 = state:getFullProfile(dStateVarKey('dP2'))
+	dP3 = state:getFullProfile(dStateVarKey('dP3'))
+	-- Add
+	dP = 0.5*dP1 + 1.2*dP2 + 0.3*dP3
+	-- Multiply
+	dP = dP*0.01
+	-- Subtract
+	dP = dP - 0.8*dP1
+	-- Integrate
+	--res = intDProf(dP, 0, dP:getLastPair().first)
+	--return res
+	return 1
+end
+
+function ProfileOperations2(state)
+	-- Get profiles
+	dP1 = state:getFullProfile(dStateVarKey('dP1'))
+	res = intDProf(dP1, 0, dP1:getLastPair().first)
+	return res
+end
+
+function ProfileOperations3(state)
+	-- Get profiles
+	dP1 = state:getFullProfile(dStateVarKey('dP1'))
+	dP2 = state:getFullProfile(dStateVarKey('dP2'))
+	dP3 = state:getFullProfile(dStateVarKey('dP3'))
+	-- Add
+	dP = 0.5*dP1
+	dp_ = 1.2*dP2
+	dP = dP + dp_
+	dp_ = 0.3*dP3
+	dP = dP + dp_
+	-- Multiply
+	dP = dP*0.01
+	-- Subtract
+	dp_ = 0.8*dP1
+	dP = dP - dp_
+	
+	return 1
+end

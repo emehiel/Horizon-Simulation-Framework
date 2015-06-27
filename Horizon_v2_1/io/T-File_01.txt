@@ -1,0 +1,101 @@
+name	Latitude	Longitude	Altitude	value	MinQual_cm	Freq_days	CC	WX_Reg	Comment	TargetType	PositionType
+SC1001	55.8	37.6	185	1	60	2	RU	C1	Moscow cluster	LocationTarget	StaticLLA
+SC1002	55.8	37.4	185	1	60	2	RU	C1	Moscow cluster	LocationTarget	StaticLLA
+SC1003	55.9	37.4	185	1	55	2	RU	C1	Moscow cluster	LocationTarget	StaticLLA
+SC1004	55.95	37.5	185	1	55	2	RU	C1	Moscow cluster	LocationTarget	StaticLLA
+SC1005	55.95	37.6	185	1	52	2	RU	C1	Moscow cluster	LocationTarget	StaticLLA
+SC1006	55.9	37.8	185	1	51	2	RU	C1	Moscow cluster	LocationTarget	StaticLLA
+SC1007	55.8	37.8	185	1	55	2	RU	C1	Moscow cluster	LocationTarget	StaticLLA
+SC1008	55.7	37.8	185	1	55	2	RU	C1	Moscow cluster	LocationTarget	StaticLLA
+SC1009	55.6	37.65	185	1	51	2	RU	C1	Moscow cluster	LocationTarget	StaticLLA
+SC1010	55.65	37.55	185	1	51	2	RU	C1	Moscow cluster	LocationTarget	StaticLLA
+S00011	70.1	33.1	0	3	60	3	RU	EEU	none	LocationTarget	StaticLLA
+S00012	69.9	32.9	0	3	60	3	RU	EEU	none	LocationTarget	StaticLLA
+S00013	71.5	52	0	3	60	3	RU	EEU	none	LocationTarget	StaticLLA
+S00014	40.1	44.5	0	3	60	3	RU	EEU	none	LocationTarget	StaticLLA
+S00015	27.8	54	0	3	60	3	RU	EEU	none	LocationTarget	StaticLLA
+S00016	50.8	31.2	0	3	60	3	RU	EEU	none	LocationTarget	StaticLLA
+S00017	44.9	48.9	0	3	60	3	RU	EEU	none	LocationTarget	StaticLLA
+S00018	44.05	43	0	2	60	1	IR	ME	none	LocationTarget	StaticLLA
+S00019	33.5	44.5	0	2	60	1	IQ	ME	none	LocationTarget	StaticLLA
+S00020	36.3	43.1	0	2	60	1	IQ	ME	none	LocationTarget	StaticLLA
+S00021	31.9	34.9	0	2	60	1	IZ	ME	none	LocationTarget	StaticLLA
+S00022	33.2	36.5	0	2	60	3	LB	ME	none	LocationTarget	StaticLLA
+S00023	35.5	51.2	0	2	60	1	IR	ME	none	LocationTarget	StaticLLA
+S00024	38.05	46	0	2	60	1	IR	ME	none	LocationTarget	StaticLLA
+S00025	31.5	65.8	0	2	60	3	AF	EME	none	LocationTarget	StaticLLA
+S00026	34.5	69	0	2	60	3	AF	EME	none	LocationTarget	StaticLLA
+S00027	33.9	70.5	0	2	60	3	PK	EME	none	LocationTarget	StaticLLA
+S00028	24.9	66.8	0	2	60	3	PK	EME	none	LocationTarget	StaticLLA
+S00029	28.5	77.1	0	2	60	5	IN	SEA	none	LocationTarget	StaticLLA
+S00030	21.8	105.9	0	3	60	5	VN	SEA	none	LocationTarget	StaticLLA
+S00031	14.5	121	0	2	60	3	PH	SEA	none	LocationTarget	StaticLLA
+S00032	31.1	121.5	0	3	60	3	CH	SEA	none	LocationTarget	StaticLLA
+S00033	40	116.5	0	3	60	3	CH	SEA	none	LocationTarget	StaticLLA
+S00034	39	125.5	0	3	60	3	NK	FE	none	LocationTarget	StaticLLA
+S00035	37.2	128	0	3	60	3	SK	FE	none	LocationTarget	StaticLLA
+S00036	35.2	139.6	0	4	60	10	JP	FE	none	LocationTarget	StaticLLA
+S00037	-33.8	18.1	0	3	60	10	SA	AF	none	LocationTarget	StaticLLA
+S00038	2.1	45.2	0	2	60	1	SO	AF	none	LocationTarget	StaticLLA
+S00039	30	30.9	0	2	60	12	EY	AF	none	LocationTarget	StaticLLA
+S00040	9	38.5	0	3	60	12	ET	AF	none	LocationTarget	StaticLLA
+S00041	6.2	3.1	0	3	60	20	NG	AF	none	LocationTarget	StaticLLA
+S00042	40.4	-3.2	0	3	60	5	ES	EU	none	LocationTarget	StaticLLA
+S00043	38.1	-8.9	0	3	60	5	PG	EU	none	LocationTarget	StaticLLA
+S00044	48.8	2.3	0	3	60	60	FR	EU	none	LocationTarget	StaticLLA
+S00045	51.5	-0.1	0	3	60	5	EN	EU	none	LocationTarget	StaticLLA
+S00046	52.1	5.1	0	3	60	15	NT	EU	none	LocationTarget	StaticLLA
+S00047	69.4	18	0	3	60	3	SW	EU	none	LocationTarget	StaticLLA
+S00048	52.5	13.4	0	3	60	10	GE	EU	none	LocationTarget	StaticLLA
+S00049	41.85	12.4	0	3	60	30	IT	EU	none	LocationTarget	StaticLLA
+S00050	-41.2	174.9	0	3	60	3	NZ	DU	none	LocationTarget	StaticLLA
+S00051	-36.7	145.2	0	3	60	15	AU	DU	none	LocationTarget	StaticLLA
+S00052	-53.5	-68	0	3	60	3	AR	CSA	none	LocationTarget	StaticLLA
+S00053	-34.8	-58.2	0	3	60	3	AR	CSA	none	LocationTarget	StaticLLA
+S00054	-0.1	-78.1	0	3	60	3	EC	CSA	none	LocationTarget	StaticLLA
+S00055	3.2	-76.5	0	3	60	1	CO	CSA	none	LocationTarget	StaticLLA
+S00056	8.5	-79.2	0	3	60	3	PN	CSA	none	LocationTarget	StaticLLA
+S00057	10.5	-67	0	3	60	3	VZ	CSA	none	LocationTarget	StaticLLA
+S00058	-16.1	-47.7	0	3	60	3	BZ	CSA	none	LocationTarget	StaticLLA
+S00059	22.8	-83	0	3	60	3	CU	CSA	none	LocationTarget	StaticLLA
+S00060	12.2	-86.2	0	3	60	3	NC	CSA	none	LocationTarget	StaticLLA
+S00061	17.4	-88.3	0	3	60	3	BZ	CSA	none	LocationTarget	StaticLLA
+S00062	14.5	-90.6	0	3	60	3	GU	CSA	none	LocationTarget	StaticLLA
+S00063	19.5	-99.2	0	3	60	15	MX	NA	none	LocationTarget	StaticLLA
+S00064	25.7	-97.5	0	4	60	10	US	NA	none	LocationTarget	StaticLLA
+S00065	31.6	-106.5	0	3	60	10	US	NA	none	LocationTarget	StaticLLA
+S00066	29.9	-90.1	0	3	60	10	US	NA	none	LocationTarget	StaticLLA
+S00067	24.5	-81.9	0	3	60	10	US	NA	none	LocationTarget	StaticLLA
+S00068	44.8	-68.75	0	3	60	10	US	NA	none	LocationTarget	StaticLLA
+S00069	47.1	-67.8	0	3	60	10	US	NA	none	LocationTarget	StaticLLA
+S00070	71	-157	0	3	60	10	US	NA	none	LocationTarget	StaticLLA
+S00071	52.8	-169.2	0	3	60	10	US	NA	none	LocationTarget	StaticLLA
+S00072	21.3	-157.8	0	3	60	10	US	NA	none	LocationTarget	StaticLLA
+S00073	15.8	-73.2	0	3	60	3	CA	NA	none	LocationTarget	StaticLLA
+S00074	74.8	-95	0	3	60	3	CA	NA	none	LocationTarget	StaticLLA
+SC2075	33.6	44.5	0	0	52	1	IQ	C2	Baghdad Cluster	LocationTarget	StaticLLA
+SC2076	33.6	44.6	0	0	55	1	IQ	C2	Baghdad Cluster	LocationTarget	StaticLLA
+SC2077	33.6	44.8	0	0	52	1	IQ	C2	Baghdad Cluster	LocationTarget	StaticLLA
+SC2078	33.4	44.8	0	0	50	1	IQ	C2	Baghdad Cluster	LocationTarget	StaticLLA
+SC2079	33.3	44.6	0	0	55	1	IQ	C2	Baghdad Cluster	LocationTarget	StaticLLA
+SC2080	33.3	44.3	0	0	55	1	IQ	C2	Baghdad Cluster	LocationTarget	StaticLLA
+SC2081	33.4	44.4	0	0	52	1	IQ	C2	Baghdad Cluster	LocationTarget	StaticLLA
+SC2082	33.5	44.3	0	0	50	1	IQ	C2	Baghdad Cluster	LocationTarget	StaticLLA
+SC3083	47.8	-122.2	0	4	53	30	US	C3	M$ Cluster	LocationTarget	StaticLLA
+SC3084	47.8	-122	0	4	53	30	US	C3	M$ Cluster	LocationTarget	StaticLLA
+SC3085	48.1	-122	0	4	53	30	US	C3	M$ Cluster	LocationTarget	StaticLLA
+SC3086	48.1	-122.2	0	4	55	30	US	C3	M$ Cluster	LocationTarget	StaticLLA
+SC3087	48.1	-122.4	0	4	52	30	US	C3	M$ Cluster	LocationTarget	StaticLLA
+SC3088	47.8	-122.4	0	4	52	30	US	C3	M$ Cluster	LocationTarget	StaticLLA
+SC3089	47.6	-122.4	0	4	55	30	US	C3	M$ Cluster	LocationTarget	StaticLLA
+SC3090	47.6	-122.2	0	4	60	30	US	C3	M$ Cluster	LocationTarget	StaticLLA
+SC3091	47.6	-122	0	4	60	30	US	C3	M$ Cluster	LocationTarget	StaticLLA
+SC4092	3	-76	0	1	55	1	CO	C4	Drug Cluster	LocationTarget	StaticLLA
+SC4093	2.9	-76	0	1	55	1	CO	C4	Drug Cluster	LocationTarget	StaticLLA
+SC4094	2.8	-76	0	1	55	1	CO	C4	Drug Cluster	LocationTarget	StaticLLA
+SC4095	2.7	-76	0	1	52	1	CO	C4	Drug Cluster	LocationTarget	StaticLLA
+SC4096	2.7	-75.8	0	1	50	1	CO	C4	Drug Cluster	LocationTarget	StaticLLA
+SC4097	2.7	-75.6	0	1	50	1	CO	C4	Drug Cluster	LocationTarget	StaticLLA
+SC4098	2.8	-75.6	0	1	55	1	CO	C4	Drug Cluster	LocationTarget	StaticLLA
+SC4099	2.9	-75.6	0	1	55	1	CO	C4	Drug Cluster	LocationTarget	StaticLLA
+SC4100	3	-75.6	0	1	55	1	CO	C4	Drug Cluster	LocationTarget	StaticLLA

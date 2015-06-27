@@ -1,0 +1,20 @@
+function Comm_init(sub, subParams)
+	sub:addKey(dStateVarKey('DataRate(MB/s)'))
+end
+
+function Comm_canPerform(oldState, newState, task, position, environment, deps, subParams)
+	if (task:getType() == "CommTask") then
+		newProf = deps:callDoubleDependency('COMMSUB_getDataRateProfile')
+		if  (not newProf:empty()) then
+			newState:setProfile(dStateVarKey('DataRate(MB/s)'), newProf)
+		end
+	end
+	return true
+end
+
+function Comm_canExtend(state, position, environment, evalToTime, deps, subParams)
+	if (state:getEventEnd() < evalToTime) then
+		state:setEventEnd(evalToTime)
+	end
+	return true
+end

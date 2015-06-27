@@ -1,0 +1,27 @@
+function Adcs_init(sub, subParams)
+	sub:addKey(mStateVarKey('ECI_Pointing_Vector(XYZ)'))
+end
+
+function Adcs_canPerform(oldState, newState, task, position, environment, deps, subParams)
+	timetoslew = 10
+	es = newState:getEventStart()
+	ts = newState:getTaskStart()
+	if (es + timetoslew > ts) then
+		return false
+	end
+
+	m_SC_pos_at_ts_ECI = position:getPosECI(ts)
+	m_target_pos_at_ts_ECI = task:getTarget():getPos():getPosECI(ts)
+	m_pv = m_target_pos_at_ts_ECI - m_SC_pos_at_ts_ECI
+
+	newState:addValue(mStateVarKey('ECI_Pointing_Vector(XYZ)'), mPair(ts, m_pv))
+
+	return true
+end
+
+function Adcs_canExtend(state, position, environment, evalToTime, deps, subParams)
+	if (state:getEventEnd() < evalToTime) then
+		state:setEventEnd(evalToTime)
+	end
+	return true
+end

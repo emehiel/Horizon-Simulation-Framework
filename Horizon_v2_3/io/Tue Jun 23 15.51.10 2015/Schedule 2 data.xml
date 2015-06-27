@@ -1,0 +1,1138 @@
+<Base>
+ <SubsystemData name="IncidenceAngle" type="numeric">
+  <AssetData assetName="Asset1">
+   <Data data="0" time="0">
+   </Data>
+   <Data data="31.0963" time="31.5">
+   </Data>
+   <Data data="0" time="32.5">
+   </Data>
+   <Data data="30.9513" time="61.5">
+   </Data>
+   <Data data="0" time="62.5">
+   </Data>
+   <Data data="30.1874" time="91.5">
+   </Data>
+   <Data data="0" time="92.5">
+   </Data>
+   <Data data="30.2672" time="121.5">
+   </Data>
+   <Data data="0" time="122.5">
+   </Data>
+   <Data data="30.4794" time="151.5">
+   </Data>
+   <Data data="0" time="152.5">
+   </Data>
+   <Data data="30.7419" time="181.5">
+   </Data>
+   <Data data="0" time="182.5">
+   </Data>
+   <Data data="31.1458" time="211.5">
+   </Data>
+   <Data data="0" time="212.5">
+   </Data>
+   <Data data="31.6858" time="241.5">
+   </Data>
+   <Data data="0" time="242.5">
+   </Data>
+   <Data data="30.1529" time="271.5">
+   </Data>
+   <Data data="0" time="272.5">
+   </Data>
+   <Data data="30.2494" time="301.5">
+   </Data>
+   <Data data="0" time="302.5">
+   </Data>
+   <Data data="30.3951" time="331.5">
+   </Data>
+   <Data data="0" time="332.5">
+   </Data>
+   <Data data="30.679" time="361.5">
+   </Data>
+   <Data data="0" time="362.5">
+   </Data>
+   <Data data="31.1025" time="391.5">
+   </Data>
+   <Data data="0" time="392.5">
+   </Data>
+   <Data data="30.1521" time="421.5">
+   </Data>
+   <Data data="0" time="422.5">
+   </Data>
+   <Data data="30.2452" time="451.5">
+   </Data>
+   <Data data="0" time="452.5">
+   </Data>
+   <Data data="33.3951" time="481.5">
+   </Data>
+   <Data data="0" time="482.5">
+   </Data>
+  </AssetData>
+  <AssetData assetName="Asset2">
+   <Data data="0" time="0">
+   </Data>
+   <Data data="35.3677" time="391.5">
+   </Data>
+   <Data data="0" time="392.5">
+   </Data>
+   <Data data="36.8494" time="421.5">
+   </Data>
+   <Data data="0" time="422.5">
+   </Data>
+   <Data data="38.6574" time="451.5">
+   </Data>
+   <Data data="0" time="452.5">
+   </Data>
+   <Data data="40.6361" time="481.5">
+   </Data>
+   <Data data="0" time="482.5">
+   </Data>
+  </AssetData>
+ </SubsystemData>
+ <SubsystemData name="numPixels" type="numeric">
+  <AssetData assetName="Asset1">
+   <Data data="0" time="0">
+   </Data>
+   <Data data="5000" time="31.5">
+   </Data>
+   <Data data="0" time="32.5">
+   </Data>
+   <Data data="5000" time="61.5">
+   </Data>
+   <Data data="0" time="62.5">
+   </Data>
+   <Data data="5000" time="91.5">
+   </Data>
+   <Data data="0" time="92.5">
+   </Data>
+   <Data data="5000" time="121.5">
+   </Data>
+   <Data data="0" time="122.5">
+   </Data>
+   <Data data="5000" time="151.5">
+   </Data>
+   <Data data="0" time="152.5">
+   </Data>
+   <Data data="5000" time="181.5">
+   </Data>
+   <Data data="0" time="182.5">
+   </Data>
+   <Data data="5000" time="211.5">
+   </Data>
+   <Data data="0" time="212.5">
+   </Data>
+   <Data data="5000" time="241.5">
+   </Data>
+   <Data data="0" time="242.5">
+   </Data>
+   <Data data="5000" time="271.5">
+   </Data>
+   <Data data="0" time="272.5">
+   </Data>
+   <Data data="5000" time="301.5">
+   </Data>
+   <Data data="0" time="302.5">
+   </Data>
+   <Data data="5000" time="331.5">
+   </Data>
+   <Data data="0" time="332.5">
+   </Data>
+   <Data data="5000" time="361.5">
+   </Data>
+   <Data data="0" time="362.5">
+   </Data>
+   <Data data="5000" time="391.5">
+   </Data>
+   <Data data="0" time="392.5">
+   </Data>
+   <Data data="5000" time="421.5">
+   </Data>
+   <Data data="0" time="422.5">
+   </Data>
+   <Data data="5000" time="451.5">
+   </Data>
+   <Data data="0" time="452.5">
+   </Data>
+   <Data data="5000" time="481.5">
+   </Data>
+   <Data data="0" time="482.5">
+   </Data>
+  </AssetData>
+  <AssetData assetName="Asset2">
+   <Data data="0" time="0">
+   </Data>
+   <Data data="5000" time="391.5">
+   </Data>
+   <Data data="0" time="392.5">
+   </Data>
+   <Data data="5000" time="421.5">
+   </Data>
+   <Data data="0" time="422.5">
+   </Data>
+   <Data data="5000" time="451.5">
+   </Data>
+   <Data data="0" time="452.5">
+   </Data>
+   <Data data="5000" time="481.5">
+   </Data>
+   <Data data="0" time="482.5">
+   </Data>
+  </AssetData>
+ </SubsystemData>
+ <SubsystemData name="EOSensorOn" type="numeric">
+  <AssetData assetName="Asset1">
+   <Data data="0" time="0">
+   </Data>
+   <Data data="1" time="30">
+   </Data>
+   <Data data="0" time="33">
+   </Data>
+   <Data data="1" time="60">
+   </Data>
+   <Data data="0" time="63">
+   </Data>
+   <Data data="1" time="90">
+   </Data>
+   <Data data="0" time="93">
+   </Data>
+   <Data data="1" time="120">
+   </Data>
+   <Data data="0" time="123">
+   </Data>
+   <Data data="1" time="150">
+   </Data>
+   <Data data="0" time="153">
+   </Data>
+   <Data data="1" time="180">
+   </Data>
+   <Data data="0" time="183">
+   </Data>
+   <Data data="1" time="210">
+   </Data>
+   <Data data="0" time="213">
+   </Data>
+   <Data data="1" time="240">
+   </Data>
+   <Data data="0" time="243">
+   </Data>
+   <Data data="1" time="270">
+   </Data>
+   <Data data="0" time="273">
+   </Data>
+   <Data data="1" time="300">
+   </Data>
+   <Data data="0" time="303">
+   </Data>
+   <Data data="1" time="330">
+   </Data>
+   <Data data="0" time="333">
+   </Data>
+   <Data data="1" time="360">
+   </Data>
+   <Data data="0" time="363">
+   </Data>
+   <Data data="1" time="390">
+   </Data>
+   <Data data="0" time="393">
+   </Data>
+   <Data data="1" time="420">
+   </Data>
+   <Data data="0" time="423">
+   </Data>
+   <Data data="1" time="450">
+   </Data>
+   <Data data="0" time="453">
+   </Data>
+   <Data data="1" time="480">
+   </Data>
+   <Data data="0" time="483">
+   </Data>
+  </AssetData>
+  <AssetData assetName="Asset2">
+   <Data data="0" time="0">
+   </Data>
+   <Data data="1" time="390">
+   </Data>
+   <Data data="0" time="393">
+   </Data>
+   <Data data="1" time="420">
+   </Data>
+   <Data data="0" time="423">
+   </Data>
+   <Data data="1" time="450">
+   </Data>
+   <Data data="0" time="453">
+   </Data>
+   <Data data="1" time="480">
+   </Data>
+   <Data data="0" time="483">
+   </Data>
+  </AssetData>
+ </SubsystemData>
+ <SubsystemData name="DataBufferFillRatio" type="numeric">
+  <AssetData assetName="Asset1">
+   <Data data="0" time="0">
+   </Data>
+   <Data data="0.002" time="33">
+   </Data>
+   <Data data="0.004" time="63">
+   </Data>
+   <Data data="0.006" time="93">
+   </Data>
+   <Data data="0.008" time="123">
+   </Data>
+   <Data data="0.01" time="153">
+   </Data>
+   <Data data="0.012" time="183">
+   </Data>
+   <Data data="0.014" time="213">
+   </Data>
+   <Data data="0.016" time="243">
+   </Data>
+   <Data data="0.018" time="273">
+   </Data>
+   <Data data="0.02" time="303">
+   </Data>
+   <Data data="0.022" time="333">
+   </Data>
+   <Data data="0.024" time="363">
+   </Data>
+   <Data data="0.026" time="393">
+   </Data>
+   <Data data="0.028" time="423">
+   </Data>
+   <Data data="0.03" time="453">
+   </Data>
+   <Data data="0.032" time="483">
+   </Data>
+  </AssetData>
+  <AssetData assetName="Asset2">
+   <Data data="0" time="0">
+   </Data>
+   <Data data="0.002" time="393">
+   </Data>
+   <Data data="0.004" time="423">
+   </Data>
+   <Data data="0.006" time="453">
+   </Data>
+   <Data data="0.008" time="483">
+   </Data>
+  </AssetData>
+ </SubsystemData>
+ <SubsystemData name="DataRate(MB/s)" type="numeric">
+  <AssetData assetName="Asset1">
+   <Data data="0" time="0">
+   </Data>
+  </AssetData>
+  <AssetData assetName="Asset2">
+   <Data data="0" time="0">
+   </Data>
+  </AssetData>
+ </SubsystemData>
+ <SubsystemData name="DepthofDischarge" type="numeric">
+  <AssetData assetName="Asset1">
+   <Data data="0" time="0">
+   </Data>
+   <Data data="0.000375" time="5">
+   </Data>
+   <Data data="0.00075" time="10">
+   </Data>
+   <Data data="0.001125" time="15">
+   </Data>
+   <Data data="0.0015" time="20">
+   </Data>
+   <Data data="0.001875" time="25">
+   </Data>
+   <Data data="0.00225" time="30">
+   </Data>
+   <Data data="0.002685" time="33">
+   </Data>
+   <Data data="0.00306" time="38">
+   </Data>
+   <Data data="0.003435" time="43">
+   </Data>
+   <Data data="0.00381" time="48">
+   </Data>
+   <Data data="0.004185" time="53">
+   </Data>
+   <Data data="0.00456" time="58">
+   </Data>
+   <Data data="0.005145" time="63">
+   </Data>
+   <Data data="0.00552" time="68">
+   </Data>
+   <Data data="0.005895" time="73">
+   </Data>
+   <Data data="0.00627" time="78">
+   </Data>
+   <Data data="0.006645" time="83">
+   </Data>
+   <Data data="0.00702" time="88">
+   </Data>
+   <Data data="0.007605" time="93">
+   </Data>
+   <Data data="0.00798" time="98">
+   </Data>
+   <Data data="0.008355" time="103">
+   </Data>
+   <Data data="0.00873" time="108">
+   </Data>
+   <Data data="0.009105" time="113">
+   </Data>
+   <Data data="0.00948" time="118">
+   </Data>
+   <Data data="0.010065" time="123">
+   </Data>
+   <Data data="0.01044" time="128">
+   </Data>
+   <Data data="0.010815" time="133">
+   </Data>
+   <Data data="0.01119" time="138">
+   </Data>
+   <Data data="0.011565" time="143">
+   </Data>
+   <Data data="0.01194" time="148">
+   </Data>
+   <Data data="0.012525" time="153">
+   </Data>
+   <Data data="0.0129" time="158">
+   </Data>
+   <Data data="0.013275" time="163">
+   </Data>
+   <Data data="0.01365" time="168">
+   </Data>
+   <Data data="0.013485" time="183">
+   </Data>
+   <Data data="0.01311" time="188">
+   </Data>
+   <Data data="0.012735" time="193">
+   </Data>
+   <Data data="0.01236" time="198">
+   </Data>
+   <Data data="0.011985" time="203">
+   </Data>
+   <Data data="0.01161" time="208">
+   </Data>
+   <Data data="0.011445" time="213">
+   </Data>
+   <Data data="0.01107" time="218">
+   </Data>
+   <Data data="0.010695" time="223">
+   </Data>
+   <Data data="0.01032" time="228">
+   </Data>
+   <Data data="0.009945" time="233">
+   </Data>
+   <Data data="0.00957" time="238">
+   </Data>
+   <Data data="0.009405" time="243">
+   </Data>
+   <Data data="0.00903" time="248">
+   </Data>
+   <Data data="0.008655" time="253">
+   </Data>
+   <Data data="0.00828" time="258">
+   </Data>
+   <Data data="0.007905" time="263">
+   </Data>
+   <Data data="0.00753" time="268">
+   </Data>
+   <Data data="0.007365" time="273">
+   </Data>
+   <Data data="0.00699" time="278">
+   </Data>
+   <Data data="0.006615" time="283">
+   </Data>
+   <Data data="0.00624" time="288">
+   </Data>
+   <Data data="0.005865" time="293">
+   </Data>
+   <Data data="0.00549" time="298">
+   </Data>
+   <Data data="0.005325" time="303">
+   </Data>
+   <Data data="0.00495" time="308">
+   </Data>
+   <Data data="0.004575" time="313">
+   </Data>
+   <Data data="0.0042" time="318">
+   </Data>
+   <Data data="0.003825" time="323">
+   </Data>
+   <Data data="0.00345" time="328">
+   </Data>
+   <Data data="0.003285" time="333">
+   </Data>
+   <Data data="0.00291" time="338">
+   </Data>
+   <Data data="0.002535" time="343">
+   </Data>
+   <Data data="0.00216" time="348">
+   </Data>
+   <Data data="0.001785" time="353">
+   </Data>
+   <Data data="0.00141" time="358">
+   </Data>
+   <Data data="0.001245" time="363">
+   </Data>
+   <Data data="0.00087" time="368">
+   </Data>
+   <Data data="0.000495" time="373">
+   </Data>
+   <Data data="0.00012" time="378">
+   </Data>
+   <Data data="0" time="383">
+   </Data>
+   <Data data="0" time="393">
+   </Data>
+   <Data data="0" time="423">
+   </Data>
+   <Data data="0" time="453">
+   </Data>
+  </AssetData>
+  <AssetData assetName="Asset2">
+   <Data data="0" time="0">
+   </Data>
+   <Data data="0" time="90">
+   </Data>
+   <Data data="0" time="180">
+   </Data>
+   <Data data="0" time="270">
+   </Data>
+   <Data data="0" time="360">
+   </Data>
+   <Data data="0" time="393">
+   </Data>
+   <Data data="0" time="423">
+   </Data>
+   <Data data="0" time="453">
+   </Data>
+  </AssetData>
+ </SubsystemData>
+ <SubsystemData name="SolarPanelPowerIn" type="numeric">
+  <AssetData assetName="Asset1">
+   <Data data="0" time="0">
+   </Data>
+   <Data data="0" time="33">
+   </Data>
+   <Data data="0" time="63">
+   </Data>
+   <Data data="0" time="93">
+   </Data>
+   <Data data="0" time="123">
+   </Data>
+   <Data data="0" time="153">
+   </Data>
+   <Data data="75" time="168">
+   </Data>
+   <Data data="150" time="178">
+   </Data>
+   <Data data="150" time="183">
+   </Data>
+   <Data data="150" time="213">
+   </Data>
+   <Data data="150" time="243">
+   </Data>
+   <Data data="150" time="273">
+   </Data>
+   <Data data="150" time="303">
+   </Data>
+   <Data data="150" time="333">
+   </Data>
+   <Data data="150" time="363">
+   </Data>
+   <Data data="150" time="393">
+   </Data>
+   <Data data="150" time="423">
+   </Data>
+   <Data data="150" time="453">
+   </Data>
+  </AssetData>
+  <AssetData assetName="Asset2">
+   <Data data="150" time="0">
+   </Data>
+   <Data data="150" time="90">
+   </Data>
+   <Data data="150" time="180">
+   </Data>
+   <Data data="150" time="270">
+   </Data>
+   <Data data="150" time="360">
+   </Data>
+   <Data data="150" time="393">
+   </Data>
+   <Data data="150" time="423">
+   </Data>
+   <Data data="150" time="453">
+   </Data>
+  </AssetData>
+ </SubsystemData>
+ <SubsystemData name="IncidenceAngle" type="numeric">
+  <AssetData assetName="Asset1">
+   <Data data="0" time="0">
+   </Data>
+   <Data data="31.0963" time="31.5">
+   </Data>
+   <Data data="0" time="32.5">
+   </Data>
+   <Data data="30.9513" time="61.5">
+   </Data>
+   <Data data="0" time="62.5">
+   </Data>
+   <Data data="30.1874" time="91.5">
+   </Data>
+   <Data data="0" time="92.5">
+   </Data>
+   <Data data="30.2672" time="121.5">
+   </Data>
+   <Data data="0" time="122.5">
+   </Data>
+   <Data data="30.4794" time="151.5">
+   </Data>
+   <Data data="0" time="152.5">
+   </Data>
+   <Data data="30.7419" time="181.5">
+   </Data>
+   <Data data="0" time="182.5">
+   </Data>
+   <Data data="31.1458" time="211.5">
+   </Data>
+   <Data data="0" time="212.5">
+   </Data>
+   <Data data="31.6858" time="241.5">
+   </Data>
+   <Data data="0" time="242.5">
+   </Data>
+   <Data data="30.1529" time="271.5">
+   </Data>
+   <Data data="0" time="272.5">
+   </Data>
+   <Data data="30.2494" time="301.5">
+   </Data>
+   <Data data="0" time="302.5">
+   </Data>
+   <Data data="30.3951" time="331.5">
+   </Data>
+   <Data data="0" time="332.5">
+   </Data>
+   <Data data="30.679" time="361.5">
+   </Data>
+   <Data data="0" time="362.5">
+   </Data>
+   <Data data="31.1025" time="391.5">
+   </Data>
+   <Data data="0" time="392.5">
+   </Data>
+   <Data data="30.1521" time="421.5">
+   </Data>
+   <Data data="0" time="422.5">
+   </Data>
+   <Data data="30.2452" time="451.5">
+   </Data>
+   <Data data="0" time="452.5">
+   </Data>
+   <Data data="33.3951" time="481.5">
+   </Data>
+   <Data data="0" time="482.5">
+   </Data>
+  </AssetData>
+  <AssetData assetName="Asset2">
+   <Data data="0" time="0">
+   </Data>
+   <Data data="35.3677" time="391.5">
+   </Data>
+   <Data data="0" time="392.5">
+   </Data>
+   <Data data="36.8494" time="421.5">
+   </Data>
+   <Data data="0" time="422.5">
+   </Data>
+   <Data data="38.6574" time="451.5">
+   </Data>
+   <Data data="0" time="452.5">
+   </Data>
+   <Data data="40.6361" time="481.5">
+   </Data>
+   <Data data="0" time="482.5">
+   </Data>
+  </AssetData>
+ </SubsystemData>
+ <SubsystemData name="numPixels" type="numeric">
+  <AssetData assetName="Asset1">
+   <Data data="0" time="0">
+   </Data>
+   <Data data="5000" time="31.5">
+   </Data>
+   <Data data="0" time="32.5">
+   </Data>
+   <Data data="5000" time="61.5">
+   </Data>
+   <Data data="0" time="62.5">
+   </Data>
+   <Data data="5000" time="91.5">
+   </Data>
+   <Data data="0" time="92.5">
+   </Data>
+   <Data data="5000" time="121.5">
+   </Data>
+   <Data data="0" time="122.5">
+   </Data>
+   <Data data="5000" time="151.5">
+   </Data>
+   <Data data="0" time="152.5">
+   </Data>
+   <Data data="5000" time="181.5">
+   </Data>
+   <Data data="0" time="182.5">
+   </Data>
+   <Data data="5000" time="211.5">
+   </Data>
+   <Data data="0" time="212.5">
+   </Data>
+   <Data data="5000" time="241.5">
+   </Data>
+   <Data data="0" time="242.5">
+   </Data>
+   <Data data="5000" time="271.5">
+   </Data>
+   <Data data="0" time="272.5">
+   </Data>
+   <Data data="5000" time="301.5">
+   </Data>
+   <Data data="0" time="302.5">
+   </Data>
+   <Data data="5000" time="331.5">
+   </Data>
+   <Data data="0" time="332.5">
+   </Data>
+   <Data data="5000" time="361.5">
+   </Data>
+   <Data data="0" time="362.5">
+   </Data>
+   <Data data="5000" time="391.5">
+   </Data>
+   <Data data="0" time="392.5">
+   </Data>
+   <Data data="5000" time="421.5">
+   </Data>
+   <Data data="0" time="422.5">
+   </Data>
+   <Data data="5000" time="451.5">
+   </Data>
+   <Data data="0" time="452.5">
+   </Data>
+   <Data data="5000" time="481.5">
+   </Data>
+   <Data data="0" time="482.5">
+   </Data>
+  </AssetData>
+  <AssetData assetName="Asset2">
+   <Data data="0" time="0">
+   </Data>
+   <Data data="5000" time="391.5">
+   </Data>
+   <Data data="0" time="392.5">
+   </Data>
+   <Data data="5000" time="421.5">
+   </Data>
+   <Data data="0" time="422.5">
+   </Data>
+   <Data data="5000" time="451.5">
+   </Data>
+   <Data data="0" time="452.5">
+   </Data>
+   <Data data="5000" time="481.5">
+   </Data>
+   <Data data="0" time="482.5">
+   </Data>
+  </AssetData>
+ </SubsystemData>
+ <SubsystemData name="EOSensorOn" type="numeric">
+  <AssetData assetName="Asset1">
+   <Data data="0" time="0">
+   </Data>
+   <Data data="1" time="30">
+   </Data>
+   <Data data="0" time="33">
+   </Data>
+   <Data data="1" time="60">
+   </Data>
+   <Data data="0" time="63">
+   </Data>
+   <Data data="1" time="90">
+   </Data>
+   <Data data="0" time="93">
+   </Data>
+   <Data data="1" time="120">
+   </Data>
+   <Data data="0" time="123">
+   </Data>
+   <Data data="1" time="150">
+   </Data>
+   <Data data="0" time="153">
+   </Data>
+   <Data data="1" time="180">
+   </Data>
+   <Data data="0" time="183">
+   </Data>
+   <Data data="1" time="210">
+   </Data>
+   <Data data="0" time="213">
+   </Data>
+   <Data data="1" time="240">
+   </Data>
+   <Data data="0" time="243">
+   </Data>
+   <Data data="1" time="270">
+   </Data>
+   <Data data="0" time="273">
+   </Data>
+   <Data data="1" time="300">
+   </Data>
+   <Data data="0" time="303">
+   </Data>
+   <Data data="1" time="330">
+   </Data>
+   <Data data="0" time="333">
+   </Data>
+   <Data data="1" time="360">
+   </Data>
+   <Data data="0" time="363">
+   </Data>
+   <Data data="1" time="390">
+   </Data>
+   <Data data="0" time="393">
+   </Data>
+   <Data data="1" time="420">
+   </Data>
+   <Data data="0" time="423">
+   </Data>
+   <Data data="1" time="450">
+   </Data>
+   <Data data="0" time="453">
+   </Data>
+   <Data data="1" time="480">
+   </Data>
+   <Data data="0" time="483">
+   </Data>
+  </AssetData>
+  <AssetData assetName="Asset2">
+   <Data data="0" time="0">
+   </Data>
+   <Data data="1" time="390">
+   </Data>
+   <Data data="0" time="393">
+   </Data>
+   <Data data="1" time="420">
+   </Data>
+   <Data data="0" time="423">
+   </Data>
+   <Data data="1" time="450">
+   </Data>
+   <Data data="0" time="453">
+   </Data>
+   <Data data="1" time="480">
+   </Data>
+   <Data data="0" time="483">
+   </Data>
+  </AssetData>
+ </SubsystemData>
+ <SubsystemData name="DataBufferFillRatio" type="numeric">
+  <AssetData assetName="Asset1">
+   <Data data="0" time="0">
+   </Data>
+   <Data data="0.002" time="33">
+   </Data>
+   <Data data="0.004" time="63">
+   </Data>
+   <Data data="0.006" time="93">
+   </Data>
+   <Data data="0.008" time="123">
+   </Data>
+   <Data data="0.01" time="153">
+   </Data>
+   <Data data="0.012" time="183">
+   </Data>
+   <Data data="0.014" time="213">
+   </Data>
+   <Data data="0.016" time="243">
+   </Data>
+   <Data data="0.018" time="273">
+   </Data>
+   <Data data="0.02" time="303">
+   </Data>
+   <Data data="0.022" time="333">
+   </Data>
+   <Data data="0.024" time="363">
+   </Data>
+   <Data data="0.026" time="393">
+   </Data>
+   <Data data="0.028" time="423">
+   </Data>
+   <Data data="0.03" time="453">
+   </Data>
+   <Data data="0.032" time="483">
+   </Data>
+  </AssetData>
+  <AssetData assetName="Asset2">
+   <Data data="0" time="0">
+   </Data>
+   <Data data="0.002" time="393">
+   </Data>
+   <Data data="0.004" time="423">
+   </Data>
+   <Data data="0.006" time="453">
+   </Data>
+   <Data data="0.008" time="483">
+   </Data>
+  </AssetData>
+ </SubsystemData>
+ <SubsystemData name="DataRate(MB/s)" type="numeric">
+  <AssetData assetName="Asset1">
+   <Data data="0" time="0">
+   </Data>
+  </AssetData>
+  <AssetData assetName="Asset2">
+   <Data data="0" time="0">
+   </Data>
+  </AssetData>
+ </SubsystemData>
+ <SubsystemData name="DepthofDischarge" type="numeric">
+  <AssetData assetName="Asset1">
+   <Data data="0" time="0">
+   </Data>
+   <Data data="0.000375" time="5">
+   </Data>
+   <Data data="0.00075" time="10">
+   </Data>
+   <Data data="0.001125" time="15">
+   </Data>
+   <Data data="0.0015" time="20">
+   </Data>
+   <Data data="0.001875" time="25">
+   </Data>
+   <Data data="0.00225" time="30">
+   </Data>
+   <Data data="0.002685" time="33">
+   </Data>
+   <Data data="0.00306" time="38">
+   </Data>
+   <Data data="0.003435" time="43">
+   </Data>
+   <Data data="0.00381" time="48">
+   </Data>
+   <Data data="0.004185" time="53">
+   </Data>
+   <Data data="0.00456" time="58">
+   </Data>
+   <Data data="0.005145" time="63">
+   </Data>
+   <Data data="0.00552" time="68">
+   </Data>
+   <Data data="0.005895" time="73">
+   </Data>
+   <Data data="0.00627" time="78">
+   </Data>
+   <Data data="0.006645" time="83">
+   </Data>
+   <Data data="0.00702" time="88">
+   </Data>
+   <Data data="0.007605" time="93">
+   </Data>
+   <Data data="0.00798" time="98">
+   </Data>
+   <Data data="0.008355" time="103">
+   </Data>
+   <Data data="0.00873" time="108">
+   </Data>
+   <Data data="0.009105" time="113">
+   </Data>
+   <Data data="0.00948" time="118">
+   </Data>
+   <Data data="0.010065" time="123">
+   </Data>
+   <Data data="0.01044" time="128">
+   </Data>
+   <Data data="0.010815" time="133">
+   </Data>
+   <Data data="0.01119" time="138">
+   </Data>
+   <Data data="0.011565" time="143">
+   </Data>
+   <Data data="0.01194" time="148">
+   </Data>
+   <Data data="0.012525" time="153">
+   </Data>
+   <Data data="0.0129" time="158">
+   </Data>
+   <Data data="0.013275" time="163">
+   </Data>
+   <Data data="0.01365" time="168">
+   </Data>
+   <Data data="0.013485" time="183">
+   </Data>
+   <Data data="0.01311" time="188">
+   </Data>
+   <Data data="0.012735" time="193">
+   </Data>
+   <Data data="0.01236" time="198">
+   </Data>
+   <Data data="0.011985" time="203">
+   </Data>
+   <Data data="0.01161" time="208">
+   </Data>
+   <Data data="0.011445" time="213">
+   </Data>
+   <Data data="0.01107" time="218">
+   </Data>
+   <Data data="0.010695" time="223">
+   </Data>
+   <Data data="0.01032" time="228">
+   </Data>
+   <Data data="0.009945" time="233">
+   </Data>
+   <Data data="0.00957" time="238">
+   </Data>
+   <Data data="0.009405" time="243">
+   </Data>
+   <Data data="0.00903" time="248">
+   </Data>
+   <Data data="0.008655" time="253">
+   </Data>
+   <Data data="0.00828" time="258">
+   </Data>
+   <Data data="0.007905" time="263">
+   </Data>
+   <Data data="0.00753" time="268">
+   </Data>
+   <Data data="0.007365" time="273">
+   </Data>
+   <Data data="0.00699" time="278">
+   </Data>
+   <Data data="0.006615" time="283">
+   </Data>
+   <Data data="0.00624" time="288">
+   </Data>
+   <Data data="0.005865" time="293">
+   </Data>
+   <Data data="0.00549" time="298">
+   </Data>
+   <Data data="0.005325" time="303">
+   </Data>
+   <Data data="0.00495" time="308">
+   </Data>
+   <Data data="0.004575" time="313">
+   </Data>
+   <Data data="0.0042" time="318">
+   </Data>
+   <Data data="0.003825" time="323">
+   </Data>
+   <Data data="0.00345" time="328">
+   </Data>
+   <Data data="0.003285" time="333">
+   </Data>
+   <Data data="0.00291" time="338">
+   </Data>
+   <Data data="0.002535" time="343">
+   </Data>
+   <Data data="0.00216" time="348">
+   </Data>
+   <Data data="0.001785" time="353">
+   </Data>
+   <Data data="0.00141" time="358">
+   </Data>
+   <Data data="0.001245" time="363">
+   </Data>
+   <Data data="0.00087" time="368">
+   </Data>
+   <Data data="0.000495" time="373">
+   </Data>
+   <Data data="0.00012" time="378">
+   </Data>
+   <Data data="0" time="383">
+   </Data>
+   <Data data="0" time="393">
+   </Data>
+   <Data data="0" time="423">
+   </Data>
+   <Data data="0" time="453">
+   </Data>
+  </AssetData>
+  <AssetData assetName="Asset2">
+   <Data data="0" time="0">
+   </Data>
+   <Data data="0" time="90">
+   </Data>
+   <Data data="0" time="180">
+   </Data>
+   <Data data="0" time="270">
+   </Data>
+   <Data data="0" time="360">
+   </Data>
+   <Data data="0" time="393">
+   </Data>
+   <Data data="0" time="423">
+   </Data>
+   <Data data="0" time="453">
+   </Data>
+  </AssetData>
+ </SubsystemData>
+ <SubsystemData name="SolarPanelPowerIn" type="numeric">
+  <AssetData assetName="Asset1">
+   <Data data="0" time="0">
+   </Data>
+   <Data data="0" time="33">
+   </Data>
+   <Data data="0" time="63">
+   </Data>
+   <Data data="0" time="93">
+   </Data>
+   <Data data="0" time="123">
+   </Data>
+   <Data data="0" time="153">
+   </Data>
+   <Data data="75" time="168">
+   </Data>
+   <Data data="150" time="178">
+   </Data>
+   <Data data="150" time="183">
+   </Data>
+   <Data data="150" time="213">
+   </Data>
+   <Data data="150" time="243">
+   </Data>
+   <Data data="150" time="273">
+   </Data>
+   <Data data="150" time="303">
+   </Data>
+   <Data data="150" time="333">
+   </Data>
+   <Data data="150" time="363">
+   </Data>
+   <Data data="150" time="393">
+   </Data>
+   <Data data="150" time="423">
+   </Data>
+   <Data data="150" time="453">
+   </Data>
+  </AssetData>
+  <AssetData assetName="Asset2">
+   <Data data="150" time="0">
+   </Data>
+   <Data data="150" time="90">
+   </Data>
+   <Data data="150" time="180">
+   </Data>
+   <Data data="150" time="270">
+   </Data>
+   <Data data="150" time="360">
+   </Data>
+   <Data data="150" time="393">
+   </Data>
+   <Data data="150" time="423">
+   </Data>
+   <Data data="150" time="453">
+   </Data>
+  </AssetData>
+ </SubsystemData>
+</Base>

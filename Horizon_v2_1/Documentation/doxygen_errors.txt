@@ -1,0 +1,12 @@
+C:/Documents and Settings/aero/Desktop/Horizon/v2.0/Source/horizon/geom/Environment.cpp:6: Warning: no matching class member found for
+  horizon::geom::Environment::Environment()
+Possible candidates:
+  horizon::geom::Environment::Environment(Sun sun)
+C:/Documents and Settings/aero/Desktop/Horizon/v2.0/Source/horizon/io/scheduleDataWriter.cpp:21: Warning: documented function `horizon::io::scheduleDataWriter::scheduleDataWriter' was not declared or defined.
+C:/Documents and Settings/aero/Desktop/Horizon/v2.0/Source/horizon/io/scheduleDataWriter.cpp:36: Warning: documented function `horizon::io::scheduleDataWriter::~scheduleDataWriter' was not declared or defined.
+C:/Documents and Settings/aero/Desktop/Horizon/v2.0/Source/horizon/io/scheduleDataWriter.cpp:40: Warning: documented function `void horizon::io::scheduleDataWriter::addWatch' was not declared or defined.
+C:/Documents and Settings/aero/Desktop/Horizon/v2.0/Source/horizon/io/scheduleDataWriter.cpp:59: Warning: documented function `void horizon::io::scheduleDataWriter::writeSubsystemVariableData' was not declared or defined.
+C:/Documents and Settings/aero/Desktop/Horizon/v2.0/Source/horizon/io/scheduleDataWriter.cpp:144: Warning: documented function `void horizon::io::scheduleDataWriter::writeTargetData' was not declared or defined.
+C:/Documents and Settings/aero/Desktop/Horizon/v2.0/Source/horizon/io/scheduleDataWriter.cpp:193: Warning: documented function `void horizon::io::scheduleDataWriter::writeAssetPositionData' was not declared or defined.
+C:/Documents and Settings/aero/Desktop/Horizon/v2.0/Source/horizon/io/scheduleDataWriter.cpp:236: Warning: documented function `string horizon::io::scheduleDataWriter::writeAll' was not declared or defined.
+C:/Documents and Settings/aero/Desktop/Horizon/v2.0/Source/horizon/State.h:147: Warning: documented function `const State * horizon::State::getPrevious' was not declared or defined.

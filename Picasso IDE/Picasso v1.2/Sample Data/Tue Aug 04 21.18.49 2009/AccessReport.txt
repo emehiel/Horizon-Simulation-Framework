@@ -1,0 +1,605 @@
+Access report for scenario: testScenario
+All times in seconds referenced from starting Julian date: 2.45468e+006
+	Accesses for target: groundstation3
+		Accesses for target: groundstation3 to Asset: 1
+			Start access: 2700
+			End access: 3810
+	Accesses for target: groundstation4
+		Accesses for target: groundstation4 to Asset: 1
+			Start access: 4110
+	Accesses for target: imagetarget1
+		Accesses for target: imagetarget1 to Asset: 1
+			Start access: 720
+			End access: 1800
+	Accesses for target: imagetarget2
+		Accesses for target: imagetarget2 to Asset: 1
+			Start access: 780
+			End access: 1830
+	Accesses for target: imagetarget3
+		Accesses for target: imagetarget3 to Asset: 1
+			Start access: 600
+			End access: 1680
+	Accesses for target: imagetarget4
+		Accesses for target: imagetarget4 to Asset: 1
+			Start access: 540
+			End access: 1560
+	Accesses for target: imagetarget5
+		Accesses for target: imagetarget5 to Asset: 1
+			Start access: 690
+			End access: 1800
+	Accesses for target: imagetarget6
+		Accesses for target: imagetarget6 to Asset: 1
+			Start access: 690
+			End access: 1770
+	Accesses for target: imagetarget7
+		Accesses for target: imagetarget7 to Asset: 1
+			Start access: 600
+			End access: 1710
+	Accesses for target: imagetarget8
+		Accesses for target: imagetarget8 to Asset: 1
+			Start access: 660
+			End access: 1770
+	Accesses for target: imagetarget9
+		Accesses for target: imagetarget9 to Asset: 1
+			Start access: 720
+			End access: 1770
+	Accesses for target: imagetarget10
+		Accesses for target: imagetarget10 to Asset: 1
+			Start access: 660
+			End access: 1680
+	Accesses for target: imagetarget11
+		Accesses for target: imagetarget11 to Asset: 1
+			Start access: 600
+			End access: 1710
+	Accesses for target: imagetarget12
+		Accesses for target: imagetarget12 to Asset: 1
+			Start access: 600
+			End access: 1620
+	Accesses for target: imagetarget13
+		Accesses for target: imagetarget13 to Asset: 1
+			Start access: 720
+			End access: 1770
+	Accesses for target: imagetarget14
+		Accesses for target: imagetarget14 to Asset: 1
+			Start access: 450
+			End access: 1530
+	Accesses for target: imagetarget15
+		Accesses for target: imagetarget15 to Asset: 1
+			Start access: 570
+			End access: 1650
+	Accesses for target: imagetarget16
+		Accesses for target: imagetarget16 to Asset: 1
+			Start access: 390
+			End access: 1500
+	Accesses for target: imagetarget17
+		Accesses for target: imagetarget17 to Asset: 1
+			Start access: 450
+			End access: 1560
+	Accesses for target: imagetarget18
+		Accesses for target: imagetarget18 to Asset: 1
+			Start access: 720
+			End access: 1800
+	Accesses for target: imagetarget19
+		Accesses for target: imagetarget19 to Asset: 1
+			Start access: 600
+			End access: 1650
+	Accesses for target: imagetarget20
+		Accesses for target: imagetarget20 to Asset: 1
+			Start access: 780
+			End access: 1680
+	Accesses for target: imagetarget21
+		Accesses for target: imagetarget21 to Asset: 1
+			Start access: 900
+			End access: 1980
+	Accesses for target: imagetarget22
+		Accesses for target: imagetarget22 to Asset: 1
+			Start access: 750
+			End access: 1500
+	Accesses for target: imagetarget23
+		Accesses for target: imagetarget23 to Asset: 1
+			Start access: 780
+			End access: 1740
+	Accesses for target: imagetarget24
+		Accesses for target: imagetarget24 to Asset: 1
+			Start access: 630
+			End access: 1620
+	Accesses for target: imagetarget25
+		Accesses for target: imagetarget25 to Asset: 1
+			Start access: 810
+			End access: 1860
+	Accesses for target: imagetarget26
+		Accesses for target: imagetarget26 to Asset: 1
+			Start access: 630
+			End access: 1710
+	Accesses for target: imagetarget27
+		Accesses for target: imagetarget27 to Asset: 1
+			Start access: 810
+			End access: 1620
+	Accesses for target: imagetarget28
+		Accesses for target: imagetarget28 to Asset: 1
+			Start access: 840
+			End access: 1800
+	Accesses for target: imagetarget29
+		Accesses for target: imagetarget29 to Asset: 1
+			Start access: 900
+			End access: 1860
+	Accesses for target: imagetarget30
+		Accesses for target: imagetarget30 to Asset: 1
+			Start access: 900
+			End access: 1920
+	Accesses for target: imagetarget31
+		Accesses for target: imagetarget31 to Asset: 1
+			Start access: 750
+			End access: 1800
+	Accesses for target: imagetarget32
+		Accesses for target: imagetarget32 to Asset: 1
+			Start access: 600
+			End access: 1680
+	Accesses for target: imagetarget33
+		Accesses for target: imagetarget33 to Asset: 1
+			Start access: 630
+			End access: 1560
+	Accesses for target: imagetarget34
+		Accesses for target: imagetarget34 to Asset: 1
+			Start access: 630
+			End access: 1710
+	Accesses for target: imagetarget35
+		Accesses for target: imagetarget35 to Asset: 1
+			Start access: 870
+			End access: 1890
+	Accesses for target: imagetarget36
+		Accesses for target: imagetarget36 to Asset: 1
+			Start access: 690
+			End access: 1530
+	Accesses for target: imagetarget37
+		Accesses for target: imagetarget37 to Asset: 1
+			Start access: 450
+			End access: 1560
+	Accesses for target: imagetarget38
+		Accesses for target: imagetarget38 to Asset: 1
+			Start access: 360
+			End access: 1440
+	Accesses for target: imagetarget39
+		Accesses for target: imagetarget39 to Asset: 1
+			Start access: 600
+			End access: 1710
+	Accesses for target: imagetarget40
+		Accesses for target: imagetarget40 to Asset: 1
+			Start access: 630
+			End access: 1710
+	Accesses for target: imagetarget41
+		Accesses for target: imagetarget41 to Asset: 1
+			Start access: 690
+			End access: 1710
+	Accesses for target: imagetarget42
+		Accesses for target: imagetarget42 to Asset: 1
+			Start access: 390
+			End access: 1470
+	Accesses for target: imagetarget43
+		Accesses for target: imagetarget43 to Asset: 1
+			Start access: 570
+			End access: 1680
+	Accesses for target: imagetarget44
+		Accesses for target: imagetarget44 to Asset: 1
+			Start access: 510
+			End access: 1620
+	Accesses for target: imagetarget45
+		Accesses for target: imagetarget45 to Asset: 1
+			Start access: 360
+			End access: 1470
+	Accesses for target: imagetarget46
+		Accesses for target: imagetarget46 to Asset: 1
+			Start access: 510
+			End access: 1620
+	Accesses for target: imagetarget47
+		Accesses for target: imagetarget47 to Asset: 1
+			Start access: 420
+			End access: 1560
+	Accesses for target: imagetarget48
+		Accesses for target: imagetarget48 to Asset: 1
+			Start access: 630
+			End access: 1740
+	Accesses for target: imagetarget49
+		Accesses for target: imagetarget49 to Asset: 1
+			Start access: 510
+			End access: 1620
+	Accesses for target: imagetarget50
+		Accesses for target: imagetarget50 to Asset: 1
+			Start access: 540
+			End access: 1590
+	Accesses for target: imagetarget51
+		Accesses for target: imagetarget51 to Asset: 1
+			Start access: 450
+			End access: 1560
+	Accesses for target: imagetarget52
+		Accesses for target: imagetarget52 to Asset: 1
+			Start access: 600
+			End access: 1710
+	Accesses for target: imagetarget53
+		Accesses for target: imagetarget53 to Asset: 1
+			Start access: 450
+			End access: 1530
+	Accesses for target: imagetarget54
+		Accesses for target: imagetarget54 to Asset: 1
+			Start access: 600
+			End access: 1710
+	Accesses for target: imagetarget55
+		Accesses for target: imagetarget55 to Asset: 1
+			Start access: 270
+			End access: 1380
+	Accesses for target: imagetarget56
+		Accesses for target: imagetarget56 to Asset: 1
+			Start access: 360
+			End access: 1470
+	Accesses for target: imagetarget57
+		Accesses for target: imagetarget57 to Asset: 1
+			Start access: 270
+			End access: 1380
+	Accesses for target: imagetarget58
+		Accesses for target: imagetarget58 to Asset: 1
+			Start access: 420
+			End access: 1470
+	Accesses for target: imagetarget59
+		Accesses for target: imagetarget59 to Asset: 1
+			Start access: 300
+			End access: 1410
+	Accesses for target: imagetarget60
+		Accesses for target: imagetarget60 to Asset: 1
+			Start access: 540
+			End access: 1650
+	Accesses for target: imagetarget61
+		Accesses for target: imagetarget61 to Asset: 1
+			Start access: 210
+			End access: 1320
+	Accesses for target: imagetarget62
+		Accesses for target: imagetarget62 to Asset: 1
+			Start access: 360
+			End access: 1440
+	Accesses for target: imagetarget63
+		Accesses for target: imagetarget63 to Asset: 1
+			Start access: 270
+			End access: 1380
+	Accesses for target: imagetarget64
+		Accesses for target: imagetarget64 to Asset: 1
+			Start access: 360
+			End access: 1410
+	Accesses for target: imagetarget65
+		Accesses for target: imagetarget65 to Asset: 1
+			Start access: 450
+			End access: 1500
+	Accesses for target: imagetarget66
+		Accesses for target: imagetarget66 to Asset: 1
+			Start access: 360
+			End access: 1500
+	Accesses for target: imagetarget67
+		Accesses for target: imagetarget67 to Asset: 1
+			Start access: 330
+			End access: 1410
+	Accesses for target: imagetarget68
+		Accesses for target: imagetarget68 to Asset: 1
+			Start access: 360
+			End access: 1410
+	Accesses for target: imagetarget69
+		Accesses for target: imagetarget69 to Asset: 1
+			Start access: 450
+			End access: 1470
+	Accesses for target: imagetarget70
+		Accesses for target: imagetarget70 to Asset: 1
+			Start access: 450
+			End access: 1560
+	Accesses for target: imagetarget71
+		Accesses for target: imagetarget71 to Asset: 1
+			Start access: 390
+			End access: 1470
+	Accesses for target: imagetarget72
+		Accesses for target: imagetarget72 to Asset: 1
+			Start access: 450
+			End access: 1530
+	Accesses for target: imagetarget75
+		Accesses for target: imagetarget75 to Asset: 1
+			Start access: 3450
+			End access: 3600
+	Accesses for target: imagetarget76
+		Accesses for target: imagetarget76 to Asset: 1
+			Start access: 3360
+			End access: 3780
+	Accesses for target: imagetarget80
+		Accesses for target: imagetarget80 to Asset: 1
+			Start access: 3270
+			End access: 3840
+	Accesses for target: imagetarget109
+		Accesses for target: imagetarget109 to Asset: 1
+			Start access: 4290
+			End access: 4650
+	Accesses for target: imagetarget110
+		Accesses for target: imagetarget110 to Asset: 1
+			Start access: 4170
+			End access: 4680
+	Accesses for target: imagetarget111
+		Accesses for target: imagetarget111 to Asset: 1
+			Start access: 4320
+			End access: 4650
+	Accesses for target: imagetarget116
+		Accesses for target: imagetarget116 to Asset: 1
+			Start access: 4290
+			End access: 4710
+	Accesses for target: imagetarget120
+		Accesses for target: imagetarget120 to Asset: 1
+			Start access: 4470
+			End access: 4950
+	Accesses for target: imagetarget121
+		Accesses for target: imagetarget121 to Asset: 1
+			Start access: 4530
+			End access: 4590
+	Accesses for target: imagetarget124
+		Accesses for target: imagetarget124 to Asset: 1
+			Start access: 4530
+			End access: 4590
+	Accesses for target: imagetarget163
+		Accesses for target: imagetarget163 to Asset: 1
+			Start access: 4560
+	Accesses for target: imagetarget164
+		Accesses for target: imagetarget164 to Asset: 1
+			Start access: 4950
+	Accesses for target: imagetarget165
+		Accesses for target: imagetarget165 to Asset: 1
+			Start access: 4950
+	Accesses for target: imagetarget166
+		Accesses for target: imagetarget166 to Asset: 1
+			Start access: 4860
+	Accesses for target: imagetarget169
+		Accesses for target: imagetarget169 to Asset: 1
+			Start access: 4800
+	Accesses for target: imagetarget171
+		Accesses for target: imagetarget171 to Asset: 1
+			Start access: 4620
+	Accesses for target: imagetarget173
+		Accesses for target: imagetarget173 to Asset: 1
+			Start access: 4800
+	Accesses for target: imagetarget174
+		Accesses for target: imagetarget174 to Asset: 1
+			Start access: 4740
+	Accesses for target: imagetarget175
+		Accesses for target: imagetarget175 to Asset: 1
+			Start access: 4920
+	Accesses for target: imagetarget176
+		Accesses for target: imagetarget176 to Asset: 1
+			Start access: 4830
+	Accesses for target: imagetarget177
+		Accesses for target: imagetarget177 to Asset: 1
+			Start access: 4860
+	Accesses for target: imagetarget178
+		Accesses for target: imagetarget178 to Asset: 1
+			Start access: 4740
+	Accesses for target: imagetarget185
+		Accesses for target: imagetarget185 to Asset: 1
+			Start access: 0
+			End access: 120
+	Accesses for target: imagetarget187
+		Accesses for target: imagetarget187 to Asset: 1
+			Start access: 0
+			End access: 210
+	Accesses for target: imagetarget189
+		Accesses for target: imagetarget189 to Asset: 1
+			Start access: 0
+			End access: 210
+	Accesses for target: imagetarget193
+		Accesses for target: imagetarget193 to Asset: 1
+			Start access: 0
+			End access: 300
+	Accesses for target: imagetarget194
+		Accesses for target: imagetarget194 to Asset: 1
+			Start access: 0
+			End access: 240
+	Accesses for target: imagetarget195
+		Accesses for target: imagetarget195 to Asset: 1
+			Start access: 0
+			End access: 180
+	Accesses for target: imagetarget199
+		Accesses for target: imagetarget199 to Asset: 1
+			Start access: 3060
+			End access: 4140
+	Accesses for target: imagetarget201
+		Accesses for target: imagetarget201 to Asset: 1
+			Start access: 4260
+	Accesses for target: imagetarget202
+		Accesses for target: imagetarget202 to Asset: 1
+			Start access: 4200
+	Accesses for target: imagetarget205
+		Accesses for target: imagetarget205 to Asset: 1
+			Start access: 2400
+			End access: 3480
+	Accesses for target: imagetarget206
+		Accesses for target: imagetarget206 to Asset: 1
+			Start access: 2400
+			End access: 3360
+	Accesses for target: imagetarget208
+		Accesses for target: imagetarget208 to Asset: 1
+			Start access: 390
+			End access: 1500
+	Accesses for target: imagetarget209
+		Accesses for target: imagetarget209 to Asset: 1
+			Start access: 750
+			End access: 1710
+	Accesses for target: imagetarget211
+		Accesses for target: imagetarget211 to Asset: 1
+			Start access: 4800
+	Accesses for target: imagetarget212
+		Accesses for target: imagetarget212 to Asset: 1
+			Start access: 3090
+			End access: 4170
+	Accesses for target: imagetarget213
+		Accesses for target: imagetarget213 to Asset: 1
+			Start access: 2040
+			End access: 2820
+	Accesses for target: imagetarget214
+		Accesses for target: imagetarget214 to Asset: 1
+			Start access: 2790
+			End access: 3510
+	Accesses for target: imagetarget215
+		Accesses for target: imagetarget215 to Asset: 1
+			Start access: 2580
+			End access: 3420
+	Accesses for target: imagetarget217
+		Accesses for target: imagetarget217 to Asset: 1
+			Start access: 2040
+			End access: 3120
+	Accesses for target: imagetarget219
+		Accesses for target: imagetarget219 to Asset: 1
+			Start access: 2190
+			End access: 3210
+	Accesses for target: imagetarget222
+		Accesses for target: imagetarget222 to Asset: 1
+			Start access: 0
+			End access: 450
+	Accesses for target: imagetarget224
+		Accesses for target: imagetarget224 to Asset: 1
+			Start access: 0
+			End access: 60
+	Accesses for target: imagetarget228
+		Accesses for target: imagetarget228 to Asset: 1
+			Start access: 3780
+			End access: 4890
+	Accesses for target: imagetarget229
+		Accesses for target: imagetarget229 to Asset: 1
+			Start access: 2850
+			End access: 3960
+	Accesses for target: imagetarget233
+		Accesses for target: imagetarget233 to Asset: 1
+			Start access: 0
+			End access: 870
+	Accesses for target: imagetarget238
+		Accesses for target: imagetarget238 to Asset: 1
+			Start access: 2010
+			End access: 3120
+	Accesses for target: imagetarget239
+		Accesses for target: imagetarget239 to Asset: 1
+			Start access: 4380
+	Accesses for target: imagetarget240
+		Accesses for target: imagetarget240 to Asset: 1
+			Start access: 1770
+			End access: 2880
+	Accesses for target: imagetarget241
+		Accesses for target: imagetarget241 to Asset: 1
+			Start access: 1230
+			End access: 2280
+	Accesses for target: imagetarget242
+		Accesses for target: imagetarget242 to Asset: 1
+			Start access: 3900
+			End access: 4290
+	Accesses for target: imagetarget243
+		Accesses for target: imagetarget243 to Asset: 1
+			Start access: 3660
+			End access: 4770
+	Accesses for target: imagetarget245
+		Accesses for target: imagetarget245 to Asset: 1
+			Start access: 930
+			End access: 1950
+	Accesses for target: imagetarget246
+		Accesses for target: imagetarget246 to Asset: 1
+			Start access: 480
+			End access: 690
+	Accesses for target: imagetarget247
+		Accesses for target: imagetarget247 to Asset: 1
+			Start access: 2850
+			End access: 3750
+	Accesses for target: imagetarget248
+		Accesses for target: imagetarget248 to Asset: 1
+			Start access: 480
+			End access: 1560
+	Accesses for target: imagetarget250
+		Accesses for target: imagetarget250 to Asset: 1
+			Start access: 4200
+			End access: 4740
+	Accesses for target: imagetarget251
+		Accesses for target: imagetarget251 to Asset: 1
+			Start access: 210
+			End access: 1260
+	Accesses for target: imagetarget255
+		Accesses for target: imagetarget255 to Asset: 1
+			Start access: 3630
+			End access: 4380
+	Accesses for target: imagetarget257
+		Accesses for target: imagetarget257 to Asset: 1
+			Start access: 3180
+			End access: 4170
+	Accesses for target: imagetarget264
+		Accesses for target: imagetarget264 to Asset: 1
+			Start access: 90
+			End access: 1140
+	Accesses for target: imagetarget267
+		Accesses for target: imagetarget267 to Asset: 1
+			Start access: 4620
+	Accesses for target: imagetarget268
+		Accesses for target: imagetarget268 to Asset: 1
+			Start access: 1350
+			End access: 2160
+	Accesses for target: imagetarget269
+		Accesses for target: imagetarget269 to Asset: 1
+			Start access: 3870
+			End access: 4950
+	Accesses for target: imagetarget270
+		Accesses for target: imagetarget270 to Asset: 1
+			Start access: 1200
+			End access: 2310
+	Accesses for target: imagetarget271
+		Accesses for target: imagetarget271 to Asset: 1
+			Start access: 4050
+	Accesses for target: imagetarget274
+		Accesses for target: imagetarget274 to Asset: 1
+			Start access: 240
+			End access: 1290
+	Accesses for target: imagetarget275
+		Accesses for target: imagetarget275 to Asset: 1
+			Start access: 3960
+	Accesses for target: imagetarget276
+		Accesses for target: imagetarget276 to Asset: 1
+			Start access: 4890
+	Accesses for target: imagetarget278
+		Accesses for target: imagetarget278 to Asset: 1
+			Start access: 3060
+			End access: 3810
+	Accesses for target: imagetarget279
+		Accesses for target: imagetarget279 to Asset: 1
+			Start access: 1500
+			End access: 2580
+	Accesses for target: imagetarget281
+		Accesses for target: imagetarget281 to Asset: 1
+			Start access: 3900
+			End access: 4650
+	Accesses for target: imagetarget282
+		Accesses for target: imagetarget282 to Asset: 1
+			Start access: 0
+			End access: 900
+	Accesses for target: imagetarget285
+		Accesses for target: imagetarget285 to Asset: 1
+			Start access: 1980
+			End access: 3090
+	Accesses for target: imagetarget287
+		Accesses for target: imagetarget287 to Asset: 1
+			Start access: 3480
+			End access: 3600
+	Accesses for target: imagetarget288
+		Accesses for target: imagetarget288 to Asset: 1
+			Start access: 0
+			End access: 870
+	Accesses for target: imagetarget292
+		Accesses for target: imagetarget292 to Asset: 1
+			Start access: 4530
+			End access: 4860
+	Accesses for target: imagetarget293
+		Accesses for target: imagetarget293 to Asset: 1
+			Start access: 4230
+			End access: 4590
+	Accesses for target: imagetarget294
+		Accesses for target: imagetarget294 to Asset: 1
+			Start access: 750
+			End access: 1770
+	Accesses for target: imagetarget295
+		Accesses for target: imagetarget295 to Asset: 1
+			Start access: 1950
+			End access: 2970
+	Accesses for target: imagetarget296
+		Accesses for target: imagetarget296 to Asset: 1
+			Start access: 0
+			End access: 120

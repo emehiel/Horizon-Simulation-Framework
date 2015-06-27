@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="CsOpenGl">
+</Property><Property Name="Solution File" Value="C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\CsOpenGl\CsOpenGl.sln">
+</Property><Property Name="User Options File" Value="C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\CsOpenGl\CsOpenGl.suo">
+</Property><Property Name="Date" Value="Thursday, June 25, 2015">
+</Property><Property Name="Time" Value="20:18 PM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="CsOpenGl.sln" Description="File successfully backed up as C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\CsOpenGl\Backup\CsOpenGl.sln">
+</Event><Event ErrorLevel="0" Project="" Source="CsOpenGl.suo" Description="File successfully backed up as C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\CsOpenGl\Backup\CsOpenGl.suo">
+</Event><Event ErrorLevel="0" Project="CsOpenGl" Source="CsOpenGl.csproj" Description="Project file successfully backed up as C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\CsOpenGl\Backup\CsOpenGl.csproj">
+</Event><Event ErrorLevel="0" Project="CsOpenGl" Source="CsOpenGl.csproj.user" Description="Project user file successfully backed up as C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\CsOpenGl\Backup\CsOpenGl.csproj.user">
+</Event><Event ErrorLevel="0" Project="CsOpenGl" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\CsOpenGl\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="CsOpenGl" Source="BaseGlContext.cs" Description="File successfully backed up as C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\CsOpenGl\Backup\BaseGlContext.cs">
+</Event><Event ErrorLevel="0" Project="CsOpenGl" Source="GLU.cs" Description="File successfully backed up as C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\CsOpenGl\Backup\GLU.cs">
+</Event><Event ErrorLevel="0" Project="CsOpenGl" Source="OpenGL.cs" Description="File successfully backed up as C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\CsOpenGl\Backup\OpenGL.cs">
+</Event><Event ErrorLevel="0" Project="CsOpenGl" Source="WGL.cs" Description="File successfully backed up as C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\CsOpenGl\Backup\WGL.cs">
+</Event><Event ErrorLevel="0" Project="CsOpenGl" Source="App.ico" Description="File successfully backed up as C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\CsOpenGl\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="CsOpenGl" Source="BaseGlContext.resx" Description="File successfully backed up as C:\Users\emehiel.CALPOLY\Documents\Visual Studio 2010\Projects\Picasso IDE\CsOpenGl\Backup\BaseGlContext.resx">
+</Event><Event ErrorLevel="1" Project="CsOpenGl" Source="CsOpenGl.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="CsOpenGl" Source="CsOpenGl.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="CsOpenGl" Source="CsOpenGl.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="CsOpenGl.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="CsOpenGl.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="CsOpenGl" Source="CsOpenGl.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
