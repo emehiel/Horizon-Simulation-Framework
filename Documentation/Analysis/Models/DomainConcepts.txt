@@ -1,0 +1,61 @@
+Environment
+System
+Subsystem
+State
+Constraint
+
+Schedule
+Event
+Task
+Target
+Position
+
+---
+
+System
+Space System
+Vehicle
+
+State
+Subsystem
+Constraint
+Configuration
+
+Target
+Task
+Activity
+Action
+Event
+
+Schedule
+Plan
+Sequence
+Event Sequence
+Target Sequence
+
+Position
+Object
+
+Canonical design case
+Capability case study
+
+---
+
+Task generator
+Event generator
+Sequence generator
+Scheduler
+Sequence validator
+Plan evaluator
+
+---
+
+TASKS
+A Task can be accessing a Target and...?
+
+PLANNING
+An (Event|Activity) is the performance of a Task at a specific time.
+A (Plan|TargetSequence|EventSequence|Schedule) is a series of Events (during a specific period of time?).
+
+GEOMETRY
+A location is denoted as a Position on an Object (in a System).

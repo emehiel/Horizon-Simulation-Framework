@@ -1,0 +1,7 @@
+Simulation Framework Inputs
+
+- Sim Start Time
+- Sim end time
+- Subsystem Initial Conditions
+- initial position and velocity of satellite
+- Target Deck File name?

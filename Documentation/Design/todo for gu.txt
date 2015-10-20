@@ -1,0 +1,23 @@
+*Feedback from schedule via subsystem.canPerform as to why the subsystem failed/performed
+
+*Documentation (doxygen) linked to flow chart of main framework function calls/logic
+
+*add variable schedule list size for Greedy Alg option
+*add time scale windowing
+
+*DOCUMENTATION
+
+*Run time studies - target deck size and time step size
+
+*Profile run time
+
+*Outline of Users Guide
+	- How to set up a system
+
+*Validation plan
+	- Subsystems
+	- Framework - Bogus model vs. full model
+
+*Validation cases on flow chart of main framework function calls/logic
+
+*list of Open Source Items

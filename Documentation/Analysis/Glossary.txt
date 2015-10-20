@@ -1,0 +1,18 @@
+GLOSSARY
+========
+
+Environment - The entity in which systems reside, and to whose physical rules they are subject
+System - A stateful entity that performs tasks
+Subsystem - A component representing an aspect of the system, possibly dependent on other subsystems
+State - A collection of variable values that record the properties of a system at a specific point in time
+Variable - A varying quantity that completely or partially defines the state of a subsystem
+Constraint – An externally or internally imposed restriction on the legal values of a variable
+Dependency – How two or more subsystems are related in state
+Schedule - A time-ordered sequence of events
+Event - A scheduled performance of a Task during a time interval
+Task - An action to be performed at a target, whose interaction with the Geometry Model provides limitations and suggestions for scheduling
+Target - A named object with a position that may vary
+Scheduler - An actor that creates valid schedules for a system
+Schedule Evaluator - An actor that assigns values to schedules
+
+TODO:  Define Geometry Model

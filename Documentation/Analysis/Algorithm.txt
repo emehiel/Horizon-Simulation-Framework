@@ -1,0 +1,21 @@
+ALGORITHM SPECIFICATION
+=======================
+
+Algorithm TaskScheduling
+
+Input:  A system with an initial state
+        A set of tasks
+        A time interval
+        The time step length
+Output:	A set of schedules
+
+add an empty schedule to the set of schedules
+for each quantized point in time
+   for each generated schedule
+      if the end time of the schedule has not yet passed
+         for each task
+            if the target of the task is accessible at the systems current position
+             and if the task can be added to the schedule
+             and if the system can perform the task at the end of the schedule
+               add a new schedule with the a new event for the task
+return schedules

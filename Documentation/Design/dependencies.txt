@@ -1,0 +1,62 @@
+SUBSYSTEM DEPENDENCIES
+======================
+
+1) CALL-BY-NAME / REFLECTION (doesn't work in C++)
+e.g. getADCSPower(state)
+
+for each dependent subsystem
+	string methodName = "get" + Subsystem.getName() + "PowerProfile";
+	call(methodName, state);
+
+2) DEPENDENCY CLASS / SEPARATE SUBSYSTEM / FUNCTOR / FUNCTION POINTER
+
+ADCSPower.canPerform() {
+	// update "ADCS_Power"
+	return true;
+}
+
+3) SUBSYSTEM METHOD
+ADCS.getPower(state)
+Power.getADCSPower(state)
+
+
+
+4) SWITCH (Our current method)
+
+Use a switch to determine which function to execute for a dependency.
+The dependency names and their corresponding functions will be added into the header
+and cpp files by a text editor before the project is compiled.
+
+
+The following will be in Dependencies.h
+
+enum DEP (DEPENDENTSUB1_DATA_DEPENDEESUB1_CLASS, ...)
+class Dependencies {
+public:
+	State depFunc(DEP, const State& newState)
+}
+
+
+The following will be in Dependencies.cpp
+
+State Dependencies::depFunc(DEP, const State& newState) {
+	State (* fPoint)(const State& newState);
+	switch(DEP) {
+		case(DEPENDENTSUB1_DATA_DEPENDEESUB1_CLASS) fPoint = Dependent1DataDependee1Class; break;
+	}
+	return (fPoint(newState));
+} 
+
+
+The following will be in DepFuncs.h (function prototypes and definitions for dependency functions)
+
+State Dependent1DataDependee1Class(const State& newState) {
+	code ...
+}
+
+
+Subsystem recieves list of relevant dependencies as argument to constructor.  In the
+canPerform function the subsystem iterates through the list of dependencies and calls the
+Dependencies::depFunc for each dependency.  The function canPerform discriminates between 
+types of data (DATA), which can be intrinsic or extrinsic (CLASS).
+
