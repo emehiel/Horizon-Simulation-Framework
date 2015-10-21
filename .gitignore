@@ -26,3 +26,6 @@
 *.exe
 *.out
 *.app
+
+# Windows VIsual Studio Files
+*.sdf
