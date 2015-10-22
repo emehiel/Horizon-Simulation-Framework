@@ -1,0 +1,2702 @@
+<TARGETDECK>
+	<TARGET	
+		TargetName = "groundstation1"
+		TargetType = "FacilityTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-33.470000"
+		Longitude = "-70.650000"
+		Altitude = "0.000000"
+		Value = "-1.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "groundstation2"
+		TargetType = "FacilityTarget"
+		PositionType = "StaticLLA"
+		Latitude = "18.590000"
+		Longitude = "-155.400000"
+		Altitude = "0.000000"
+		Value = "-1.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "groundstation3"
+		TargetType = "FacilityTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-2.900000"
+		Longitude = "40.200000"
+		Altitude = "0.000000"
+		Value = "-1.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "groundstation4"
+		TargetType = "FacilityTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-29.150000"
+		Longitude = "114.560000"
+		Altitude = "0.000000"
+		Value = "-1.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget1"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "42.002586"
+		Longitude = "-78.794596"
+		Altitude = "0.000000"
+		Value = "4.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget2"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "27.622770"
+		Longitude = "-69.127009"
+		Altitude = "0.000000"
+		Value = "5.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget3"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "35.136852"
+		Longitude = "-85.842174"
+		Altitude = "0.000000"
+		Value = "5.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget4"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "32.719649"
+		Longitude = "-79.942637"
+		Altitude = "0.000000"
+		Value = "2.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget5"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "40.825979"
+		Longitude = "-70.736670"
+		Altitude = "0.000000"
+		Value = "2.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget6"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "38.241937"
+		Longitude = "-86.802774"
+		Altitude = "0.000000"
+		Value = "6.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget7"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "32.129353"
+		Longitude = "-84.222182"
+		Altitude = "0.000000"
+		Value = "8.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget8"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "23.370073"
+		Longitude = "-82.944696"
+		Altitude = "0.000000"
+		Value = "5.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget9"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "39.428143"
+		Longitude = "-83.025565"
+		Altitude = "0.000000"
+		Value = "4.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget10"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "31.894067"
+		Longitude = "-74.924150"
+		Altitude = "0.000000"
+		Value = "4.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget11"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "35.308647"
+		Longitude = "-81.556242"
+		Altitude = "0.000000"
+		Value = "9.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget12"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "38.838741"
+		Longitude = "-83.023715"
+		Altitude = "0.000000"
+		Value = "7.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget13"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "41.436259"
+		Longitude = "-86.694521"
+		Altitude = "0.000000"
+		Value = "3.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget14"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "37.764145"
+		Longitude = "-72.064286"
+		Altitude = "0.000000"
+		Value = "10.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget15"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "26.525323"
+		Longitude = "-78.098071"
+		Altitude = "0.000000"
+		Value = "7.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget16"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "31.114124"
+		Longitude = "-68.363708"
+		Altitude = "0.000000"
+		Value = "3.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget17"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "41.709394"
+		Longitude = "-77.680113"
+		Altitude = "0.000000"
+		Value = "7.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget18"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "41.338089"
+		Longitude = "-78.627011"
+		Altitude = "0.000000"
+		Value = "7.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget19"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "24.924428"
+		Longitude = "-72.982540"
+		Altitude = "0.000000"
+		Value = "2.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget20"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "18.503050"
+		Longitude = "-62.042030"
+		Altitude = "0.000000"
+		Value = "1.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget21"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "12.052947"
+		Longitude = "-68.432540"
+		Altitude = "0.000000"
+		Value = "3.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget22"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "21.442749"
+		Longitude = "-58.799768"
+		Altitude = "0.000000"
+		Value = "2.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget23"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "24.762369"
+		Longitude = "-58.926897"
+		Altitude = "0.000000"
+		Value = "2.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget24"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "8.392790"
+		Longitude = "-64.128742"
+		Altitude = "0.000000"
+		Value = "9.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget25"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "21.625543"
+		Longitude = "-66.068951"
+		Altitude = "0.000000"
+		Value = "3.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget26"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "15.589620"
+		Longitude = "-58.004616"
+		Altitude = "0.000000"
+		Value = "1.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget27"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "24.635920"
+		Longitude = "-59.567417"
+		Altitude = "0.000000"
+		Value = "8.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget28"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "18.056258"
+		Longitude = "-63.101792"
+		Altitude = "0.000000"
+		Value = "6.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget29"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "22.189428"
+		Longitude = "-59.640513"
+		Altitude = "0.000000"
+		Value = "3.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget30"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "16.577847"
+		Longitude = "-62.795449"
+		Altitude = "0.000000"
+		Value = "4.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget31"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "14.092347"
+		Longitude = "-69.160588"
+		Altitude = "0.000000"
+		Value = "1.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget32"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "11.793075"
+		Longitude = "-70.205482"
+		Altitude = "0.000000"
+		Value = "9.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget33"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "11.868623"
+		Longitude = "-69.176129"
+		Altitude = "0.000000"
+		Value = "9.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget34"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "21.644464"
+		Longitude = "-65.318420"
+		Altitude = "0.000000"
+		Value = "3.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget35"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "14.055288"
+		Longitude = "-61.457736"
+		Altitude = "0.000000"
+		Value = "6.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget36"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "18.833477"
+		Longitude = "-69.814197"
+		Altitude = "0.000000"
+		Value = "2.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget37"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "31.769921"
+		Longitude = "-84.269625"
+		Altitude = "0.000000"
+		Value = "6.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget38"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "26.361449"
+		Longitude = "-86.764866"
+		Altitude = "0.000000"
+		Value = "4.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget39"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "22.408271"
+		Longitude = "-69.122041"
+		Altitude = "0.000000"
+		Value = "7.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget40"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "29.054798"
+		Longitude = "-83.017239"
+		Altitude = "0.000000"
+		Value = "9.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget41"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "25.931423"
+		Longitude = "-81.025540"
+		Altitude = "0.000000"
+		Value = "6.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget42"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "23.897604"
+		Longitude = "-73.771148"
+		Altitude = "0.000000"
+		Value = "10.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget43"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "28.891345"
+		Longitude = "-81.311828"
+		Altitude = "0.000000"
+		Value = "8.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget44"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "27.426203"
+		Longitude = "-77.615514"
+		Altitude = "0.000000"
+		Value = "2.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget45"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "30.896422"
+		Longitude = "-85.704378"
+		Altitude = "0.000000"
+		Value = "8.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget46"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "34.136869"
+		Longitude = "-67.233301"
+		Altitude = "0.000000"
+		Value = "3.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget47"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "25.451807"
+		Longitude = "-75.344166"
+		Altitude = "0.000000"
+		Value = "7.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget48"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "32.602844"
+		Longitude = "-78.530075"
+		Altitude = "0.000000"
+		Value = "7.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget49"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "18.459123"
+		Longitude = "-76.689765"
+		Altitude = "0.000000"
+		Value = "8.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget50"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "34.594938"
+		Longitude = "-80.320970"
+		Altitude = "0.000000"
+		Value = "4.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget51"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "20.428945"
+		Longitude = "-78.341868"
+		Altitude = "0.000000"
+		Value = "5.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget52"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "20.046587"
+		Longitude = "-82.481003"
+		Altitude = "0.000000"
+		Value = "5.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget53"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "32.514838"
+		Longitude = "-75.403863"
+		Altitude = "0.000000"
+		Value = "6.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget54"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "29.746120"
+		Longitude = "-71.792700"
+		Altitude = "0.000000"
+		Value = "3.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget55"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "26.596462"
+		Longitude = "-78.198348"
+		Altitude = "0.000000"
+		Value = "1.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget56"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "28.810530"
+		Longitude = "-82.222766"
+		Altitude = "0.000000"
+		Value = "8.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget57"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "20.181388"
+		Longitude = "-89.226829"
+		Altitude = "0.000000"
+		Value = "6.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget58"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "23.596367"
+		Longitude = "-88.033774"
+		Altitude = "0.000000"
+		Value = "3.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget59"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "31.666573"
+		Longitude = "-93.720733"
+		Altitude = "0.000000"
+		Value = "2.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget60"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "29.616915"
+		Longitude = "-85.130154"
+		Altitude = "0.000000"
+		Value = "2.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget61"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "25.221903"
+		Longitude = "-91.599288"
+		Altitude = "0.000000"
+		Value = "5.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget62"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "27.356574"
+		Longitude = "-78.798028"
+		Altitude = "0.000000"
+		Value = "5.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget63"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "31.884213"
+		Longitude = "-83.467365"
+		Altitude = "0.000000"
+		Value = "1.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget64"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "17.183652"
+		Longitude = "-89.760936"
+		Altitude = "0.000000"
+		Value = "9.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget65"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "28.057382"
+		Longitude = "-83.108684"
+		Altitude = "0.000000"
+		Value = "2.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget66"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "17.005376"
+		Longitude = "-92.641055"
+		Altitude = "0.000000"
+		Value = "4.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget67"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "24.307497"
+		Longitude = "-89.201514"
+		Altitude = "0.000000"
+		Value = "4.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget68"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "22.099974"
+		Longitude = "-79.332398"
+		Altitude = "0.000000"
+		Value = "3.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget69"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "33.487343"
+		Longitude = "-84.333354"
+		Altitude = "0.000000"
+		Value = "9.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget70"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "16.300190"
+		Longitude = "-93.748803"
+		Altitude = "0.000000"
+		Value = "4.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget71"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "31.359008"
+		Longitude = "-81.215235"
+		Altitude = "0.000000"
+		Value = "8.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget72"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "35.416899"
+		Longitude = "-85.424308"
+		Altitude = "0.000000"
+		Value = "5.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget73"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "10.675455"
+		Longitude = "67.327099"
+		Altitude = "0.000000"
+		Value = "5.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget74"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "12.142655"
+		Longitude = "70.801492"
+		Altitude = "0.000000"
+		Value = "6.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget75"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "20.143979"
+		Longitude = "78.738369"
+		Altitude = "0.000000"
+		Value = "3.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget76"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "20.597757"
+		Longitude = "68.151622"
+		Altitude = "0.000000"
+		Value = "6.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget77"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "15.409537"
+		Longitude = "74.351361"
+		Altitude = "0.000000"
+		Value = "7.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget78"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "19.502956"
+		Longitude = "79.629023"
+		Altitude = "0.000000"
+		Value = "1.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget79"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "17.028497"
+		Longitude = "81.352688"
+		Altitude = "0.000000"
+		Value = "9.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget80"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "8.877907"
+		Longitude = "80.853388"
+		Altitude = "0.000000"
+		Value = "8.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget81"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "8.543702"
+		Longitude = "68.681581"
+		Altitude = "0.000000"
+		Value = "7.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget82"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "14.253701"
+		Longitude = "76.087103"
+		Altitude = "0.000000"
+		Value = "5.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget83"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "8.257251"
+		Longitude = "75.836566"
+		Altitude = "0.000000"
+		Value = "2.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget84"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "15.679346"
+		Longitude = "74.065009"
+		Altitude = "0.000000"
+		Value = "8.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget85"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "21.662319"
+		Longitude = "70.072127"
+		Altitude = "0.000000"
+		Value = "3.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget86"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "9.856849"
+		Longitude = "80.512893"
+		Altitude = "0.000000"
+		Value = "5.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget87"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "8.706766"
+		Longitude = "80.984267"
+		Altitude = "0.000000"
+		Value = "1.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget88"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "20.247910"
+		Longitude = "81.550183"
+		Altitude = "0.000000"
+		Value = "4.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget89"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "20.170807"
+		Longitude = "76.567688"
+		Altitude = "0.000000"
+		Value = "9.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget90"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "8.315196"
+		Longitude = "78.096840"
+		Altitude = "0.000000"
+		Value = "9.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget91"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "6.420942"
+		Longitude = "114.415856"
+		Altitude = "0.000000"
+		Value = "4.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget92"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "13.015079"
+		Longitude = "130.885910"
+		Altitude = "0.000000"
+		Value = "9.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget93"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "18.317659"
+		Longitude = "119.795817"
+		Altitude = "0.000000"
+		Value = "5.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget94"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "21.856832"
+		Longitude = "117.800959"
+		Altitude = "0.000000"
+		Value = "6.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget95"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "9.462049"
+		Longitude = "117.284346"
+		Altitude = "0.000000"
+		Value = "7.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget96"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "9.095386"
+		Longitude = "118.301568"
+		Altitude = "0.000000"
+		Value = "7.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget97"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "21.312070"
+		Longitude = "118.864791"
+		Altitude = "0.000000"
+		Value = "7.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget98"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "8.647007"
+		Longitude = "122.830504"
+		Altitude = "0.000000"
+		Value = "7.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget99"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "20.097435"
+		Longitude = "113.394932"
+		Altitude = "0.000000"
+		Value = "6.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget100"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "22.167951"
+		Longitude = "111.762576"
+		Altitude = "0.000000"
+		Value = "7.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget101"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "8.637886"
+		Longitude = "120.171959"
+		Altitude = "0.000000"
+		Value = "6.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget102"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "8.786251"
+		Longitude = "128.397347"
+		Altitude = "0.000000"
+		Value = "6.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget103"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "4.995090"
+		Longitude = "129.684730"
+		Altitude = "0.000000"
+		Value = "10.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget104"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "5.567681"
+		Longitude = "116.288983"
+		Altitude = "0.000000"
+		Value = "8.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget105"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "16.816308"
+		Longitude = "114.206007"
+		Altitude = "0.000000"
+		Value = "4.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget106"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "7.817731"
+		Longitude = "128.457105"
+		Altitude = "0.000000"
+		Value = "6.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget107"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "20.877390"
+		Longitude = "115.757606"
+		Altitude = "0.000000"
+		Value = "2.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget108"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "7.478005"
+		Longitude = "123.916625"
+		Altitude = "0.000000"
+		Value = "3.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget109"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "9.337748"
+		Longitude = "112.215397"
+		Altitude = "0.000000"
+		Value = "8.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget110"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "3.298624"
+		Longitude = "112.147088"
+		Altitude = "0.000000"
+		Value = "7.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget111"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "7.407621"
+		Longitude = "112.013778"
+		Altitude = "0.000000"
+		Value = "1.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget112"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-9.801454"
+		Longitude = "111.244381"
+		Altitude = "0.000000"
+		Value = "6.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget113"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-7.259802"
+		Longitude = "121.032196"
+		Altitude = "0.000000"
+		Value = "5.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget114"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "6.375117"
+		Longitude = "103.111679"
+		Altitude = "0.000000"
+		Value = "9.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget115"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-1.396679"
+		Longitude = "108.948114"
+		Altitude = "0.000000"
+		Value = "4.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget116"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "7.806434"
+		Longitude = "103.983250"
+		Altitude = "0.000000"
+		Value = "2.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget117"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "4.698164"
+		Longitude = "116.863609"
+		Altitude = "0.000000"
+		Value = "5.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget118"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "3.746472"
+		Longitude = "116.002128"
+		Altitude = "0.000000"
+		Value = "10.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget119"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-3.077761"
+		Longitude = "122.659756"
+		Altitude = "0.000000"
+		Value = "9.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget120"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-6.679305"
+		Longitude = "114.053465"
+		Altitude = "0.000000"
+		Value = "6.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget121"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-6.887748"
+		Longitude = "111.001470"
+		Altitude = "0.000000"
+		Value = "7.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget122"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-6.177674"
+		Longitude = "106.975770"
+		Altitude = "0.000000"
+		Value = "8.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget123"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-1.550969"
+		Longitude = "115.504020"
+		Altitude = "0.000000"
+		Value = "2.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget124"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "7.119514"
+		Longitude = "117.667256"
+		Altitude = "0.000000"
+		Value = "1.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget125"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-0.195000"
+		Longitude = "110.517710"
+		Altitude = "0.000000"
+		Value = "6.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget126"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "6.318695"
+		Longitude = "103.197529"
+		Altitude = "0.000000"
+		Value = "1.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget127"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "14.397156"
+		Longitude = "103.546296"
+		Altitude = "0.000000"
+		Value = "5.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget128"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "21.073393"
+		Longitude = "104.981603"
+		Altitude = "0.000000"
+		Value = "3.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget129"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "21.877435"
+		Longitude = "98.943679"
+		Altitude = "0.000000"
+		Value = "8.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget130"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "24.399144"
+		Longitude = "99.272578"
+		Altitude = "0.000000"
+		Value = "7.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget131"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "22.894430"
+		Longitude = "104.104259"
+		Altitude = "0.000000"
+		Value = "1.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget132"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "13.355058"
+		Longitude = "107.751702"
+		Altitude = "0.000000"
+		Value = "9.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget133"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "18.416027"
+		Longitude = "98.432161"
+		Altitude = "0.000000"
+		Value = "8.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget134"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "20.625545"
+		Longitude = "99.505063"
+		Altitude = "0.000000"
+		Value = "9.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget135"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "9.877864"
+		Longitude = "102.893267"
+		Altitude = "0.000000"
+		Value = "8.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget136"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "24.096247"
+		Longitude = "102.314771"
+		Altitude = "0.000000"
+		Value = "4.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget137"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "17.384115"
+		Longitude = "105.330848"
+		Altitude = "0.000000"
+		Value = "4.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget138"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "18.635799"
+		Longitude = "101.226229"
+		Altitude = "0.000000"
+		Value = "6.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget139"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "10.688259"
+		Longitude = "106.528024"
+		Altitude = "0.000000"
+		Value = "6.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget140"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "16.975643"
+		Longitude = "100.786910"
+		Altitude = "0.000000"
+		Value = "8.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget141"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "24.631667"
+		Longitude = "94.718089"
+		Altitude = "0.000000"
+		Value = "8.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget142"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "12.703949"
+		Longitude = "105.012708"
+		Altitude = "0.000000"
+		Value = "5.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget143"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "19.110621"
+		Longitude = "110.654176"
+		Altitude = "0.000000"
+		Value = "8.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget144"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "13.838084"
+		Longitude = "107.132755"
+		Altitude = "0.000000"
+		Value = "5.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget145"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-12.928647"
+		Longitude = "-177.982855"
+		Altitude = "0.000000"
+		Value = "3.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget146"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-17.300726"
+		Longitude = "-172.754235"
+		Altitude = "0.000000"
+		Value = "6.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget147"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-24.707744"
+		Longitude = "-176.989635"
+		Altitude = "0.000000"
+		Value = "7.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget148"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-13.702889"
+		Longitude = "-177.200139"
+		Altitude = "0.000000"
+		Value = "7.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget149"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-19.692522"
+		Longitude = "176.637468"
+		Altitude = "0.000000"
+		Value = "9.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget150"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-24.199111"
+		Longitude = "-179.314681"
+		Altitude = "0.000000"
+		Value = "8.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget151"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-15.664544"
+		Longitude = "-175.939473"
+		Altitude = "0.000000"
+		Value = "8.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget152"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-10.539834"
+		Longitude = "169.677620"
+		Altitude = "0.000000"
+		Value = "9.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget153"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-13.521027"
+		Longitude = "-173.090744"
+		Altitude = "0.000000"
+		Value = "10.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget154"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-7.011054"
+		Longitude = "-173.681151"
+		Altitude = "0.000000"
+		Value = "6.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget155"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-7.767272"
+		Longitude = "-179.960252"
+		Altitude = "0.000000"
+		Value = "7.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget156"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-25.822757"
+		Longitude = "173.071212"
+		Altitude = "0.000000"
+		Value = "8.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget157"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-19.793777"
+		Longitude = "-174.530984"
+		Altitude = "0.000000"
+		Value = "5.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget158"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-16.029744"
+		Longitude = "178.268014"
+		Altitude = "0.000000"
+		Value = "6.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget159"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-21.764609"
+		Longitude = "-177.346987"
+		Altitude = "0.000000"
+		Value = "3.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget160"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-15.053103"
+		Longitude = "176.444532"
+		Altitude = "0.000000"
+		Value = "2.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget161"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-26.014440"
+		Longitude = "-172.772600"
+		Altitude = "0.000000"
+		Value = "3.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget162"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-15.578850"
+		Longitude = "169.441185"
+		Altitude = "0.000000"
+		Value = "2.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget163"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-3.931841"
+		Longitude = "136.461763"
+		Altitude = "0.000000"
+		Value = "2.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget164"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-9.160322"
+		Longitude = "143.524693"
+		Altitude = "0.000000"
+		Value = "5.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget165"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "2.159270"
+		Longitude = "141.737034"
+		Altitude = "0.000000"
+		Value = "8.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget166"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-8.284897"
+		Longitude = "132.190081"
+		Altitude = "0.000000"
+		Value = "4.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget167"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-1.395923"
+		Longitude = "132.779235"
+		Altitude = "0.000000"
+		Value = "3.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget168"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-13.931112"
+		Longitude = "136.426163"
+		Altitude = "0.000000"
+		Value = "9.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget169"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-7.866889"
+		Longitude = "139.181446"
+		Altitude = "0.000000"
+		Value = "1.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget170"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-5.033908"
+		Longitude = "140.480829"
+		Altitude = "0.000000"
+		Value = "6.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget171"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-6.311189"
+		Longitude = "149.179787"
+		Altitude = "0.000000"
+		Value = "6.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget172"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-3.750832"
+		Longitude = "142.924943"
+		Altitude = "0.000000"
+		Value = "7.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget173"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-2.667577"
+		Longitude = "137.579106"
+		Altitude = "0.000000"
+		Value = "4.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget174"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-12.733200"
+		Longitude = "140.563889"
+		Altitude = "0.000000"
+		Value = "3.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget175"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "2.965035"
+		Longitude = "142.943416"
+		Altitude = "0.000000"
+		Value = "5.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget176"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "0.091028"
+		Longitude = "134.228975"
+		Altitude = "0.000000"
+		Value = "4.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget177"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "0.822464"
+		Longitude = "147.589485"
+		Altitude = "0.000000"
+		Value = "7.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget178"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "1.299041"
+		Longitude = "150.122448"
+		Altitude = "0.000000"
+		Value = "9.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget179"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-1.599923"
+		Longitude = "142.910960"
+		Altitude = "0.000000"
+		Value = "4.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget180"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-10.982472"
+		Longitude = "131.574964"
+		Altitude = "0.000000"
+		Value = "6.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget181"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "26.792356"
+		Longitude = "-161.443447"
+		Altitude = "0.000000"
+		Value = "2.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget182"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "22.752272"
+		Longitude = "-159.335960"
+		Altitude = "0.000000"
+		Value = "3.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget183"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "24.579852"
+		Longitude = "-162.632790"
+		Altitude = "0.000000"
+		Value = "4.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget184"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "12.393924"
+		Longitude = "-156.577113"
+		Altitude = "0.000000"
+		Value = "6.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget185"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "19.047783"
+		Longitude = "-158.204513"
+		Altitude = "0.000000"
+		Value = "5.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget186"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "18.061533"
+		Longitude = "-157.119488"
+		Altitude = "0.000000"
+		Value = "10.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget187"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "13.873082"
+		Longitude = "-154.171129"
+		Altitude = "0.000000"
+		Value = "3.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget188"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "27.213029"
+		Longitude = "-164.966631"
+		Altitude = "0.000000"
+		Value = "5.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget189"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "27.322794"
+		Longitude = "-160.104394"
+		Altitude = "0.000000"
+		Value = "6.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget190"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "19.582281"
+		Longitude = "-154.222327"
+		Altitude = "0.000000"
+		Value = "8.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget191"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "29.682028"
+		Longitude = "-162.889596"
+		Altitude = "0.000000"
+		Value = "3.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget192"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "13.493065"
+		Longitude = "-153.969451"
+		Altitude = "0.000000"
+		Value = "9.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget193"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "27.948659"
+		Longitude = "-161.470801"
+		Altitude = "0.000000"
+		Value = "9.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget194"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "25.938728"
+		Longitude = "-154.642836"
+		Altitude = "0.000000"
+		Value = "1.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget195"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "19.433232"
+		Longitude = "-156.268931"
+		Altitude = "0.000000"
+		Value = "8.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget196"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "22.962402"
+		Longitude = "-157.094422"
+		Altitude = "0.000000"
+		Value = "10.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget197"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "29.583786"
+		Longitude = "-155.561621"
+		Altitude = "0.000000"
+		Value = "8.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget198"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "23.350193"
+		Longitude = "-147.543469"
+		Altitude = "0.000000"
+		Value = "9.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget199"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-18.988909"
+		Longitude = "62.191588"
+		Altitude = "0.000000"
+		Value = "3.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget200"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-11.783479"
+		Longitude = "164.876803"
+		Altitude = "0.000000"
+		Value = "7.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget201"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-23.077448"
+		Longitude = "95.958552"
+		Altitude = "0.000000"
+		Value = "9.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget202"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-10.611845"
+		Longitude = "59.804546"
+		Altitude = "0.000000"
+		Value = "4.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget203"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-25.687292"
+		Longitude = "-132.859864"
+		Altitude = "0.000000"
+		Value = "6.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget204"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-12.704687"
+		Longitude = "-145.651314"
+		Altitude = "0.000000"
+		Value = "7.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget205"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "0.361738"
+		Longitude = "-174.648839"
+		Altitude = "0.000000"
+		Value = "1.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget206"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "26.637582"
+		Longitude = "-76.250396"
+		Altitude = "0.000000"
+		Value = "10.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget207"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-23.254975"
+		Longitude = "114.023237"
+		Altitude = "0.000000"
+		Value = "9.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget208"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-46.540355"
+		Longitude = "174.774064"
+		Altitude = "0.000000"
+		Value = "7.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget209"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-6.805205"
+		Longitude = "-173.749431"
+		Altitude = "0.000000"
+		Value = "5.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget210"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-3.988494"
+		Longitude = "114.981456"
+		Altitude = "0.000000"
+		Value = "7.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget211"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-58.239735"
+		Longitude = "43.609934"
+		Altitude = "0.000000"
+		Value = "6.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget212"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "19.686224"
+		Longitude = "21.679935"
+		Altitude = "0.000000"
+		Value = "4.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget213"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "26.887405"
+		Longitude = "-92.148648"
+		Altitude = "0.000000"
+		Value = "9.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget214"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-26.203968"
+		Longitude = "115.922732"
+		Altitude = "0.000000"
+		Value = "2.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget215"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-28.581759"
+		Longitude = "-85.243706"
+		Altitude = "0.000000"
+		Value = "4.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget216"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "25.016569"
+		Longitude = "91.308432"
+		Altitude = "0.000000"
+		Value = "2.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget217"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "34.063083"
+		Longitude = "57.472128"
+		Altitude = "0.000000"
+		Value = "5.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget218"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "58.338937"
+		Longitude = "-102.937372"
+		Altitude = "0.000000"
+		Value = "4.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget219"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-3.198875"
+		Longitude = "36.762087"
+		Altitude = "0.000000"
+		Value = "9.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget220"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "48.338260"
+		Longitude = "37.777360"
+		Altitude = "0.000000"
+		Value = "9.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget221"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-5.872949"
+		Longitude = "57.420557"
+		Altitude = "0.000000"
+		Value = "3.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget222"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "36.542017"
+		Longitude = "-113.989092"
+		Altitude = "0.000000"
+		Value = "1.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget223"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "39.463737"
+		Longitude = "49.156886"
+		Altitude = "0.000000"
+		Value = "1.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget224"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-40.047586"
+		Longitude = "-118.688720"
+		Altitude = "0.000000"
+		Value = "6.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget225"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-12.731279"
+		Longitude = "14.256398"
+		Altitude = "0.000000"
+		Value = "8.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget226"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "2.490898"
+		Longitude = "44.421906"
+		Altitude = "0.000000"
+		Value = "8.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget227"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "26.174877"
+		Longitude = "66.920390"
+		Altitude = "0.000000"
+		Value = "7.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget228"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "8.302742"
+		Longitude = "63.844543"
+		Altitude = "0.000000"
+		Value = "3.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget229"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-4.703259"
+		Longitude = "135.658809"
+		Altitude = "0.000000"
+		Value = "2.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget230"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-6.563154"
+		Longitude = "-175.359420"
+		Altitude = "0.000000"
+		Value = "7.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget231"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-49.470647"
+		Longitude = "-68.255199"
+		Altitude = "0.000000"
+		Value = "10.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget232"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-6.782014"
+		Longitude = "100.468529"
+		Altitude = "0.000000"
+		Value = "8.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget233"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-16.044018"
+		Longitude = "-69.373409"
+		Altitude = "0.000000"
+		Value = "9.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget234"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-23.695942"
+		Longitude = "153.604192"
+		Altitude = "0.000000"
+		Value = "4.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget235"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "42.221364"
+		Longitude = "64.339155"
+		Altitude = "0.000000"
+		Value = "3.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget236"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "31.137527"
+		Longitude = "-153.244263"
+		Altitude = "0.000000"
+		Value = "6.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget237"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "53.971114"
+		Longitude = "-154.559091"
+		Altitude = "0.000000"
+		Value = "2.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget238"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "6.952621"
+		Longitude = "-175.705032"
+		Altitude = "0.000000"
+		Value = "3.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget239"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-58.292038"
+		Longitude = "-98.224663"
+		Altitude = "0.000000"
+		Value = "3.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget240"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "11.541250"
+		Longitude = "5.850719"
+		Altitude = "0.000000"
+		Value = "7.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget241"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "37.944685"
+		Longitude = "-15.046482"
+		Altitude = "0.000000"
+		Value = "1.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget242"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "57.251083"
+		Longitude = "73.153202"
+		Altitude = "0.000000"
+		Value = "3.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget243"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-33.371030"
+		Longitude = "29.694195"
+		Altitude = "0.000000"
+		Value = "7.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget244"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "24.442040"
+		Longitude = "3.314161"
+		Altitude = "0.000000"
+		Value = "4.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget245"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "2.647310"
+		Longitude = "-153.255741"
+		Altitude = "0.000000"
+		Value = "4.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget246"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "51.947647"
+		Longitude = "-110.434927"
+		Altitude = "0.000000"
+		Value = "7.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget247"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "25.602533"
+		Longitude = "-43.342512"
+		Altitude = "0.000000"
+		Value = "10.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget248"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-32.635332"
+		Longitude = "-80.483501"
+		Altitude = "0.000000"
+		Value = "2.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget249"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-6.042947"
+		Longitude = "97.517461"
+		Altitude = "0.000000"
+		Value = "2.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget250"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-39.336037"
+		Longitude = "-66.985204"
+		Altitude = "0.000000"
+		Value = "2.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget251"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "56.258417"
+		Longitude = "49.749559"
+		Altitude = "0.000000"
+		Value = "2.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget252"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-17.314067"
+		Longitude = "175.164071"
+		Altitude = "0.000000"
+		Value = "9.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget253"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-54.114381"
+		Longitude = "1.035289"
+		Altitude = "0.000000"
+		Value = "2.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget254"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "30.640629"
+		Longitude = "161.173216"
+		Altitude = "0.000000"
+		Value = "7.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget255"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "47.377532"
+		Longitude = "118.089303"
+		Altitude = "0.000000"
+		Value = "3.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget256"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-25.662042"
+		Longitude = "150.320593"
+		Altitude = "0.000000"
+		Value = "3.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget257"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-29.855934"
+		Longitude = "-139.291262"
+		Altitude = "0.000000"
+		Value = "7.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget258"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "51.928343"
+		Longitude = "112.365326"
+		Altitude = "0.000000"
+		Value = "6.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget259"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-44.282104"
+		Longitude = "146.974523"
+		Altitude = "0.000000"
+		Value = "9.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget260"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "52.898345"
+		Longitude = "-123.704597"
+		Altitude = "0.000000"
+		Value = "4.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget261"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "24.222381"
+		Longitude = "-136.037244"
+		Altitude = "0.000000"
+		Value = "7.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget262"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "41.721176"
+		Longitude = "94.559929"
+		Altitude = "0.000000"
+		Value = "9.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget263"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-34.887403"
+		Longitude = "79.848102"
+		Altitude = "0.000000"
+		Value = "6.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget264"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-5.388997"
+		Longitude = "54.590334"
+		Altitude = "0.000000"
+		Value = "9.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget265"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-50.271153"
+		Longitude = "91.448160"
+		Altitude = "0.000000"
+		Value = "8.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget266"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "42.134688"
+		Longitude = "58.738323"
+		Altitude = "0.000000"
+		Value = "4.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget267"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "7.445841"
+		Longitude = "138.057661"
+		Altitude = "0.000000"
+		Value = "8.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget268"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-21.684444"
+		Longitude = "-82.023323"
+		Altitude = "0.000000"
+		Value = "2.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget269"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-15.012089"
+		Longitude = "-29.004222"
+		Altitude = "0.000000"
+		Value = "10.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget270"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "44.135484"
+		Longitude = "-103.322283"
+		Altitude = "0.000000"
+		Value = "3.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget271"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-15.338851"
+		Longitude = "-167.184012"
+		Altitude = "0.000000"
+		Value = "8.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget272"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-51.157193"
+		Longitude = "-150.781067"
+		Altitude = "0.000000"
+		Value = "7.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget273"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-36.019441"
+		Longitude = "126.204042"
+		Altitude = "0.000000"
+		Value = "2.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget274"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-54.060806"
+		Longitude = "-57.526759"
+		Altitude = "0.000000"
+		Value = "1.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget275"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "8.005173"
+		Longitude = "-12.184208"
+		Altitude = "0.000000"
+		Value = "4.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget276"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-45.369030"
+		Longitude = "148.954766"
+		Altitude = "0.000000"
+		Value = "10.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget277"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "2.653412"
+		Longitude = "-97.712386"
+		Altitude = "0.000000"
+		Value = "10.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget278"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-45.952782"
+		Longitude = "130.336164"
+		Altitude = "0.000000"
+		Value = "3.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget279"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "32.390217"
+		Longitude = "56.382673"
+		Altitude = "0.000000"
+		Value = "10.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget280"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-14.993304"
+		Longitude = "140.825809"
+		Altitude = "0.000000"
+		Value = "7.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget281"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "38.806464"
+		Longitude = "-4.268333"
+		Altitude = "0.000000"
+		Value = "1.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget282"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-54.403663"
+		Longitude = "177.352433"
+		Altitude = "0.000000"
+		Value = "6.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget283"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "11.749591"
+		Longitude = "-45.602661"
+		Altitude = "0.000000"
+		Value = "5.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget284"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "53.898047"
+		Longitude = "11.296194"
+		Altitude = "0.000000"
+		Value = "3.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget285"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-25.344282"
+		Longitude = "-114.726122"
+		Altitude = "0.000000"
+		Value = "3.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget286"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "46.659913"
+		Longitude = "0.699961"
+		Altitude = "0.000000"
+		Value = "2.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget287"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-47.809743"
+		Longitude = "-28.009862"
+		Altitude = "0.000000"
+		Value = "1.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget288"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-52.162259"
+		Longitude = "57.753864"
+		Altitude = "0.000000"
+		Value = "8.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget289"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-31.884032"
+		Longitude = "62.515084"
+		Altitude = "0.000000"
+		Value = "1.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget290"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "51.971810"
+		Longitude = "164.638866"
+		Altitude = "0.000000"
+		Value = "9.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget291"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-52.424652"
+		Longitude = "-110.928332"
+		Altitude = "0.000000"
+		Value = "4.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget292"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-28.293880"
+		Longitude = "-139.962082"
+		Altitude = "0.000000"
+		Value = "7.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget293"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "59.943801"
+		Longitude = "23.419394"
+		Altitude = "0.000000"
+		Value = "10.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget294"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-34.561444"
+		Longitude = "168.899858"
+		Altitude = "0.000000"
+		Value = "2.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget295"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-0.190824"
+		Longitude = "-171.452206"
+		Altitude = "0.000000"
+		Value = "2.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget296"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Latitude = "-25.141405"
+		Longitude = "133.277696"
+		Altitude = "0.000000"
+		Value = "4.000000">
+	</TARGET>
+</TARGETDECK>

@@ -1,0 +1,57 @@
+<TARGETDECK>
+	<TARGET	
+		TargetName = "groundstation1"
+		TargetType = "FacilityTarget"
+		PositionType = "StaticLLA"
+		Longitude = "-33.470000"
+		Latitude = "-70.650000"
+		Altitude = "0.000000"
+		Value = "-1.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "groundstation2"
+		TargetType = "FacilityTarget"
+		PositionType = "StaticLLA"
+		Longitude = "18.590000"
+		Latitude = "-155.400000"
+		Altitude = "0.000000"
+		Value = "-1.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "groundstation3"
+		TargetType = "FacilityTarget"
+		PositionType = "StaticLLA"
+		Longitude = "-2.900000"
+		Latitude = "40.200000"
+		Altitude = "0.000000"
+		Value = "-1.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "groundstation4"
+		TargetType = "FacilityTarget"
+		PositionType = "StaticLLA"
+		Longitude = "-29.150000"
+		Latitude = "114.560000"
+		Altitude = "0.000000"
+		Value = "-1.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget1"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Longitude = "37.501293"
+		Latitude = "-77.552966"
+		Altitude = "0.000000"
+		Value = "6.000000">
+	</TARGET>
+	<TARGET	
+		TargetName = "imagetarget2"
+		TargetType = "LocationTarget"
+		PositionType = "StaticLLA"
+		Longitude = "30.311385"
+		Latitude = "-75.845677"
+		Altitude = "0.000000"
+		Value = "7.000000">
+	</TARGET>
+
+</TARGETDECK>

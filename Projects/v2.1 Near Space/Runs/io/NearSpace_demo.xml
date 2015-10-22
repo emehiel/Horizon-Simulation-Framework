@@ -1,0 +1,26 @@
+<SCENARIO
+  scenarioName = "NearSpace Demo">
+  
+  <SIMULATION_PARAMETERS
+    simStart="0.0"
+		simEnd="86400"
+		simStep="30.0"
+		startJD="2454368.649079210"
+		maxSchedules="2"
+    numCrop="1">
+  </SIMULATION_PARAMETERS>
+  
+  <ASSET
+    assetType="2"
+    assetName="NS1"
+    assetIsTaskable="TRUE"
+    initPos="Matrix(3,1,{35.2300, -111.82, 35000})"
+    initVel="Matrix(3,1,{0.0, 0.0,0.0})"
+    initCond="Matrix(4,1,{227.7,60,252,0.0010079})">
+<!--for the FreeFloater the initial condition matrix contains {Payloadmass,initial balloon radius, initial balloon mass, molar_mass}-->
+    
+
+  </ASSET>
+
+</SCENARIO>
+

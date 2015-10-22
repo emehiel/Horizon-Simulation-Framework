@@ -1,0 +1,31 @@
+<SCENARIO
+  scenarioName = "Double-Sat Aeolus Constellation (DSAC)">
+  
+  <SIMULATION_PARAMETERS
+    simStart="0.0"
+		simEnd="50000"
+		simStep="30.0"
+		startJD="2454680.0"
+		maxSchedules="2"
+    numCrop="1">
+  </SIMULATION_PARAMETERS>
+  
+  <ASSET
+    assetName="SC1"
+    assetIsTaskable="TRUE"
+    initPos="Matrix(3,1,{7378.137, 0.0, 0.0})"
+    initVel="Matrix(3,1,{0.0, 6.02088, 4.215866})">
+    <!--<SUBSYSTEM
+    </SUBSYSTEM>-->
+  </ASSET>
+
+  <ASSET
+  assetName="SC2"
+  assetIsTaskable="TRUE"
+  initPos="Matrix(3,1,{-7378.137, 0.0, 0.0})"
+  initVel="Matrix(3,1,{0.0, -6.02088, 4.215866})">
+    <!-- <SUBSYSTEM
+    </SUBSYSTEM>-->
+  </ASSET>
+
+</SCENARIO>
